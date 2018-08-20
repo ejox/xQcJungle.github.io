@@ -9,7 +9,7 @@
 		"allowAutojoin": true,
 		"allowAutograb": true,
 		"allowSmartVote": true,
-		"allowEmotes": false,
+		"allowEmotes": true,
 		"allowShowingMehs": true,
 		"forceSmartVote": false
 	},
