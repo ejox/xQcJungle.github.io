@@ -2,7 +2,7 @@
 	"room": "xQc's Jungle",
 	"author": "ejox",
 	"icon": null,
-	"css": "https://rawgit.com/ejox/xQcJungle.github.io/master/main-test2.css",
+	"css": "https://rawgit.com/ejox/xQcJungle.github.io/master/main.css",
 	"rules": {
 		"allowAutorespond": true,
 		"allowAutowoot": true,
