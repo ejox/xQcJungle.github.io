@@ -9,13 +9,13 @@
     background-position: center center !important;
 }
 
-/* xQc-test */
+/* xQc */
 #user-rollover.id-37147238 .badge-box i.bdg,
 .id-37147238 .badge-box i.bdg {
     background-image: url("https://i.imgur.com/Do6hVuQ.gif");
 }
 
-/* ejox-test */
+/* ejox */
 #user-rollover.id-3941421 .badge-box i.bdg,
 .id-3941421 .badge-box i.bdg {
     background-image: url("https://i.imgur.com/5iJJVk0.gif");
@@ -37,4 +37,10 @@
 #user-rollover.id-39408073 .badge-box i.bdg,
 .id-39408073 .badge-box i.bdg {
     background-image: url("https://i.imgur.com/VSTSFN2.png");
+}
+
+/* rustyimpac */
+#user-rollover.id-37840096 .badge-box i.bdg,
+.id-37840096 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/04lR9Rn.png");
 }
