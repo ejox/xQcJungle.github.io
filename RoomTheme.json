@@ -14,12 +14,12 @@
 		"forceSmartVote": false
 	},
 	"ccc": {
-		"admin": "ff2d2d",
-		"ambassador": "ff1d82",
+		"admin": "#ff2d2d",
+		"ambassador": "#ff1d82",
 		"host": "#ac76ff",
 		"cohost": "#ac76ff",
 		"manager": "#69ddff",
-		"bouncer": "#fe8d6a",
+		"bouncer": "#3b44ff",
 		"rdj": "#fe8d6a",
 		"subscriber": null,
 		"friend": null,
@@ -33,7 +33,7 @@
 		"host": "https://i.imgur.com/eAoDqVf.png",
 		"cohost": "https://i.imgur.com/eAoDqVf.png",
 		"manager": "https://i.imgur.com/MVvuHft.png",
-		"bouncer": "https://i.imgur.com/wL1oH0f.png",
+		"bouncer": "https://i.imgur.com/Sspeocg.png",
 		"rdj": "https://i.imgur.com/pUmF7Ym.png",
 		"subscriber": null,
 		"other": null
