@@ -37,5 +37,9 @@
 		"rdj": "https://i.imgur.com/pUmF7Ym.png",
 		"subscriber": null,
 		"other": null
+	},
+	"emotes": {
+		"hyperclap": "https://i.imgur.com/NTa9cIT.gif",
+		"smile": "https://i.imgur.com/hh0Aq95.png"
 	}
 }
