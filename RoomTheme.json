@@ -1,7 +1,7 @@
- {
- 	"room": "xQc's Jungle",
- 	"author": "ejox",
- 	"icon": null,
+{
+	"room": "xQc's Jungle",
+	"author": "ejox",
+	"icon": null,
 	"css": "https://rawgit.com/ejox/xQcJungle.github.io/master/main.css",
 	"rules": {
 		"allowAutorespond": true,
@@ -9,33 +9,33 @@
 		"allowAutojoin": true,
 		"allowAutograb": true,
 		"allowSmartVote": true,
- 		"allowEmotes": true,
- 		"allowShowingMehs": true,
- 		"forceSmartVote": false
- 	},
- 	"ccc": {
- 		"admin": "#ff2d2d",
- 		"ambassador": "#ff1d82",
- 		"host": "#ac76ff",
- 		"cohost": "#ac76ff",
- 		"manager": "#69ddff",
- 		"bouncer": "#3b44ff",
- 		"rdj": "#fe8d6a",
- 		"subscriber": null,
- 		"friend": null,
- 		"user": null
- 	},
- 	"images": {
- 		"background": "https://cdn.radiant.dj/rcs/bg/1.png",
- 		"playback": "https://i.imgur.com/rSGAoGX.png",
- 		"admin": "https://i.imgur.com/Gw5Wdpv.png",
- 		"ambassador": "https://i.imgur.com/AMj8Jjf.png",
- 		"host": "https://i.imgur.com/eAoDqVf.png",
- 		"cohost": "https://i.imgur.com/eAoDqVf.png",
- 		"manager": "https://i.imgur.com/MVvuHft.png",
- 		"bouncer": "https://i.imgur.com/Sspeocg.png",
- 		"rdj": "https://i.imgur.com/pUmF7Ym.png",
- 		"subscriber": null,
- 		"other": null
- 	}
- }
+		"allowEmotes": true,
+		"allowShowingMehs": true,
+		"forceSmartVote": false
+	},
+	"ccc": {
+		"admin": "#ff2d2d",
+		"ambassador": "#ff1d82",
+		"host": "#ac76ff",
+		"cohost": "#ac76ff",
+		"manager": "#69ddff",
+		"bouncer": "#3b44ff",
+		"rdj": "#fe8d6a",
+		"subscriber": null,
+		"friend": null,
+		"user": null
+	},
+	"images": {
+		"background": "https://cdn.radiant.dj/rcs/bg/1.png",
+		"playback": "https://i.imgur.com/rSGAoGX.png",
+		"admin": "https://i.imgur.com/Gw5Wdpv.png",
+		"ambassador": "https://i.imgur.com/AMj8Jjf.png",
+		"host": "https://i.imgur.com/eAoDqVf.png",
+		"cohost": "https://i.imgur.com/eAoDqVf.png",
+		"manager": "https://i.imgur.com/MVvuHft.png",
+		"bouncer": "https://i.imgur.com/Sspeocg.png",
+		"rdj": "https://i.imgur.com/pUmF7Ym.png",
+		"subscriber": null,
+		"other": null
+	}
+}
