@@ -5,7 +5,6 @@
 	"css": "https://rawgit.com/ejox/xQcJungle.github.io/master/main.css",
 	"rules": {
 		"allowAutorespond": true,
-		"allowAutowoot": false,
 		"allowAutowoot": true,
 		"allowAutojoin": true,
 		"allowAutograb": true,
