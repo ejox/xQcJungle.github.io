@@ -191,11 +191,23 @@ div.message > div.msg > div.from > span.un {
     color: #ac76ff;
 }
 
+.message.role-cohost:hover,
+.emote.role-cohost:hover {
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
 .message.role-cohost .msg .text::selection,
 .emote.role-cohost .msg .text::selection,
 .message.role-cohost .msg .text::-moz-selection,
 .emote.role-cohost .msg .text::-moz-selection {
     color: #ac76ff;
+}
+
+.message.role-manager:hover,
+.emote.role-manager:hover {
+    border-top-style: solid;
+    border-bottom-style: solid;
 }
 
 .message.role-manager .msg .text::selection,
