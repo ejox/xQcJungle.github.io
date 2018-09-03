@@ -123,25 +123,28 @@ div.message > div.msg > div.from > span.un {
 /* Border */
 .message.role-dj,
 .emote.role-dj {
-    border-left: #fe8d6a 2px dotted;
-    border-right: #fe8d6a 2px dotted;
+    border-right: #fe8d6a 2px solid;
 }
 
 .message.role-bouncer,
 .emote.role-bouncer {
-    border-left: #90b0cf 2px dotted;
-    border-right: #90b0cf 2px dotted;
+    border-right: #90b0cf 2px solid;
+    border-left: #90b0cf 2px solid;
 }
 
 .message.role-manager,
 .emote.role-manager {
-    border-left: #69ddff 2px dotted;
-    border-right: #69ddff 2px dotted;
+    border-top: #69ddff 2px double;
+    border-left: #69ddff 2px double;
+    border-bottom: #69ddff 2px double;
+    border-right: #69ddff 2px double;
 }
 
 .message.role-cohost,
 .emote.role-cohost {
+    border-top: #ac76ff 2px dotted;
     border-left: #ac76ff 2px dotted;
+    border-bottom: #ac76ff 2px dotted;
     border-right: #ac76ff 2px dotted;
 }
 
