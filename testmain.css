@@ -1,0 +1,224 @@
+@import url("https://rawgit.com/ejox/xQcJungle.github.io/master/badges.css");
+
+/* main */
+#room .app-header,
+#app-menu,
+#app-menu .list,
+#footer,
+#history-button {
+    background: #000000;
+}
+
+#app-menu .list,
+#app-menu .list a,
+#app-menu .list a:visited {
+    color: #ffffff;
+}
+
+#room-bar .icon-room {
+    top: 2px;
+    left: 5px;
+    width: 45px;
+    height: 50px;
+    background-size: contain !important;
+}
+
+#room-host,
+#room-name {
+    left: 54px;
+}
+
+/* Icon fix :before */
+div.message > div.msg > div.from > span.un {
+    vertical-align: top;
+    horizontal-align: left;
+}
+
+/* Buttons */
+#history-button,
+#rs-skip-button {
+    background: #000000 !important;
+}
+
+/* chat */
+#chat .emote,
+#chat .mention,
+#chat .message,
+#chat .moderation,
+#chat .skip,
+#chat .system,
+#chat .update,
+#chat .welcome {
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation: fadein 1s;
+}
+
+/* Inline */
+#chat .emote {
+    min-height: 0px !important;
+    background: rgba(34, 44, 62, 0.78) !important;
+}
+
+.emote .msg .text {
+    display: inline !important;
+    padding-left: 2px !important;
+}
+
+.emote .from .un {
+    font-style: oblique;
+}
+
+.emote.role-dj .text {
+    color: #fe8d6a;
+}
+
+.emote.role-bouncer .text {
+    color: #90b0cf;
+}
+
+.emote.role-manager .text {
+    color: #69ddff;
+}
+
+.emote.role-cohost .text {
+    color: #ac76ff;
+}
+
+.emote.role-host .text {
+    color: #ac76ff;
+}
+
+.emote.role-ambassador .text {
+    color: #ff1d82;
+}
+
+#chat .cm:nth-child(2n+1) {
+    background-color: #000000;
+}
+
+#chat .cm.emote .icon,
+#chat .cm.emote .badge-box,
+.emote .rs-chat-title,
+.emote .rcs-user-info {
+    display: none !important;
+}
+
+#chat .emote .contents,
+.emote .msg .from,
+.emote .msg .text {
+    display: inline !important;
+}
+
+.emote .msg {
+    padding: 6px 6px 6px 16px !important;
+}
+
+.emote .delete-button {
+    padding: 2px 7px 2px 7px !important;
+}
+
+/* Border */
+.message.role-dj,
+.emote.role-dj {
+    border-left: #fe8d6a 2px dotted;
+    border-right: #fe8d6a 2px dotted;
+}
+
+.message.role-bouncer,
+.emote.role-bouncer {
+    border-left: #90b0cf 2px dotted;
+    border-right: #90b0cf 2px dotted;
+}
+
+.message.role-manager,
+.emote.role-manager {
+    border-left: #69ddff 2px dotted;
+    border-right: #69ddff 2px dotted;
+}
+
+.message.role-cohost,
+.emote.role-cohost {
+    border-left: #ac76ff 2px dotted;
+    border-right: #ac76ff 2px dotted;
+}
+
+.message.role-host,
+.emote.role-host {
+    border-top: #ac76ff 2px dotted;
+    border-left: #ac76ff 2px dotted;
+    border-bottom: #ac76ff 2px dotted;
+    border-right: #ac76ff 2px dotted;
+}
+
+.message.role-ambassador,
+.emote.role-ambassador {
+    border-left: #ff1d82 2px dotted;
+    border-right: #ff1d82 2px dotted;
+}
+
+.message.role-dj:hover,
+.emote.role-dj:hover,
+.message.role-bouncer:hover,
+.emote.role-bouncer:hover,
+.message.role-manager:hover,
+.emote.role-manager:hover,
+.message.role-cohost:hover,
+.emote.role-cohost:hover,
+.message.role-host:hover,
+.emote.role-host:hover,
+.message.role-ambassador:hover,
+.emote.role-ambassador:hover {
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.message.role-host:hover,
+.emote.role-host:hover {
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.message.role-host .msg .text::selection,
+.emote.role-host .msg .text::selection,
+.message.role-host .msg .text::-moz-selection,
+.emote.role-host .msg .text::-moz-selection {
+    color: #ac76ff;
+}
+
+.message.role-cohost .msg .text::selection,
+.emote.role-cohost .msg .text::selection,
+.message.role-cohost .msg .text::-moz-selection,
+.emote.role-cohost .msg .text::-moz-selection {
+    color: #ac76ff;
+}
+
+.message.role-manager .msg .text::selection,
+.emote.role-manager .msg .text::selection,
+.message.role-manager .msg .text::-moz-selection,
+.emote.role-manager .msg .text::-moz-selection {
+    color: #69ddff;
+}
+
+.message.role-bouncer .msg .text::selection,
+.emote.role-bouncer .msg .text::selection,
+.message.role-bouncer .msg .text::-moz-selection,
+.emote.role-bouncer .msg .text::-moz-selection {
+    color: #90b0cf;
+}
+
+.message.role-dj .msg .text::selection,
+.emote.role-dj .msg .text::selection,
+.message.role-dj .msg .text::-moz-selection,
+.emote.role-dj .msg .text::-moz-selection {
+    color: #fe8d6a;
+}
+
+.message.role-user .msg .text::selection,
+.emote.role-user .msg .text::selection,
+.message.role-user .msg .text::-moz-selection,
+.emote.role-user .msg .text::-moz-selection {
+    color: #494949;
+}
