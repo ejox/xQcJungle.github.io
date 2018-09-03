@@ -208,6 +208,8 @@ div.message > div.msg > div.from > span.un {
 .emote.role-manager:hover {
     border-top-style: solid;
     border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
 }
 
 .message.role-manager .msg .text::selection,
