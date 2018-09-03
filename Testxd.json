@@ -2,7 +2,7 @@
         "room": "xQc's Jungle",
 	      "author": "ejox",
         "icon": "https://image.ibb.co/cqbUsz/Primal_Rage.gif",
-        "css": "https://rawgit.com/ejox/xQcJungle.github.io/master/main.css",
+        "css": "https://rawgit.com/ejox/xQcJungle.github.io/master/testmain.css",
         "rules": {
                 "allowAutorespond": true,
                 "allowAutowoot": true,
