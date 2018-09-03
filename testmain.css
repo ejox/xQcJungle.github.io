@@ -134,10 +134,10 @@ div.message > div.msg > div.from > span.un {
 
 .message.role-manager,
 .emote.role-manager {
-    border-top: #69ddff 1px dotted;
-    border-left: #69ddff 1px dotted;
-    border-bottom: #69ddff 1px dotted;
-    border-right: #69ddff 1px dotted;
+    border-top: #69ddff 2px dotted;
+    border-left: #69ddff 2px dotted;
+    border-bottom: #69ddff 2px dotted;
+    border-right: #69ddff 2px dotted;
 }
 
 .message.role-cohost,
