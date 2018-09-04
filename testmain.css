@@ -235,39 +235,13 @@ div.message > div.msg > div.from > span.un {
     color: #494949;
 }
 
-/* Rainbow-Test */
+/* RainbowName */
 
 /* xQc */
 #user-rollover.id-37147238 .username:hover,
 #chat [data-cid^="37147238-"] span.un.clickable:hover {
     animation: rainbow 10s infinite;
 }
-
-/* ejox */
-#user-rollover.id-3941421 .username:hover,
-#chat [data-cid^="3941421-"] span.un.clickable:hover {
-    animation: rainbow 10s infinite;
-}
-
-/* Harry_McKenzie */
-#user-rollover.id-37218461 .username:hover,
-#chat [data-cid^="37218461-"] span.un.clickable:hover {
-    animation: rainbow 10s infinite;
-}
-
-/* HandsomeWalnut */
-#user-rollover.id-37633188 .username:hover,
-#chat [data-cid^="37633188-"] span.un.clickable:hover {
-    animation: rainbow 10s infinite;
-}
-
-/* Mr. Destructoid */
-#user-rollover.id-39408073 .username:hover,
-#chat [data-cid^="39408073-"] span.un.clickable:hover {
-    animation: rainbow 10s infinite;
-}
-
-
 
 /* Chat Fade */
 @keyframes fadein
