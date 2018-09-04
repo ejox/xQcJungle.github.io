@@ -150,15 +150,11 @@ div.message > div.msg > div.from > span.un {
 
 .message.role-host,
 .emote.role-host {
-    border-top: span.un.clickable:hover {
-    animation: rainbow 10s infinite; 2px dotted;
-    border-left: span.un.clickable:hover {
-    animation: rainbow 10s infinite; 2px dotted;
-    border-bottom: span.un.clickable:hover {
-    animation: rainbow 10s infinite; 2px dotted;
-    border-right: span.un.clickable:hover {
-    animation: rainbow 10s infinite; 2px dotted;
-}
+     border-top: #ac76ff 2px dotted;
+     border-left: #ac76ff 2px dotted;
+     border-bottom: #ac76ff 2px dotted;
+     border-right: #ac76ff 2px dotted;
+ }
 
 .message.role-ambassador,
 .emote.role-ambassador {
@@ -244,17 +240,39 @@ div.message > div.msg > div.from > span.un {
     color: #494949;
 }
 
-/* Custom */
+/* Rainbow-Test */
+
+/* xQc */
+#user-rollover.id-37147238 .username:hover,
+#chat [data-cid^="37147238-"] span.un.clickable:hover {
+    animation: rainbow 10s infinite;
+}
+
+/* ejox */
 #user-rollover.id-3941421 .username:hover,
 #chat [data-cid^="3941421-"] span.un.clickable:hover {
     animation: rainbow 10s infinite;
 }
 
-/* Custom */
-#user-rollover.id-39238317 .username:hover,
-#chat [data-cid^="39238317-"] span.un.clickable:hover {
+/* Harry_McKenzie */
+#user-rollover.id-37218461 .username:hover,
+#chat [data-cid^="37218461-"] span.un.clickable:hover {
     animation: rainbow 10s infinite;
 }
+
+/* HandsomeWalnut */
+#user-rollover.id-37633188 .username:hover,
+#chat [data-cid^="37633188-"] span.un.clickable:hover {
+    animation: rainbow 10s infinite;
+}
+
+/* Mr. Destructoid */
+#user-rollover.id-39408073 .username:hover,
+#chat [data-cid^="39408073-"] span.un.clickable:hover {
+    animation: rainbow 10s infinite;
+}
+
+
 
 /* Chat Fade */
 @keyframes fadein
