@@ -150,10 +150,14 @@ div.message > div.msg > div.from > span.un {
 
 .message.role-host,
 .emote.role-host {
-    border-top: #ac76ff 2px dotted;
-    border-left: #ac76ff 2px dotted;
-    border-bottom: #ac76ff 2px dotted;
-    border-right: #ac76ff 2px dotted;
+    border-top: span.un.clickable:hover {
+    animation: rainbow 10s infinite; 2px dotted;
+    border-left: span.un.clickable:hover {
+    animation: rainbow 10s infinite; 2px dotted;
+    border-bottom: span.un.clickable:hover {
+    animation: rainbow 10s infinite; 2px dotted;
+    border-right: span.un.clickable:hover {
+    animation: rainbow 10s infinite; 2px dotted;
 }
 
 .message.role-ambassador,
