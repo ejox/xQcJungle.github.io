@@ -249,8 +249,8 @@ div.message > div.msg > div.from > span.un {
 }
 
 /* ejox */
-#user-rollover.id-3941421 .username:active,
-#chat [data-cid^="3941421-"] span.un.clickable:active {
+#user-rollover.id-3941421 .username:hover,
+#chat [data-cid^="3941421-"] span.un.clickable:hover {
     animation: rainbow 10s infinite;
 }
 
