@@ -246,7 +246,7 @@ div.message > div.msg > div.from > span.un {
 /* Mr. Destructoid */
 #user-rollover.id-39408073 .username:hover,
 #chat [data-cid^="39408073-"] span.un.clickable:hover {
-    animation: fadedblack 5s infinite;
+    animation: fadedblack 3s infinite;
 }
 
 /* Chat Fade */
