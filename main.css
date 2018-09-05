@@ -240,13 +240,19 @@ div.message > div.msg > div.from > span.un {
 /* xQc */
 #user-rollover.id-37147238 .username:hover,
 #chat [data-cid^="37147238-"] span.un.clickable:hover {
-    animation: rainbow 10s infinite;
+    animation: fadedred 1s infinite;
+}
+
+/* ejox */
+#user-rollover.id-3941421 .username:hover,
+#chat [data-cid^="3941421-"] span.un.clickable:hover {
+    animation: rainbow 5s infinite;
 }
 
 /* Mr. Destructoid */
 #user-rollover.id-39408073 .username:hover,
 #chat [data-cid^="39408073-"] span.un.clickable:hover {
-    animation: fadedblack 3s infinite;
+    animation: fadedblack 1s infinite;
 }
 
 /* Chat Fade */
@@ -310,5 +316,19 @@ div.message > div.msg > div.from > span.un {
     100% { color: #69ddff; }
 }
 
+/* Fade to red */
+@keyframes fadedred {
+    0% { color: #ff0000; }
+    10% { color: #ff3333; }
+    20% { color: #ff6666; }
+    30% { color: #ff9999; }
+    40% { color: #ffcccc; }
+    50% { color: #000000; }
+    60% { color: #ffcccc; }
+    70% { color: #ff9999; }
+    80% { color: #ff6666; }
+    90% { color: #ff3333; }
+    100% { color: #ff0000; }
+}
 
 /* There can be multiple Keyframes with custom colors */
