@@ -298,16 +298,16 @@ div.message > div.msg > div.from > span.un {
 /* Fade to black */
 @keyframes fadedblack {
     0% { color: #69ddff; }
-    10% { color: #58bad8; }
-    20% { color: #4a9cb5; }
-    30% { color: #418aa0; }
-    40% { color: #346e7f; }
-    50% { color: #295866; }
-    60% { color: #20444f; }
-    70% { color: #1b3b44; }
-    80% { color: #152e35; }
-    90% { color: #0e1f23; }
-    100% { color: #000000; }
+    10% { color: #54b1cc; }
+    20% { color: #3f8599; }
+    30% { color: #2a5866; }
+    40% { color: #152c33; }
+    50% { color: #000000; }
+    60% { color: #152c33; }
+    70% { color: #2a5866; }
+    80% { color: #3f8599; }
+    90% { color: #54b1cc; }
+    100% { color: #69ddff; }
 }
 
 
