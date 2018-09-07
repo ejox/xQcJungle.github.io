@@ -255,6 +255,11 @@ div.message > div.msg > div.from > span.un {
     animation: fadedblack 1s infinite;
 }
 
+/* rustyimpact */
+#user-rollover.id-37840096 .username:hover,
+#chat [data-cid^="37840096-"] span.un.clickable:hover {
+    animation: rainbow 1s infinite;
+
 /* Chat Fade */
 @keyframes fadein
 {
