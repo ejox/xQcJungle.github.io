@@ -246,7 +246,7 @@ div.message > div.msg > div.from > span.un {
 /* ejox */
 #user-rollover.id-3941421 .username:hover,
 #chat [data-cid^="3941421-"] span.un.clickable:hover {
-    animation: rainbow 5s infinite;
+    animation: rainbow 1s infinite;
 }
 
 /* Mr. Destructoid */
