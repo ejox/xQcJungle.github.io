@@ -246,7 +246,7 @@ div.message > div.msg > div.from > span.un {
 /* ejox */
 #user-rollover.id-3941421 .username:hover,
 #chat [data-cid^="3941421-"] span.un.clickable:hover {
-    animation: rainbow 5s infinite;
+    animation: rainbow 1s infinite;
 }
 
 /* Mr. Destructoid */
@@ -259,6 +259,12 @@ div.message > div.msg > div.from > span.un {
 #user-rollover.id-37840096 .username:hover,
 #chat [data-cid^="37840096-"] span.un.clickable:hover {
     animation: rainbow 1s infinite;
+}
+
+/* welkerville */
+#user-rollover.id-14846989 .username:hover,
+#chat [data-cid^="14846989-"] span.un.clickable:hover {
+    animation: fadedgreen 1s infinite;
 }
 
 /* Chat Fade */
@@ -335,6 +341,21 @@ div.message > div.msg > div.from > span.un {
     80% { color: #990000; }
     90% { color: #cc0000; }
     100% { color: #ff0000; }
+}
+
+/* Fade between bouncer color and green */
+@keyframes fadedgreen {
+    0% { color: #90b0cf; }
+    10% { color: #92bfc5; }
+    20% { color: #94cfba; }
+    30% { color: #96dfaf; }
+    40% { color: #98efa5; }
+    50% { color: #9aff9a; }
+    60% { color: #98efa5; }
+    70% { color: #96dfaf; }
+    80% { color: #94cfba; }
+    90% { color: #92bfc5; }
+    100% { color: #90b0cf; }
 }
 
 /* There can be multiple Keyframes with custom colors */
