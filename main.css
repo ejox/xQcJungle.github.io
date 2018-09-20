@@ -267,6 +267,12 @@ div.message > div.msg > div.from > span.un {
     animation: fadedgreen 1s infinite;
 }
 
+/* Baddra93 */
+#user-rollover.id-38773628 .username:hover,
+#chat [data-cid^="38773628-"] span.un.clickable:hover {
+    animation: fadedgreen 1s infinite;
+}
+
 /* Chat Fade */
 @keyframes fadein
 {
