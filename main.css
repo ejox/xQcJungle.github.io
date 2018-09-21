@@ -95,6 +95,10 @@ div.message > div.msg > div.from > span.un {
     color: #ff1d82;
 }
 
+.emote.role-admin .text {
+    color: #ff2d2d;
+}
+
 #chat .cm:nth-child(2n+1) {
     background-color: #000000;
 }
@@ -157,6 +161,14 @@ div.message > div.msg > div.from > span.un {
     border-right: #ff1d82 2px dotted;
 }
 
+.message.role-admin,
+.emote.role-admin {
+    border-top: #ff2d2d 2px dotted;
+    border-left: #ff2d2d 2px dotted;
+    border-bottom: #ff2d2d 2px dotted;
+    border-right: #ff2d2d 2px dotted;
+}
+
 .message.role-dj:hover,
 .emote.role-dj:hover,
 .message.role-bouncer:hover,
@@ -168,7 +180,9 @@ div.message > div.msg > div.from > span.un {
 .message.role-host:hover,
 .emote.role-host:hover,
 .message.role-ambassador:hover,
-.emote.role-ambassador:hover {
+.emote.role-ambassador:hover,
+.message.role-admin:hover,
+.emote.role-admin:hover {
     border-left-style: solid;
     border-right-style: solid;
 }
