@@ -370,4 +370,19 @@ div.message > div.msg > div.from > span.un {
     100% { color: #90b0cf; }
 }
 
+/* Static red */
+@keyframes fadedred {
+    0% { color: #ce2d2d; }
+    10% { color: #ce2d2d; }
+    20% { color: #ce2d2d; }
+    30% { color: #ce2d2d; }
+    40% { color: #ce2d2d; }
+    50% { color: #ce2d2d; }
+    60% { color: #ce2d2d; }
+    70% { color: #ce2d2d; }
+    80% { color: #ce2d2d; }
+    90% { color: #ce2d2d; }
+    100% { color: #ce2d2d; }
+}
+
 /* There can be multiple Keyframes with custom colors */
