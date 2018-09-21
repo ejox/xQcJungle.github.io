@@ -276,7 +276,7 @@ div.message > div.msg > div.from > span.un {
 /* Fall_1965 */
 #user-rollover.id-39769462 .username:hover,
 #chat [data-cid^="39769462-"] span.un.clickable:hover {
-    color: #ce2d2d;
+    animation: staticred 1s infinite;
 }
 
 /* Chat Fade */
@@ -371,7 +371,7 @@ div.message > div.msg > div.from > span.un {
 }
 
 /* Static red */
-@keyframes fadedred {
+@keyframes staticred {
     0% { color: #ce2d2d; }
     10% { color: #ce2d2d; }
     20% { color: #ce2d2d; }
