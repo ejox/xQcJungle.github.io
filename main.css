@@ -293,6 +293,12 @@ div.message > div.msg > div.from > span.un {
     animation: staticred 1s infinite;
 }
 
+/* Harry_McKenzie */
+#user-rollover.id-37218461 .username:hover,
+#chat [data-cid^="37218461-"] span.un.clickable:hover {
+    animation: staticgold 1s infinite;
+}
+
 /* Chat Fade */
 @keyframes fadein
 {
@@ -398,5 +404,21 @@ div.message > div.msg > div.from > span.un {
     90% { color: #ce2d2d; }
     100% { color: #ce2d2d; }
 }
+
+/* Static gold */
+@keyframes staticgold {
+    0% { color: #a17d2e; }
+    10% { color: #a17d2e; }
+    20% { color: #a17d2e; }
+    30% { color: #a17d2e; }
+    40% { color: #a17d2e; }
+    50% { color: #a17d2e; }
+    60% { color: #a17d2e; }
+    70% { color: #a17d2e; }
+    80% { color: #a17d2e; }
+    90% { color: #a17d2e; }
+    100% { color: #a17d2e; }
+}
+
 
 /* There can be multiple Keyframes with custom colors */
