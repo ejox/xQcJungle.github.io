@@ -1,0 +1,46 @@
+/* MVP text */
+
+/* ejox */
+#user-rollover.id-3941421 .info .role span {
+    visibility: hidden;
+}
+
+/* ejox */
+#user-rollover.id-3941421 .info .role span:after {
+    visibility: visible;
+    content: 'MVP 2018';
+}
+
+/* MVP Icon */
+
+/* ejox */
+.id-3941421 .msg .from i.icon-chat-dj,
+#waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-dj,
+#user-rollover.id-3941421 .info .role i.icon-chat-dj,
+#user-lists .list.room .user.id-3941421 .icon-chat-dj {
+    background: url("https://i.imgur.com/75tqg3g.png") no-repeat !important;
+}
+
+/* ejox */
+#user-rollover.id-3941421 .info .role i.icon-chat-dj {
+    margin-left: 60px;
+    position: absolute;
+}
+
+/* MVP Color */
+
+/* ejox */
+.id-3941421 .msg .from.dj .un,
+#waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-dj + span,
+#user-rollover.id-3941421 .info .role span,
+#user-rollover.id-3941421 .meta .username,
+#user-lists .list.room .user.id-3941421 .name {
+    color: #69ddff !important;
+}
+
+/* MVP Inline */
+
+/* ejox */
+.emote.id-3941421 .text {
+    color: #69ddff !important;
+}
