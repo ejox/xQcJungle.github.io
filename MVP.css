@@ -1,12 +1,12 @@
 /* MVP text */
 
 /* ejox */
-#user-rollover.id-39238317 .info .role span {
+#user-rollover.id-3941421 .info .role span {
     visibility: hidden;
 }
 
 /* ejox */
-#user-rollover.id-39238317 .info .role span:after {
+#user-rollover.id-3941421 .info .role span:after {
     visibility: visible;
     content: 'MVP';
 }
@@ -14,15 +14,15 @@
 /* MVP Icon */
 
 /* ejox */
-.id-39238317 .msg .from i.icon-chat-dj,
-#waitlist .list .user[data-uid="39238317"] .meta.is-staff .name .icon-chat-dj,
-#user-rollover.id-39238317 .info .role i.icon-chat-dj,
-#user-lists .list.room .user.id-39238317 .icon-chat-dj {
+.id-3941421 .msg .from i.icon-chat-dj,
+#waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-dj,
+#user-rollover.id-3941421 .info .role i.icon-chat-dj,
+#user-lists .list.room .user.id-3941421 .icon-chat-dj {
     background: url("https://i.imgur.com/75tqg3g.png") no-repeat !important;
 }
 
 /* ejox */
-#user-rollover.id-39238317 .info .role i.icon-chat-dj {
+#user-rollover.id-3941421 .info .role i.icon-chat-dj {
     margin-left: 60px;
     position: absolute;
 }
@@ -30,17 +30,33 @@
 /* MVP Color */
 
 /* ejox */
-.id-39238317 .msg .from.dj .un,
-#waitlist .list .user[data-uid="39238317"] .meta.is-staff .name .icon-chat-dj + span,
-#user-rollover.id-39238317 .info .role span,
-#user-rollover.id-39238317 .meta .username,
-#user-lists .list.room .user.id-39238317 .name {
+.id-3941421 .msg .from.dj .un,
+#waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-dj + span,
+#user-rollover.id-3941421 .info .role span,
+#user-rollover.id-3941421 .meta .username,
+#user-lists .list.room .user.id-3941421 .name {
     color: #69ddff !important;
+}
+
+/* MVP Border */
+
+/* ejox */
+#chat .cm.message.id-3941421,
+#chat .cm.emote.id-3941421 {
+    border-left: #69ddff 2px dotted !important;
+    border-right: #69ddff 2px dotted !important;
+}
+
+/* ejox */
+#chat .cm.message.id-3941421:hover,
+#chat .cm.emote.id-3941421:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
 }
 
 /* MVP Inline */
 
 /* ejox */
-.emote.id-39238317 .text {
+.emote.id-3941421 .text {
     color: #69ddff !important;
 }
