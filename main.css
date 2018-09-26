@@ -272,7 +272,7 @@ div.message > div.msg > div.from > span.un {
 /* rustyimpact */
 #user-rollover.id-37840096 .username:hover,
 #chat [data-cid^="37840096-"] span.un.clickable:hover {
-    animation: vibrate-1 1s infinite;
+    animation: vibrate-1;
 }
 
 /* welkerville */
