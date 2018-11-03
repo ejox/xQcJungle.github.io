@@ -4,14 +4,14 @@
         "icon": "https://i.imgur.com/tqUrb6g.gif",
         "css": "https://rawgit.com/ejox/xQcJungle.github.io/master/main.css",
         "rules": {
-                "allowAutorespond": true,
+                "allowAutorespond": false,
                 "allowAutowoot": true,
                 "allowAutojoin": true,
                 "allowAutograb": true,
                 "allowSmartVote": true,
                 "allowEmotes": true,
-                "allowShowingMehs": true,
-                "forceSmartVote": false
+                "allowShowingMehs": false,
+                "forceSmartVote": true
         },
         "ccc": {
                 "admin": "#ff2d2d",
