@@ -10,7 +10,7 @@
                 "allowAutograb": true,
                 "allowSmartVote": true,
                 "allowEmotes": true,
-                "allowShowingMehs": false,
+                "allowShowingMehs": true,
                 "forceSmartVote": false
         },
         "ccc": {
