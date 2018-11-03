@@ -11,7 +11,7 @@
                 "allowSmartVote": true,
                 "allowEmotes": true,
                 "allowShowingMehs": false,
-                "forceSmartVote": true
+                "forceSmartVote": false
         },
         "ccc": {
                 "admin": "#ff2d2d",
