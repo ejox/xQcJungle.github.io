@@ -26,8 +26,8 @@
                 "user": null
 	},
 	"images": {
-                "background": "https://i.imgur.com/6wXm3cA.jpg",
-                "playback": null,
+                "background": "https://cdn.radiant.dj/rcs/bg/1.png",
+		"playback": "https://i.imgur.com/rSGAoGX.png",
                 "admin": "https://i.imgur.com/Gw5Wdpv.png",
                 "ambassador": "https://i.imgur.com/AMj8Jjf.png",
                 "host": "https://i.imgur.com/eAoDqVf.png",
