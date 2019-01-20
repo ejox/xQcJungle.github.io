@@ -299,6 +299,12 @@ div.message > div.msg > div.from > span.un {
     animation: staticgold 1s infinite;
 }
 
+/* MoistSalt */
+#user-rollover.id-37224716 .username:hover,
+#chat [data-cid^="37224716-"] span.un.clickable:hover {
+    animation: staticyellow 1s infinite;
+}
+
 /* Chat Fade */
 @keyframes fadein
 {
@@ -418,6 +424,21 @@ div.message > div.msg > div.from > span.un {
     80% { color: #a17d2e; }
     90% { color: #a17d2e; }
     100% { color: #a17d2e; }
+}
+
+/* Static yellow */
+@keyframes staticyellow {
+    0% { color: #f6ff54; }
+    10% { color: #f6ff54; }
+    20% { color: #f6ff54; }
+    30% { color: #f6ff54; }
+    40% { color: #f6ff54; }
+    50% { color: #f6ff54; }
+    60% { color: #f6ff54; }
+    70% { color: #f6ff54; }
+    80% { color: #f6ff54; }
+    90% { color: #f6ff54; }
+    100% { color: #f6ff54; }
 }
 
 /* Poggy Woggy */
