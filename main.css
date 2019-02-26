@@ -132,7 +132,8 @@ div.message > div.msg > div.from > span.un {
 
 .message.role-bouncer,
 .emote.role-bouncer {
-    border-right: #90b0cf 2px solid;
+    border-left: #90b0cf 3px solid;
+    border-right: #90b0cf 3px solid;
 }
 
 .message.role-manager,
