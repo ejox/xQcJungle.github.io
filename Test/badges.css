@@ -13,13 +13,13 @@
 #chat-messages .id-3941421 .badge-box {
     width: 30px;
     height: 30px;
-    -webkit-transition: padding 5s;
+    transition: 0.5s;
 }
 
 #chat-messages .id-3941421 .badge-box:hover {
     width: 65px;
     height: 65px;
-    -webkit-transition: padding 5s;
+    transition: 0.5s;
 }
 
 #user-rollover.id-3941421 .badge-box i.bdg,
