@@ -51,8 +51,7 @@ div.message > div.msg > div.from > span.un {
 }
 
 #chat .log {
-    background: rgba(0, 0, 0, 0.0) !important;
-    box-shadow: 0 0 0 1px #000000;
+    background: rgba(20, 25, 34, 0.78) !important;
 }
 
 /* Fade */
