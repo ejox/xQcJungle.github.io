@@ -44,15 +44,15 @@ div.message > div.msg > div.from > span.un {
 
 #chat .welcome {
     color: #ff0000;
-    border-top: #ff0000 2px dotted;
-    border-left: #ff0000 2px dotted;
-    border-bottom: #ff0000 2px dotted;
-    border-right: #ff0000 2px dotted;
+    border-top: #ff0000 1px dotted;
+    border-left: #ff0000 1px dotted;
+    border-bottom: #ff0000 1px dotted;
+    border-right: #ff0000 1px dotted;
 }
 
 #chat .log {
-    background: rgba(20, 25, 34, 0.78) !important;
-    box-shadow: 0 0 0 1px #ff0000;
+    background: rgba(0, 0, 0, 0.0) !important;
+    box-shadow: 0 0 0 1px #000000;
 }
 
 /* Fade */
