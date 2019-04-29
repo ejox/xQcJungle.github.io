@@ -46,4 +46,5 @@
     height: 100%;
     opacity: 0.4;
     z-index: -1;
+    transition: 0.4s;
 }
