@@ -328,49 +328,53 @@ div.message > div.msg > div.from > span.un {
 }
 */
 
-/* xQc */
-#user-rollover.id-37147238 .username,
-#chat [data-cid^="37147238-"] span.un.clickable {
-    animation: orangered 1s infinite;
+/* BounceBot */
+#user-rollover.id-40471126 .username,
+#chat [data-cid^="40471126-"] span.un.clickable {
+    color: #f6ff00 !important;
 }
 
-#user-rollover.id-37147238 .info .role span:before {
-    content: 'Streamer / ';
+#user-rollover.id-40471126 .info .role span:before {
+    content: 'Bot / ';
 }
 
-.id-37147238 .msg .from i.icon-chat-co-host,
-#waitlist .list .user[data-uid="37147238"] .meta.is-staff .name .icon-chat-co-host,
-#user-rollover.id-37147238 .info .role i.icon-chat-co-host,
-#user-lists .list.room .user.id-37147238 .icon-chat-co-host {
-    background: url("https://i.imgur.com/xyghfYC.png") no-repeat !important;
+.id-40471126 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="40471126"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-40471126 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-40471126 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/L8DFnWd.png") no-repeat !important;
 }
 
-#user-rollover.id-37147238 .meta .thumb {
-    border-color: #FF6100 !important;
+#user-rollover.id-40471126 .meta .thumb {
+    border-color: #f6ff00 !important;
 }
 
-.id-37147238 .msg .from.co-host .un,
-.id-37147238 .from .un,
-#chat [data-cid^="37147238"] span.un.clickable,
-#waitlist .list .user[data-uid="37147238"] .meta.is-staff .name .icon-chat-co-host + span,
-#user-rollover.id-37147238 .info .role span,
-#user-rollover.id-37147238 .meta .username,
-#user-lists .list.room .user.id-37147238 .name {
-    color: #FF6100 !important;
+.id-40471126 .msg .from.bouncer .un,
+.id-40471126 .from .un,
+#chat [data-cid^="40471126"] span.un.clickable,
+#waitlist .list .user[data-uid="40471126"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-40471126 .info .role span,
+#user-rollover.id-40471126 .meta .username,
+#user-lists .list.room .user.id-40471126 .name {
+    color: #f6ff00 !important;
 }
-#chat .cm.message.id-37147238,
-#chat .cm.emote.id-37147238 {
-    border-left: #FF6100 3px dotted !important;
-    border-right: #FF6100 3px dotted !important;
+#chat .cm.message.id-40471126,
+#chat .cm.emote.id-40471126 {
+    border-left: #f6ff00 2px dotted !important;
+    border-right: #f6ff00 2px dotted !important;
+    border-top: #f6ff00 2px dotted !important;
+    border-bottom: #f6ff00 2px dotted !important;
 }
-#chat .cm.message.id-37147238:hover,
-#chat .cm.emote.id-37147238:hover {
+#chat .cm.message.id-40471126:hover,
+#chat .cm.emote.id-40471126:hover {
     border-left-style: solid !important;
     border-right-style: solid !important;
+    border-top-style: solid !important;
+    border-bottom-style: solid !important;
     display: inline-block !important;
 }
-.emote.id-37147238 .text {
-    color: #FF6100 !important;
+.emote.id-40471126 .text {
+    color: #f6ff00 !important;
 }
 
 /* MoistSalt */
@@ -461,6 +465,231 @@ div.message > div.msg > div.from > span.un {
 }
 .emote.id-38773628 .text {
     color: #14b866 !important;
+}
+
+/* HandsomeWalnut */
+#user-rollover.id-37633188 .username,
+#chat [data-cid^="37633188-"] span.un.clickable {
+    color: #14b866 !important;
+}
+
+#user-rollover.id-37633188 .info .role span:before {
+    content: 'Twitch Mod / ';
+}
+
+.id-37633188 .msg .from i.icon-chat-manager,
+#waitlist .list .user[data-uid="37633188"] .meta.is-staff .name .icon-chat-manager,
+#user-rollover.id-37633188 .info .role i.icon-chat-manager,
+#user-lists .list.room .user.id-37633188 .icon-chat-manager {
+    background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
+}
+
+#user-rollover.id-37633188 .meta .thumb {
+    border-color: #14b866 !important;
+}
+
+.id-37633188 .msg .from.manager .un,
+.id-37633188 .from .un,
+#chat [data-cid^="37633188"] span.un.clickable,
+#waitlist .list .user[data-uid="37633188"] .meta.is-staff .name .icon-chat-manager + span,
+#user-rollover.id-37633188 .info .role span,
+#user-rollover.id-37633188 .meta .username,
+#user-lists .list.room .user.id-37633188 .name {
+    color: #14b866 !important;
+}
+#chat .cm.message.id-37633188,
+#chat .cm.emote.id-37633188 {
+    border-left: #14b866 3px dotted !important;
+    border-right: #14b866 3px dotted !important;
+}
+#chat .cm.message.id-37633188:hover,
+#chat .cm.emote.id-37633188:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-37633188 .text {
+    color: #14b866 !important;
+}
+
+/* zostradamus */
+#user-rollover.id-37356990 .username,
+#chat [data-cid^="37356990-"] span.un.clickable {
+    color: #14b866 !important;
+}
+
+#user-rollover.id-37356990 .info .role span:before {
+    content: 'Twitch Mod / ';
+}
+
+.id-37356990 .msg .from i.icon-chat-co-host,
+#waitlist .list .user[data-uid="37356990"] .meta.is-staff .name .icon-chat-co-host,
+#user-rollover.id-37356990 .info .role i.icon-chat-co-host,
+#user-lists .list.room .user.id-37356990 .icon-chat-co-host {
+    background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
+}
+
+#user-rollover.id-37356990 .meta .thumb {
+    border-color: #14b866 !important;
+}
+
+.id-37356990 .msg .from.co-host .un,
+.id-37356990 .from .un,
+#chat [data-cid^="37356990"] span.un.clickable,
+#waitlist .list .user[data-uid="37356990"] .meta.is-staff .name .icon-chat-co-host + span,
+#user-rollover.id-37356990 .info .role span,
+#user-rollover.id-37356990 .meta .username,
+#user-lists .list.room .user.id-37356990 .name {
+    color: #14b866 !important;
+}
+#chat .cm.message.id-37356990,
+#chat .cm.emote.id-37356990 {
+    border-left: #14b866 3px dotted !important;
+    border-right: #14b866 3px dotted !important;
+}
+#chat .cm.message.id-37356990:hover,
+#chat .cm.emote.id-37356990:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-37356990 .text {
+    color: #14b866 !important;
+}
+
+/* Hydration */
+#user-rollover.id-37149102 .username,
+#chat [data-cid^="37149102-"] span.un.clickable {
+    color: #14b866 !important;
+}
+
+#user-rollover.id-37149102 .info .role span:before {
+    content: 'Twitch Mod / ';
+}
+
+.id-37149102 .msg .from i.icon-chat-co-host,
+#waitlist .list .user[data-uid="37149102"] .meta.is-staff .name .icon-chat-co-host,
+#user-rollover.id-37149102 .info .role i.icon-chat-co-host,
+#user-lists .list.room .user.id-37149102 .icon-chat-co-host {
+    background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
+}
+
+#user-rollover.id-37149102 .meta .thumb {
+    border-color: #14b866 !important;
+}
+
+.id-37149102 .msg .from.co-host .un,
+.id-37149102 .from .un,
+#chat [data-cid^="37149102"] span.un.clickable,
+#waitlist .list .user[data-uid="37149102"] .meta.is-staff .name .icon-chat-co-host + span,
+#user-rollover.id-37149102 .info .role span,
+#user-rollover.id-37149102 .meta .username,
+#user-lists .list.room .user.id-37149102 .name {
+    color: #14b866 !important;
+}
+#chat .cm.message.id-37149102,
+#chat .cm.emote.id-37149102 {
+    border-left: #14b866 3px dotted !important;
+    border-right: #14b866 3px dotted !important;
+}
+#chat .cm.message.id-37149102:hover,
+#chat .cm.emote.id-37149102:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-37149102 .text {
+    color: #14b866 !important;
+}
+
+/* kaanvict */
+#user-rollover.id-37149557 .username,
+#chat [data-cid^="37149557-"] span.un.clickable {
+    color: #14b866 !important;
+}
+
+#user-rollover.id-37149557 .info .role span:before {
+    content: 'Twitch Mod / ';
+}
+
+.id-37149557 .msg .from i.icon-chat-host,
+#waitlist .list .user[data-uid="37149557"] .meta.is-staff .name .icon-chat-host,
+#user-rollover.id-37149557 .info .role i.icon-chat-host,
+#user-lists .list.room .user.id-37149557 .icon-chat-host {
+    background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
+}
+
+#user-rollover.id-37149557 .meta .thumb {
+    border-color: #14b866 !important;
+}
+
+.id-37149557 .msg .from.host .un,
+.id-37149557 .from .un,
+#chat [data-cid^="37149557"] span.un.clickable,
+#waitlist .list .user[data-uid="37149557"] .meta.is-staff .name .icon-chat-host + span,
+#user-rollover.id-37149557 .info .role span,
+#user-rollover.id-37149557 .meta .username,
+#user-lists .list.room .user.id-37149557 .name {
+    color: #14b866 !important;
+}
+#chat .cm.message.id-37149557,
+#chat .cm.emote.id-37149557 {
+    border-left: #14b866 3px dotted !important;
+    border-right: #14b866 3px dotted !important;
+}
+#chat .cm.message.id-37149557:hover,
+#chat .cm.emote.id-37149557:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-37149557 .text {
+    color: #14b866 !important;
+}
+
+/* xQc */
+#user-rollover.id-37147238 .username,
+#chat [data-cid^="37147238-"] span.un.clickable {
+    animation: orangered 1s infinite;
+}
+
+#user-rollover.id-37147238 .info .role span:before {
+    content: 'Streamer / ';
+}
+
+.id-37147238 .msg .from i.icon-chat-co-host,
+#waitlist .list .user[data-uid="37147238"] .meta.is-staff .name .icon-chat-co-host,
+#user-rollover.id-37147238 .info .role i.icon-chat-co-host,
+#user-lists .list.room .user.id-37147238 .icon-chat-co-host {
+    background: url("https://i.imgur.com/xyghfYC.png") no-repeat !important;
+}
+
+#user-rollover.id-37147238 .meta .thumb {
+    border-color: #FF6100 !important;
+}
+
+.id-37147238 .msg .from.co-host .un,
+.id-37147238 .from .un,
+#chat [data-cid^="37147238"] span.un.clickable,
+#waitlist .list .user[data-uid="37147238"] .meta.is-staff .name .icon-chat-co-host + span,
+#user-rollover.id-37147238 .info .role span,
+#user-rollover.id-37147238 .meta .username,
+#user-lists .list.room .user.id-37147238 .name {
+    color: #FF6100 !important;
+}
+#chat .cm.message.id-37147238,
+#chat .cm.emote.id-37147238 {
+    border-left: #FF6100 3px dotted !important;
+    border-right: #FF6100 3px dotted !important;
+}
+#chat .cm.message.id-37147238:hover,
+#chat .cm.emote.id-37147238:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-37147238 .text {
+    color: #FF6100 !important;
 }
 
 /* Chat Fade */
