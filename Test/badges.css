@@ -38,7 +38,7 @@
 .cm.id-3941421::before {
     background-image: url("https://i.imgur.com/b4OyN8c.png");
     background-repeat: no-repeat;
-    content: "test";
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
