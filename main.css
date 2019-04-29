@@ -334,8 +334,8 @@ div.message > div.msg > div.from > span.un {
     animation: orangered 1s infinite;
 }
 
-#user-rollover.id-37147238 .info .role span:after {
-    content: ' / Streamer';
+#user-rollover.id-37147238 .info .role span:before {
+    content: 'Streamer / ';
 }
 
 .id-37147238 .msg .from i.icon-chat-co-host,
@@ -380,7 +380,7 @@ div.message > div.msg > div.from > span.un {
 }
 
 #user-rollover.id-37224716 .info .role span:after {
-    content: ' / Twitch Mod';
+    content: 'Twitch Mod / ';
 }
 
 .id-37224716 .msg .from i.icon-chat-manager,
@@ -425,7 +425,7 @@ div.message > div.msg > div.from > span.un {
 }
 
 #user-rollover.id-38773628 .info .role span:after {
-    content: ' / Twitch Mod';
+    content: 'Twitch Mod / ';
 }
 
 .id-38773628 .msg .from i.icon-chat-manager,
