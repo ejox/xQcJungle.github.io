@@ -44,10 +44,10 @@ div.message > div.msg > div.from > span.un {
 
 #chat .welcome {
     color: #ff0000;
-    border-top: #ff0000 1px dotted;
-    border-left: #ff0000 1px dotted;
-    border-bottom: #ff0000 1px dotted;
-    border-right: #ff0000 1px dotted;
+    border-top: #ff0000 2px dotted;
+    border-left: #ff0000 2px dotted;
+    border-bottom: #ff0000 2px dotted;
+    border-right: #ff0000 2px dotted;
 }
 
 #chat .log {
@@ -290,18 +290,16 @@ div.message > div.msg > div.from > span.un {
 #chat [data-cid^="3941421-"] span.un.clickable {
     animation: rainbow 1s infinite;
 }
-
+/*
 #user-rollover.id-3941421 .info .role span:after {
-    content: ' / Janitor';
+    content: '';
 }
-
-/*-*/
 
 .id-3941421 .msg .from i.icon-chat-bouncer,
 #waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-3941421 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-3941421 .icon-chat-bouncer {
-    background: url("https://i.imgur.com/IRkVPst.png") no-repeat !important;
+    background: url("") no-repeat !important;
 }
 
 #user-rollover.id-3941421 .meta .thumb {
@@ -331,8 +329,52 @@ div.message > div.msg > div.from > span.un {
 .emote.id-3941421 .text {
     color: #90b0cf !important;
 }
+*/
 
-/*-*/
+/* xQc */
+#user-rollover.id-37147238 .username,
+#chat [data-cid^="37147238-"] span.un.clickable {
+    animation: orangered 1s infinite;
+}
+
+#user-rollover.id-37147238 .info .role span:after {
+    content: ' / Streamer';
+}
+
+.id-37147238 .msg .from i.icon-chat-co-host,
+#waitlist .list .user[data-uid="37147238"] .meta.is-staff .name .icon-chat-co-host,
+#user-rollover.id-37147238 .info .role i.icon-chat-co-host,
+#user-lists .list.room .user.id-37147238 .icon-chat-co-host {
+    background: url("https://i.imgur.com/IRkVPst.png") no-repeat !important;
+}
+
+#user-rollover.id-37147238 .meta .thumb {
+    border-color: #FF6100 !important;
+}
+
+.id-37147238 .msg .from.co-host .un,
+.id-37147238 .from .un,
+#chat [data-cid^="37147238"] span.un.clickable,
+#waitlist .list .user[data-uid="37147238"] .meta.is-staff .name .icon-chat-co-host + span,
+#user-rollover.id-37147238 .info .role span,
+#user-rollover.id-37147238 .meta .username,
+#user-lists .list.room .user.id-37147238 .name {
+    color: #FF6100 !important;
+}
+#chat .cm.message.id-37147238,
+#chat .cm.emote.id-37147238 {
+    border-left: #FF6100 3px dotted !important;
+    border-right: #FF6100 3px dotted !important;
+}
+#chat .cm.message.id-37147238:hover,
+#chat .cm.emote.id-37147238:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-37147238 .text {
+    color: #FF6100 !important;
+}
 
 /* Chat Fade */
 @keyframes fadein
@@ -408,6 +450,21 @@ div.message > div.msg > div.from > span.un {
     80% { color: #990000; }
     90% { color: #cc0000; }
     100% { color: #ff0000; }
+}
+
+/* Fade between red and orange */
+@keyframes orangered {
+    0% { color: #FF6100; }
+    10% { color: #FF6100; }
+    20% { color: #FF0000; }
+    30% { color: #FF6100; }
+    40% { color: #FF6100; }
+    50% { color: #FF0000; }
+    60% { color: #FF6100; }
+    70% { color: #FF6100; }
+    80% { color: #FF0000; }
+    90% { color: #FF6100; }
+    100% { color: #FF6100; }
 }
 
 /* Fade between bouncer color and green */
