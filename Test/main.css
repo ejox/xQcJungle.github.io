@@ -286,13 +286,13 @@ div.message > div.msg > div.from > span.un {
 /* Custom */
 
 /* ejox */
-#user-rollover.id-3941421 .username:hover,
-#chat [data-cid^="3941421-"] span.un.clickable:hover {
+#user-rollover.id-3941421 .username,
+#chat [data-cid^="3941421-"] span.un.clickable {
     animation: rainbow 1s infinite;
 }
 
 #user-rollover.id-3941421 .info .role span:after {
-    content: ' / ejox';
+    content: ' / Janitor';
 }
 
 /*.id-3941421 .msg .from i.icon-chat-manager,
