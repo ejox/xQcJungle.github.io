@@ -48,3 +48,483 @@
     z-index: -1;
     transition: 0.4s;
 }
+
+/* xQc */
+#chat-messages .id-37147238 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-37147238 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-37147238 .badge-box i.bdg,
+#chat-messages .id-37147238 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/Sp7GV5H.gif");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-37147238::before {
+    background-image: url("https://i.imgur.com/OASwQC0.png");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+/* Raepix */
+#chat-messages .id-38539600 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-38539600 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-38539600 .badge-box i.bdg,
+#chat-messages .id-38539600 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/opEPJRV.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-38539600::before {
+    background-image: url("");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+/* Harry_McKenzie */
+#chat-messages .id-37218461 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-37218461 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-37218461 .badge-box i.bdg,
+#chat-messages .id-37218461 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/Ikl54iI.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-37218461::before {
+    background-image: url("");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+/* rustyimpact - SCUFFED */
+#chat-messages .id-37840096 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-37840096 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-37840096 .badge-box i.bdg,
+#chat-messages .id-37840096 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/4miw7P8.gif");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-37840096::before {
+    background-image: url("");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+/* welkerville - SCUFFED */
+#chat-messages .id-14846989 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-14846989 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-14846989 .badge-box i.bdg,
+#chat-messages .id-14846989 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/XMMcRaY.gif");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-14846989::before {
+    background-image: url("");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+/* BounceBot - SCUFFED */
+#chat-messages .id-40471126 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-40471126 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-40471126 .badge-box i.bdg,
+#chat-messages .id-40471126 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/sNRO3ye.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-40471126::before {
+    background-image: url("");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+/* Baddra93 */
+#chat-messages .id-38773628 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-38773628 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-38773628 .badge-box i.bdg,
+#chat-messages .id-38773628 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/3FZLdrG.gif");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-38773628::before {
+    background-image: url("");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+/* Fall_1965 */
+#chat-messages .id-39769462 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-39769462 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-39769462 .badge-box i.bdg,
+#chat-messages .id-39769462 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/ln3oD3Q.gif");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-39769462::before {
+    background-image: url("");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+/* Cal - SCUFFED */
+#chat-messages .id-6380999 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-6380999 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-6380999 .badge-box i.bdg,
+#chat-messages .id-6380999 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/kG6bPuu.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-6380999::before {
+    background-image: url("");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+/* MoistSalt */
+#chat-messages .id-37224716 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-37224716 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-37224716 .badge-box i.bdg,
+#chat-messages .id-37224716 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/LBI29d9.gif");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-37224716::before {
+    background-image: url("");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+/* SlyVII */
+#chat-messages .id-11556348 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-11556348 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-11556348 .badge-box i.bdg,
+#chat-messages .id-11556348 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/4E79Osz.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-11556348::before {
+    background-image: url("");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+/* Ageless - SCUFFED */
+#chat-messages .id-37174830 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-37174830 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-37174830 .badge-box i.bdg,
+#chat-messages .id-37174830 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/A0QfEQ9.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-37174830::before {
+    background-image: url("");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.4s;
+}
