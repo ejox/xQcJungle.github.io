@@ -82,7 +82,7 @@ div.message > div.msg > div.from > span.un {
 /* Inline */
 #chat .emote {
     min-height: 0px !important;
-    background: rgba(34, 44, 62, 0.78) !important;
+    background: rgba(0, 0, 0, 0.0) !important;
 }
 
 .emote .msg .text {
