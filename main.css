@@ -522,10 +522,10 @@ div.message > div.msg > div.from > span.un {
     content: 'Twitch Mod / ';
 }
 
-.id-37356990 .msg .from i.icon-chat-cohost,
-#waitlist .list .user[data-uid="37356990"] .meta.is-staff .name .icon-chat-cohost,
-#user-rollover.id-37356990 .info .role i.icon-chat-cohost,
-#user-lists .list.room .user.id-37356990 .icon-chat-cohost {
+.id-37356990 .msg .from i.icon-chat-host,
+#waitlist .list .user[data-uid="37356990"] .meta.is-staff .name .icon-chat-host,
+#user-rollover.id-37356990 .info .role i.icon-chat-host,
+#user-lists .list.room .user.id-37356990 .icon-chat-host {
     background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
 }
 
@@ -533,10 +533,10 @@ div.message > div.msg > div.from > span.un {
     border-color: #14b866 !important;
 }
 
-.id-37356990 .msg .from.cohost .un,
+.id-37356990 .msg .from.host .un,
 .id-37356990 .from .un,
 #chat [data-cid^="37356990"] span.un.clickable,
-#waitlist .list .user[data-uid="37356990"] .meta.is-staff .name .icon-chat-cohost + span,
+#waitlist .list .user[data-uid="37356990"] .meta.is-staff .name .icon-chat-host + span,
 #user-rollover.id-37356990 .info .role span,
 #user-rollover.id-37356990 .meta .username,
 #user-lists .list.room .user.id-37356990 .name {
@@ -567,10 +567,10 @@ div.message > div.msg > div.from > span.un {
     content: 'Twitch Mod / ';
 }
 
-.id-37149102 .msg .from i.icon-chat-cohost,
-#waitlist .list .user[data-uid="37149102"] .meta.is-staff .name .icon-chat-cohost,
-#user-rollover.id-37149102 .info .role i.icon-chat-cohost,
-#user-lists .list.room .user.id-37149102 .icon-chat-cohost {
+.id-37149102 .msg .from i.icon-chat-host,
+#waitlist .list .user[data-uid="37149102"] .meta.is-staff .name .icon-chat-host,
+#user-rollover.id-37149102 .info .role i.icon-chat-host,
+#user-lists .list.room .user.id-37149102 .icon-chat-host {
     background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
 }
 
@@ -578,10 +578,10 @@ div.message > div.msg > div.from > span.un {
     border-color: #14b866 !important;
 }
 
-.id-37149102 .msg .from.cohost .un,
+.id-37149102 .msg .from.host .un,
 .id-37149102 .from .un,
 #chat [data-cid^="37149102"] span.un.clickable,
-#waitlist .list .user[data-uid="37149102"] .meta.is-staff .name .icon-chat-cohost + span,
+#waitlist .list .user[data-uid="37149102"] .meta.is-staff .name .icon-chat-host + span,
 #user-rollover.id-37149102 .info .role span,
 #user-rollover.id-37149102 .meta .username,
 #user-lists .list.room .user.id-37149102 .name {
@@ -657,10 +657,10 @@ div.message > div.msg > div.from > span.un {
     content: 'Streamer / ';
 }
 
-.id-37147238 .msg .from i.icon-chat-cohost,
-#waitlist .list .user[data-uid="37147238"] .meta.is-staff .name .icon-chat-cohost,
-#user-rollover.id-37147238 .info .role i.icon-chat-cohost,
-#user-lists .list.room .user.id-37147238 .icon-chat-cohost {
+.id-37147238 .msg .from i.icon-chat-host,
+#waitlist .list .user[data-uid="37147238"] .meta.is-staff .name .icon-chat-host,
+#user-rollover.id-37147238 .info .role i.icon-chat-host,
+#user-lists .list.room .user.id-37147238 .icon-chat-host {
     background: url("https://i.imgur.com/xyghfYC.png") no-repeat !important;
 }
 
@@ -668,10 +668,10 @@ div.message > div.msg > div.from > span.un {
     border-color: #FF6100 !important;
 }
 
-.id-37147238 .msg .from.cohost .un,
+.id-37147238 .msg .from.host .un,
 .id-37147238 .from .un,
 #chat [data-cid^="37147238"] span.un.clickable,
-#waitlist .list .user[data-uid="37147238"] .meta.is-staff .name .icon-chat-cohost + span,
+#waitlist .list .user[data-uid="37147238"] .meta.is-staff .name .icon-chat-host + span,
 #user-rollover.id-37147238 .info .role span,
 #user-rollover.id-37147238 .meta .username,
 #user-lists .list.room .user.id-37147238 .name {
