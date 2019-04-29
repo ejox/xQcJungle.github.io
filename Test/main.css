@@ -305,7 +305,7 @@ div.message > div.msg > div.from > span.un {
 }
 
 #user-rollover.id-3941421 .meta .thumb {
-    border-color: #ff0000 !important;
+    border-color: #90b0cf !important;
 }
 
 .id-3941421 .msg .from.manager .un,
@@ -315,12 +315,12 @@ div.message > div.msg > div.from > span.un {
 #user-rollover.id-3941421 .info .role span,
 #user-rollover.id-3941421 .meta .username,
 #user-lists .list.room .user.id-3941421 .name {
-    color: #ff0000 !important;
+    color: #90b0cf !important;
 }
 #chat .cm.message.id-3941421,
 #chat .cm.emote.id-3941421 {
-    border-left: #ff0000 2px dotted !important;
-    border-right: #ff0000 2px dotted !important;
+    border-left: #90b0cf 3px dotted !important;
+    border-right: #90b0cf 3px dotted !important;
 }
 #chat .cm.message.id-3941421:hover,
 #chat .cm.emote.id-3941421:hover {
@@ -329,7 +329,7 @@ div.message > div.msg > div.from > span.un {
     display: inline-block !important;
 }
 .emote.id-3941421 .text {
-    color: #ff0000 !important;
+    color: #90b0cf !important;
 }
 
 /*-*/
