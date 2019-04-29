@@ -40,7 +40,7 @@ div.message > div.msg > div.from > span.un {
     background: rgba(0, 0, 0, 0.75) !important;
 }
 
-/* ----------------------------------------Chat---------------------------------------- */
+/* Chat */
 
 #chat .welcome {
     color: #ff0000;
@@ -301,7 +301,7 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-3941421 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-3941421 .icon-chat-bouncer {
-    background: url("https://i.imgur.com/bJO8p2A.png") no-repeat !important;
+    background: url("https://i.imgur.com/IRkVPst.png") no-repeat !important;
 }
 
 #user-rollover.id-3941421 .meta .thumb {
