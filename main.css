@@ -295,8 +295,28 @@ div.message > div.msg > div.from > span.un {
 #chat [data-cid^="11556348-"] span.un.clickable {
     color: #ff0000;
 
+/* Chicbreeze */
+#user-rollover.id-42616838 .username,
+#chat [data-cid^="42616838-"] span.un.clickable {
+    color: #90b0cf;
+
+/* Ageless */
+#user-rollover.id-37174830 .username,
+#chat [data-cid^="37174830-"] span.un.clickable {
+    color: #90b0cf;
+
+/* frynaut */
+#user-rollover.id-424349 .username,
+#chat [data-cid^="424349-"] span.un.clickable {
+    color: #90b0cf;
+
+/* AnUglyTurtle */
+#user-rollover.id-5049254 .username,
+#chat [data-cid^="5049254-"] span.un.clickable {
+    color: #90b0cf;
+
 }
-/*
+/* #90b0cf
 #user-rollover.id-3941421 .info .role span:after {
     content: '';
 }
