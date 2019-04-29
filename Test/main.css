@@ -295,7 +295,9 @@ div.message > div.msg > div.from > span.un {
     content: ' / Janitor';
 }
 
-/*.id-3941421 .msg .from i.icon-chat-manager,
+/*-*/
+
+.id-3941421 .msg .from i.icon-chat-manager,
 #waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-manager,
 #user-rollover.id-3941421 .info .role i.icon-chat-manager,
 #user-lists .list.room .user.id-3941421 .icon-chat-manager {
@@ -328,7 +330,9 @@ div.message > div.msg > div.from > span.un {
 }
 .emote.id-3941421 .text {
     color: #ff0000 !important;
-}*/
+}
+
+/*-*/
 
 /* Chat Fade */
 @keyframes fadein
