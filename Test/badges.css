@@ -24,7 +24,7 @@
 
 #user-rollover.id-3941421 .badge-box i.bdg,
 #chat-messages .id-3941421 .badge-box i.bdg {
-    background-image: url("https://i.imgur.com/yMRzUbn.png");
+    background-image: url("https://i.imgur.com/b4OyN8c.png");
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -35,7 +35,7 @@
 }
 
 .cm.id-3941421::before {
-    background-image: url("https://i.imgur.com/yMRzUbn.png");
+    background-image: url("https://i.imgur.com/b4OyN8c.png");
     background-repeat: no-repeat;
     content: "test";
     position: absolute;
