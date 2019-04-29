@@ -379,7 +379,7 @@ div.message > div.msg > div.from > span.un {
     color: #14b866 !important;
 }
 
-#user-rollover.id-37224716 .info .role span:after {
+#user-rollover.id-37224716 .info .role span:before {
     content: 'Twitch Mod / ';
 }
 
@@ -424,7 +424,7 @@ div.message > div.msg > div.from > span.un {
     color: #14b866 !important;
 }
 
-#user-rollover.id-38773628 .info .role span:after {
+#user-rollover.id-38773628 .info .role span:before {
     content: 'Twitch Mod / ';
 }
 
