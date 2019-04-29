@@ -288,7 +288,13 @@ div.message > div.msg > div.from > span.un {
 /* ejox */
 #user-rollover.id-3941421 .username,
 #chat [data-cid^="3941421-"] span.un.clickable {
-    animation: rainbow 1s infinite;
+    animation: rainbow 2s infinite;
+    
+/* SlyVII */
+#user-rollover.id-11556348 .username,
+#chat [data-cid^="11556348-"] span.un.clickable {
+    color: #ff0000;
+
 }
 /*
 #user-rollover.id-3941421 .info .role span:after {
