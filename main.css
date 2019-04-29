@@ -1,46 +1,68 @@
-@import url("https://rawgit.com/ejox/xQcJungle.github.io/master/badges.css");
+@import url("https://raw.githack.com/ejox/xQcJungle.github.io/master/Test/badges.css");
 
 /* main */
-#room .app-header,
-#app-menu,
-#app-menu .list,
-#footer,
-#history-button {
-    background: #000000;
-}
-
-#app-menu .list,
-#app-menu .list a,
-#app-menu .list a:visited {
-    color: #ffffff;
-}
-
-#room-bar .icon-room {
-    top: 2px;
-    left: 5px;
-    width: 45px;
-    height: 50px;
-    background-size: contain !important;
-}
-
-#room-host,
-#room-name {
-    left: 54px;
-}
-
 /* Icon fix :before */
 div.message > div.msg > div.from > span.un {
     vertical-align: top;
     horizontal-align: left;
 }
 
-/* Buttons */
-#history-button,
-#rs-skip-button {
-    background: #000000 !important;
+/* Icon fix */
+#user-lists .list.room .user i.icon-chat-dj {
+    top: 6px !important;
 }
 
-/* chat */
+#chat-messages .from .icon,
+#chat-messages .from .icon.icon-chat-dj {
+    top: unset !important;
+}
+
+#waitlist .list .user .name i,
+#waitlist .list .user .meta.is-staff .name i.icon-chat-dj {
+    top: 2px !important;
+}
+
+#user-rollover .info .role i.icon-chat-dj {
+    margin-top: unset !important;
+}
+
+#user-lists .list.room .user i {
+    top: 6px !important;
+}
+
+/* RCS Vote Fix */
+
+.community .room-controls {
+    z-index: 1 !important;
+}
+
+.votes-rs {
+    background: rgba(0, 0, 0, 0.75) !important;
+}
+
+/* Chat */
+
+#chat .welcome {
+    color: #ff0000;
+    border-top: #ff0000 2px dotted;
+    border-left: #ff0000 2px dotted;
+    border-bottom: #ff0000 2px dotted;
+    border-right: #ff0000 2px dotted;
+}
+
+#chat .log {
+    background: rgba(20, 25, 34, 0.78) !important;
+}
+
+/* Fade */
+#chat .cm {
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation: fadein 1s;
+}
+
 #chat .emote,
 #chat .mention,
 #chat .message,
@@ -54,6 +76,7 @@ div.message > div.msg > div.from > span.un {
     -ms-animation: fadein 1s;
     -o-animation: fadein 1s;
     animation: fadein 1s;
+    min-width: 100%;
 }
 
 /* Inline */
@@ -98,7 +121,6 @@ div.message > div.msg > div.from > span.un {
 .emote.role-admin .text {
     color: #ff2d2d;
 }
-
 #chat .cm:nth-child(2n+1) {
     background-color: #000000;
 }
@@ -124,42 +146,68 @@ div.message > div.msg > div.from > span.un {
     padding: 2px 7px 2px 7px !important;
 }
 
+/* Moderation Inline */
+#chat .moderation {
+    min-height: 0px !important;
+    background: rgba(0, 0, 0, 0.0) !important;
+}
+
+.moderation .msg .text {
+    display: inline !important;
+    padding-left: 5px !important;
+}
+
+#chat .cm.moderation .icon,
+#chat .cm.moderation .badge-box,
+.moderation .rs-chat-title,
+.moderation .rcs-user-info,
+.moderation .timestamp {
+    display: none !important;
+}
+
+#chat .moderation .contents,
+.moderation .msg .from,
+.moderation .msg .text {
+    display: inline !important;
+}
+
+.moderation .msg {
+    padding: 6px 6px 6px 16px !important;
+}
+
 /* Border */
 .message.role-dj,
 .emote.role-dj {
-    border-right: #fe8d6a 2px solid;
+    border-right: #fe8d6a 3px solid !important;
 }
-
 .message.role-bouncer,
 .emote.role-bouncer {
-    border-left: #90b0cf 3px solid;
-    border-right: #90b0cf 3px solid;
+    border-left: #90b0cf 3px dotted !important;
+    border-right: #90b0cf 3px dotted !important;
 }
 
 .message.role-manager,
 .emote.role-manager {
-    border-left: #69ddff 3px solid;
-    border-right: #69ddff 3px solid;
+    border-left: #69ddff 3px solid !important;
+    border-right: #69ddff 3px solid !important;
 }
 
 .message.role-cohost,
 .emote.role-cohost {
-    border-left: #ac76ff 3px solid;
-    border-right: #ac76ff 3px solid;
+    border-left: #ac76ff 3px solid !important;
+    border-right: #ac76ff 3px solid !important;
 }
 
 .message.role-host,
 .emote.role-host {
-     border-left: #ac76ff 3px solid;
-     border-right: #ac76ff 3px solid;
- }
+    border-left: #ac76ff 3px solid !important;
+    border-right: #ac76ff 3px solid !important;
+}
 
 .message.role-ambassador,
 .emote.role-ambassador {
-    border-top: #ff1d82 2px dotted;
-    border-left: #ff1d82 2px dotted;
-    border-bottom: #ff1d82 2px dotted;
-    border-right: #ff1d82 2px dotted;
+    border-left: #ff1d82 2px dotted !important;
+    border-right: #ff1d82 2px dotted !important;
 }
 
 .message.role-admin,
@@ -181,17 +229,16 @@ div.message > div.msg > div.from > span.un {
 .message.role-host:hover,
 .emote.role-host:hover,
 .message.role-ambassador:hover,
-.emote.role-ambassador:hover,
+.emote.role-ambassador:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
 .message.role-admin:hover,
 .emote.role-admin:hover {
     border-left-style: solid;
     border-right-style: solid;
-}
-
-.message.role-host:hover,
-.emote.role-host:hover {
-    border-top-style: solid;
-    border-bottom-style: solid;
+    display: inline-block !important;
 }
 
 .message.role-host .msg .text::selection,
@@ -201,25 +248,11 @@ div.message > div.msg > div.from > span.un {
     color: #ac76ff;
 }
 
-.message.role-cohost:hover,
-.emote.role-cohost:hover {
-    border-top-style: solid;
-    border-bottom-style: solid;
-}
-
 .message.role-cohost .msg .text::selection,
 .emote.role-cohost .msg .text::selection,
 .message.role-cohost .msg .text::-moz-selection,
 .emote.role-cohost .msg .text::-moz-selection {
     color: #ac76ff;
-}
-
-.message.role-manager:hover,
-.emote.role-manager:hover {
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-right-style: solid;
 }
 
 .message.role-manager .msg .text::selection,
@@ -247,63 +280,97 @@ div.message > div.msg > div.from > span.un {
 .emote.role-user .msg .text::selection,
 .message.role-user .msg .text::-moz-selection,
 .emote.role-user .msg .text::-moz-selection {
-    color: #494949;
+    color: #777f92;
 }
 
-/* Keyframes */
-
-/* xQc */
-#user-rollover.id-37147238 .username:hover,
-#chat [data-cid^="37147238-"] span.un.clickable:hover {
-    animation: fadedred 1s infinite;
-}
+/* Custom */
 
 /* ejox */
-#user-rollover.id-3941421 .username:hover,
-#chat [data-cid^="3941421-"] span.un.clickable:hover {
+#user-rollover.id-3941421 .username,
+#chat [data-cid^="3941421-"] span.un.clickable {
     animation: rainbow 1s infinite;
 }
+/*
+#user-rollover.id-3941421 .info .role span:after {
+    content: '';
+}
+.id-3941421 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-3941421 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-3941421 .icon-chat-bouncer {
+    background: url("") no-repeat !important;
+}
+#user-rollover.id-3941421 .meta .thumb {
+    border-color: #90b0cf !important;
+}
+.id-3941421 .msg .from.bouncer .un,
+.id-3941421 .from .un,
+#chat [data-cid^="3941421-"] span.un.clickable,
+#waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-3941421 .info .role span,
+#user-rollover.id-3941421 .meta .username,
+#user-lists .list.room .user.id-3941421 .name {
+    color: #90b0cf !important;
+}
+#chat .cm.message.id-3941421,
+#chat .cm.emote.id-3941421 {
+    border-left: #90b0cf 3px dotted !important;
+    border-right: #90b0cf 3px dotted !important;
+}
+#chat .cm.message.id-3941421:hover,
+#chat .cm.emote.id-3941421:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-3941421 .text {
+    color: #90b0cf !important;
+}
+*/
 
-/* Mr. Destructoid */
-#user-rollover.id-39408073 .username:hover,
-#chat [data-cid^="39408073-"] span.un.clickable:hover {
-    animation: fadedblack 1s infinite;
+/* xQc */
+#user-rollover.id-37147238 .username,
+#chat [data-cid^="37147238-"] span.un.clickable {
+    animation: orangered 1s infinite;
 }
 
-/* rustyimpact */
-#user-rollover.id-37840096 .username:hover,
-#chat [data-cid^="37840096-"] span.un.clickable:hover {
-    animation: vibrate-1;
+#user-rollover.id-37147238 .info .role span:after {
+    content: ' / Streamer';
 }
 
-/* welkerville */
-#user-rollover.id-14846989 .username:hover,
-#chat [data-cid^="14846989-"] span.un.clickable:hover {
-    animation: fadedgreen 1s infinite;
+.id-37147238 .msg .from i.icon-chat-co-host,
+#waitlist .list .user[data-uid="37147238"] .meta.is-staff .name .icon-chat-co-host,
+#user-rollover.id-37147238 .info .role i.icon-chat-co-host,
+#user-lists .list.room .user.id-37147238 .icon-chat-co-host {
+    background: url("https://i.imgur.com/IRkVPst.png") no-repeat !important;
 }
 
-/* Baddra93 */
-#user-rollover.id-38773628 .username:hover,
-#chat [data-cid^="38773628-"] span.un.clickable:hover {
-    animation: fadedgreen 1s infinite;
+#user-rollover.id-37147238 .meta .thumb {
+    border-color: #FF6100 !important;
 }
 
-/* Fall_1965 */
-#user-rollover.id-39769462 .username:hover,
-#chat [data-cid^="39769462-"] span.un.clickable:hover {
-    animation: staticred 1s infinite;
+.id-37147238 .msg .from.co-host .un,
+.id-37147238 .from .un,
+#chat [data-cid^="37147238"] span.un.clickable,
+#waitlist .list .user[data-uid="37147238"] .meta.is-staff .name .icon-chat-co-host + span,
+#user-rollover.id-37147238 .info .role span,
+#user-rollover.id-37147238 .meta .username,
+#user-lists .list.room .user.id-37147238 .name {
+    color: #FF6100 !important;
 }
-
-/* Harry_McKenzie */
-#user-rollover.id-37218461 .username:hover,
-#chat [data-cid^="37218461-"] span.un.clickable:hover {
-    animation: staticgold 1s infinite;
+#chat .cm.message.id-37147238,
+#chat .cm.emote.id-37147238 {
+    border-left: #FF6100 3px dotted !important;
+    border-right: #FF6100 3px dotted !important;
 }
-
-/* MoistSalt */
-#user-rollover.id-37224716 .username:hover,
-#chat [data-cid^="37224716-"] span.un.clickable:hover {
-    animation: staticyellow 1s infinite;
+#chat .cm.message.id-37147238:hover,
+#chat .cm.emote.id-37147238:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-37147238 .text {
+    color: #FF6100 !important;
 }
 
 /* Chat Fade */
@@ -380,6 +447,21 @@ div.message > div.msg > div.from > span.un {
     80% { color: #990000; }
     90% { color: #cc0000; }
     100% { color: #ff0000; }
+}
+
+/* Fade between red and orange */
+@keyframes orangered {
+    0% { color: #FF6100; }
+    10% { color: #FF6100; }
+    20% { color: #FF0000; }
+    30% { color: #FF6100; }
+    40% { color: #FF6100; }
+    50% { color: #FF0000; }
+    60% { color: #FF6100; }
+    70% { color: #FF6100; }
+    80% { color: #FF0000; }
+    90% { color: #FF6100; }
+    100% { color: #FF6100; }
 }
 
 /* Fade between bouncer color and green */
@@ -495,6 +577,3 @@ div.message > div.msg > div.from > span.un {
             transform: translate(0);
   }
 }
-
-
-/* There can be multiple Keyframes with custom colors */
