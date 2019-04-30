@@ -291,31 +291,31 @@ div.message > div.msg > div.from > span.un {
 /* SlyVII */
 #user-rollover.id-11556348 .username,
 #chat [data-cid^="11556348-"] span.un.clickable {
-    color: #ff0000;
+    color: #ff0000 !important;
 }
 
 /* Chicbreeze */
 #user-rollover.id-42616838 .username,
 #chat [data-cid^="42616838-"] span.un.clickable {
-    color: #fff6d6;
+    color: #fff6d6 !important;
 }
 
 /* Ageless */
 #user-rollover.id-37174830 .username,
 #chat [data-cid^="37174830-"] span.un.clickable {
-    color: #90b0cf;
+    color: #90b0cf !important;
 }
 
 /* frynaut */
 #user-rollover.id-424349 .username,
 #chat [data-cid^="424349-"] span.un.clickable {
-    color: #90b0cf;
+    color: #90b0cf !important;
 }
 
 /* AnUglyTurtle */
 #user-rollover.id-5049254 .username,
 #chat [data-cid^="5049254-"] span.un.clickable {
-    color: #ff0feb;
+    color: #ff0feb !important;
 }
 /* #90b0cf
 #user-rollover.id-3941421 .info .role span:after {
