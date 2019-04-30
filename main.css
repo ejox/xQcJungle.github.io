@@ -291,31 +291,31 @@ div.message > div.msg > div.from > span.un {
 /* SlyVII */
 #user-rollover.id-11556348 .username,
 #chat [data-cid^="11556348-"] span.un.clickable {
-    color: #ff0000 !important;
+    animation: staticred 1s infinite;
 }
 
 /* Chicbreeze */
 #user-rollover.id-42616838 .username,
 #chat [data-cid^="42616838-"] span.un.clickable {
-    color: #fff6d6 !important;
+    animation: staticbeige 1s infinite;
 }
 
 /* Ageless */
 #user-rollover.id-37174830 .username,
 #chat [data-cid^="37174830-"] span.un.clickable {
-    color: #90b0cf !important;
+    animation: bouncer 1s infinite;
 }
 
 /* frynaut */
 #user-rollover.id-424349 .username,
 #chat [data-cid^="424349-"] span.un.clickable {
-    color: #90b0cf !important;
+    animation: bouncer 1s infinite;
 }
 
 /* AnUglyTurtle */
 #user-rollover.id-5049254 .username,
 #chat [data-cid^="5049254-"] span.un.clickable {
-    color: #ff0feb !important;
+    animation: staticpurple 1s infinite;
 }
 /* #90b0cf
 #user-rollover.id-3941421 .info .role span:after {
@@ -755,6 +755,8 @@ div.message > div.msg > div.from > span.un {
 }
 
 /* -- Chat Custom -- */
+
+/* Rainbow */
 @keyframes rainbow {
     0% { color: #ff0000; }
     10% { color: #ff8000; }
@@ -769,7 +771,22 @@ div.message > div.msg > div.from > span.un {
     100% { color: #ff0080; }
 }
 
-/* Fade to black */
+/* Bouncer #90b0cf */
+@keyframes bouncer {
+    0% { color: #90b0cf; }
+    10% { color: #90b0cf; }
+    20% { color: #90b0cf; }
+    30% { color: #90b0cf; }
+    40% { color: #90b0cf; }
+    50% { color: #90b0cf; }
+    60% { color: #90b0cf; }
+    70% { color: #90b0cf; }
+    80% { color: #90b0cf; }
+    90% { color: #90b0cf; }
+    100% { color: #90b0cf; }
+}
+
+/* Fade to Black */
 @keyframes fadedblack {
     0% { color: #69ddff; }
     10% { color: #54b1cc; }
@@ -799,7 +816,7 @@ div.message > div.msg > div.from > span.un {
     100% { color: #ff0000; }
 }
 
-/* Fade between red and orange */
+/* Fade between Red and orange */
 @keyframes orangered {
     0% { color: #FF6100; }
     10% { color: #FF6100; }
@@ -829,22 +846,22 @@ div.message > div.msg > div.from > span.un {
     100% { color: #90b0cf; }
 }
 
-/* Static red */
+/* SlyVII - Static Red */
 @keyframes staticred {
-    0% { color: #ce2d2d; }
-    10% { color: #ce2d2d; }
-    20% { color: #ce2d2d; }
-    30% { color: #ce2d2d; }
-    40% { color: #ce2d2d; }
-    50% { color: #ce2d2d; }
-    60% { color: #ce2d2d; }
-    70% { color: #ce2d2d; }
-    80% { color: #ce2d2d; }
-    90% { color: #ce2d2d; }
-    100% { color: #ce2d2d; }
+    0% { color: #FF0000; }
+    10% { color: #FF0000; }
+    20% { color: #FF0000; }
+    30% { color: #FF0000; }
+    40% { color: #FF0000; }
+    50% { color: #FF0000; }
+    60% { color: #FF0000; }
+    70% { color: #FF0000; }
+    80% { color: #FF0000; }
+    90% { color: #FF0000; }
+    100% { color: #FF0000; }
 }
 
-/* Static gold */
+/* Harry_McKenzie - Static gold */
 @keyframes staticgold {
     0% { color: #a17d2e; }
     10% { color: #a17d2e; }
@@ -857,6 +874,36 @@ div.message > div.msg > div.from > span.un {
     80% { color: #a17d2e; }
     90% { color: #a17d2e; }
     100% { color: #a17d2e; }
+}
+
+/* Chicbreeze - Static Beige(?) */
+@keyframes staticbeige {
+    0% { color: #fff6d6; }
+    10% { color: #fff6d6; }
+    20% { color: #fff6d6; }
+    30% { color: #fff6d6; }
+    40% { color: #fff6d6; }
+    50% { color: #fff6d6; }
+    60% { color: #fff6d6; }
+    70% { color: #fff6d6; }
+    80% { color: #fff6d6; }
+    90% { color: #fff6d6; }
+    100% { color: #fff6d6; }
+}
+
+/* AnUglyTurtle - Static Purple */
+@keyframes staticbeige {
+    0% { color: #ff0feb; }
+    10% { color: #ff0feb; }
+    20% { color: #ff0feb; }
+    30% { color: #ff0feb; }
+    40% { color: #ff0feb; }
+    50% { color: #ff0feb; }
+    60% { color: #ff0feb; }
+    70% { color: #ff0feb; }
+    80% { color: #ff0feb; }
+    90% { color: #ff0feb; }
+    100% { color: #ff0feb; }
 }
 
 /* Static yellow */
