@@ -285,7 +285,7 @@ div.message > div.msg > div.from > span.un {
 /* ejox */
 #user-rollover.id-3941421 .username,
 #chat [data-cid^="3941421-"] span.un.clickable {
-    animation: rainbow 2s infinite;
+    animation: rainbow 1s infinite;
 }
 
 /* SlyVII */
