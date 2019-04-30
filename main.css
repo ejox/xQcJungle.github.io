@@ -297,7 +297,7 @@ div.message > div.msg > div.from > span.un {
 /* Chicbreeze */
 #user-rollover.id-42616838 .username,
 #chat [data-cid^="42616838-"] span.un.clickable {
-    color: #90b0cf;
+    color: #fff6d6;
 }
 
 /* Ageless */
@@ -315,7 +315,7 @@ div.message > div.msg > div.from > span.un {
 /* AnUglyTurtle */
 #user-rollover.id-5049254 .username,
 #chat [data-cid^="5049254-"] span.un.clickable {
-    color: #90b0cf;
+    color: #ff0feb;
 }
 /* #90b0cf
 #user-rollover.id-3941421 .info .role span:after {
