@@ -892,7 +892,7 @@ div.message > div.msg > div.from > span.un {
 }
 
 /* AnUglyTurtle - Static Purple */
-@keyframes staticbeige {
+@keyframes staticpurple {
     0% { color: #ff0feb; }
     10% { color: #ff0feb; }
     20% { color: #ff0feb; }
