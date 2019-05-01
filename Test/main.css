@@ -282,6 +282,53 @@ div.message > div.msg > div.from > span.un {
 
 /* Custom */
 
+/*TEST*/
+/* USER */
+#user-rollover.id-39238317 .username,
+#chat [data-cid^="39238317-"] span.un.clickable {
+    animation: staticgold 1s infinite;
+}
+
+#user-rollover.id-39238317 .info .role span:before {
+    content: 'Test';
+}
+
+.id-39238317 .msg .from i.icon-chat-user,
+#waitlist .list .user[data-uid="39238317"] .meta .name .icon-chat-user,
+#user-rollover.id-39238317 .info .role i.icon-chat-user,
+#user-lists .list.room .user.id-39238317 .icon-chat-user {
+    background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
+}
+
+#user-rollover.id-39238317 .meta .thumb {
+    border-color: #a17d2e !important;
+}
+
+.id-39238317 .msg .from.user .un,
+.id-39238317 .from .un,
+#chat [data-cid^="39238317"] span.un.clickable,
+#waitlist .list .user[data-uid="39238317"] .meta .name .icon-chat-user + span,
+#user-rollover.id-39238317 .info .role span,
+#user-rollover.id-39238317 .meta .username,
+#user-lists .list.room .user.id-39238317 .name {
+    color: #a17d2e !important;
+}
+#chat .cm.message.id-39238317,
+#chat .cm.emote.id-39238317 {
+    border-left: #a17d2e 3px dotted !important;
+    border-right: #a17d2e 3px dotted !important;
+}
+#chat .cm.message.id-39238317:hover,
+#chat .cm.emote.id-39238317:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-39238317 .text {
+    color: #a17d2e !important;
+}
+/*TEST*/
+
 /* ejox */
 #user-rollover.id-3941421 .username,
 #chat [data-cid^="3941421-"] span.un.clickable {
