@@ -44,7 +44,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.2;
     z-index: -1;
     transition: 0.4s;
 }
@@ -84,7 +84,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.3;
     z-index: -1;
     transition: 0.4s;
 }
@@ -124,7 +124,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.1;
     z-index: -1;
     transition: 0.4s;
 }
@@ -164,7 +164,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.1;
     z-index: -1;
     transition: 0.4s;
 }
@@ -204,7 +204,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.1;
     z-index: -1;
     transition: 0.4s;
 }
@@ -244,7 +244,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.1;
     z-index: -1;
     transition: 0.4s;
 }
@@ -284,7 +284,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.1;
     z-index: -1;
     transition: 0.4s;
 }
@@ -324,7 +324,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.1;
     z-index: -1;
     transition: 0.4s;
 }
@@ -364,7 +364,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.1;
     z-index: -1;
     transition: 0.4s;
 }
@@ -404,7 +404,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.1;
     z-index: -1;
     transition: 0.4s;
 }
@@ -444,7 +444,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.1;
     z-index: -1;
     transition: 0.4s;
 }
@@ -484,7 +484,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.1;
     z-index: -1;
     transition: 0.4s;
 }
@@ -524,7 +524,127 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.1;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+/* Chicbreeze */
+#chat-messages .id-42616838 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-42616838 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-42616838 .badge-box i.bdg,
+#chat-messages .id-42616838 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/k0FbpRn.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-42616838::before {
+    background-image: url("");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+/* Ageless */
+#chat-messages .id-37174830 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-37174830 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-37174830 .badge-box i.bdg,
+#chat-messages .id-37174830 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/lA8xIkX.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-37174830::before {
+    background-image: url("");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+/* Haise */
+#chat-messages .id-38607903 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-38607903 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-38607903 .badge-box i.bdg,
+#chat-messages .id-38607903 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/vUhnTA4.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-38607903::before {
+    background-image: url("");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
     z-index: -1;
     transition: 0.4s;
 }
