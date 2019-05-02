@@ -421,6 +421,10 @@ div.message > div.msg > div.from > span.un {
     background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
 }
 
+#user-lists .list.room .user[data-uid="37224716"] .meta.is-staff .name .role .icon-chat-manager {
+    color: #14b866 !important;
+}
+
 #user-rollover.id-37224716 .meta .thumb {
     border-color: #14b866 !important;
 }
@@ -434,6 +438,9 @@ div.message > div.msg > div.from > span.un {
 #user-lists .list.room .user.id-37224716 .name {
     color: #14b866 !important;
 }
+
+
+
 #chat .cm.message.id-37224716,
 #chat .cm.emote.id-37224716 {
     border-left: #14b866 3px dotted !important;
