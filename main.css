@@ -303,7 +303,7 @@ div.message > div.msg > div.from > span.un {
 /* Ageless */
 #user-rollover.id-37174830 .username,
 #chat [data-cid^="37174830-"] span.un.clickable {
-    animation: bouncer 1s infinite;
+    animation: modpurple 1s infinite;
 }
 
 /* frynaut */
@@ -772,6 +772,21 @@ div.message > div.msg > div.from > span.un {
     80% { color: #0000ff; }
     90% { color: #8000ff; }
     100% { color: #ff0080; }
+}
+
+/* MOD Purple */
+@keyframes modpurple {
+    0% { color: #ac76ff; }
+    10% { color: #ac76ff; }
+    20% { color: #ac76ff; }
+    30% { color: #ac76ff; }
+    40% { color: #ac76ff; }
+    50% { color: #ac76ff; }
+    60% { color: #ac76ff; }
+    70% { color: #ac76ff; }
+    80% { color: #ac76ff; }
+    90% { color: #ac76ff; }
+    100% { color: #ac76ff; }
 }
 
 /* Bouncer #90b0cf */
