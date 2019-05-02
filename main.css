@@ -295,7 +295,7 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-3941421 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-3941421 .icon-chat-bouncer {
-    background: url("") no-repeat !important;
+    background: url("https://i.imgur.com/iR1j7y1.png") no-repeat !important;
 }
 #user-rollover.id-3941421 .meta .thumb {
     border-color: #90b0cf !important;
@@ -337,7 +337,7 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="11556348"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-11556348 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-11556348 .icon-chat-bouncer {
-    background: url("") no-repeat !important;
+    background: url("https://i.imgur.com/iR1j7y1.png") no-repeat !important;
 }
 #user-rollover.id-11556348 .meta .thumb {
     border-color: #90b0cf !important;
@@ -379,7 +379,7 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="42616838"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-42616838 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-42616838 .icon-chat-bouncer {
-    background: url("") no-repeat !important;
+    background: url("https://i.imgur.com/iR1j7y1.png") no-repeat !important;
 }
 #user-rollover.id-42616838 .meta .thumb {
     border-color: #90b0cf !important;
@@ -421,7 +421,7 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="37174830"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-37174830 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-37174830 .icon-chat-bouncer {
-    background: url("") no-repeat !important;
+    background: url("https://i.imgur.com/iR1j7y1.png") no-repeat !important;
 }
 #user-rollover.id-37174830 .meta .thumb {
     border-color: #90b0cf !important;
@@ -462,7 +462,7 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="424349"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-424349 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-424349 .icon-chat-bouncer {
-    background: url("") no-repeat !important;
+    background: url("https://i.imgur.com/iR1j7y1.png") no-repeat !important;
 }
 #user-rollover.id-424349 .meta .thumb {
     border-color: #90b0cf !important;
@@ -504,7 +504,7 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="5049254"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-5049254 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-5049254 .icon-chat-bouncer {
-    background: url("") no-repeat !important;
+    background: url("https://i.imgur.com/iR1j7y1.png") no-repeat !important;
 }
 #user-rollover.id-5049254 .meta .thumb {
     border-color: #90b0cf !important;
@@ -662,38 +662,38 @@ div.message > div.msg > div.from > span.un {
 }
 
 /* Harry_McKenzie */
-#user-rollover.id-37147915 .username,
-#chat [data-cid^="37147915-"] span.un.clickable {
+#user-rollover.id-37218461 .username,
+#chat [data-cid^="37218461-"] span.un.clickable {
     animation: harrymckenzie 1s infinite !important;
 }
 
-#user-rollover.id-37147915 .info .role span:after {
+#user-rollover.id-37218461 .info .role span:after {
     content: 'Bot Developer';
 }
-#user-rollover.id-37147915 .meta .thumb {
+#user-rollover.id-37218461 .meta .thumb {
     border-color: #a17d2e !important;
 }
-.id-37147915 .msg .from.bouncer .un,
-.id-37147915 .from .un,
-#chat [data-cid^="37147915-"] span.un.clickable,
-#waitlist .list .user[data-uid="37147915"] .meta.is-staff .name .icon-chat-bouncer + span,
-#user-rollover.id-37147915 .info .role span,
-#user-rollover.id-37147915 .meta .username,
-#user-lists .list.room .user.id-37147915 .name {
+.id-37218461 .msg .from.user .un,
+.id-37218461 .from .un,
+#chat [data-cid^="37218461-"] span.un.clickable,
+#waitlist .list .user[data-uid="37218461"] .name .icon-chat-user + span,
+#user-rollover.id-37218461 .info .role span,
+#user-rollover.id-37218461 .meta .username,
+#user-lists .list.room .user.id-37218461 .name {
     animation: harrymckenzie 1s infinite !important;
 }
-#chat .cm.message.id-37147915,
-#chat .cm.emote.id-37147915 {
+#chat .cm.message.id-37218461,
+#chat .cm.emote.id-37218461 {
     border-left: #a17d2e 3px dotted !important;
     border-right: #a17d2e 3px dotted !important;
 }
-#chat .cm.message.id-37147915:hover,
-#chat .cm.emote.id-37147915:hover {
+#chat .cm.message.id-37218461:hover,
+#chat .cm.emote.id-37218461:hover {
     border-left-style: solid !important;
     border-right-style: solid !important;
     display: inline-block !important;
 }
-.emote.id-37147915 .text {
+.emote.id-37218461 .text {
     animation: harrymckenzie 1s infinite !important;
 }
 
