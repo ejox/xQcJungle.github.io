@@ -421,10 +421,6 @@ div.message > div.msg > div.from > span.un {
     background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
 }
 
-#user-lists .list.room .user[data-uid="37224716"] .meta.is-staff .name {
-    color: #14b866 !important;
-}
-
 #user-rollover.id-37224716 .meta .thumb {
     border-color: #14b866 !important;
 }
