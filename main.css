@@ -411,7 +411,7 @@ div.message > div.msg > div.from > span.un {
 /* Ageless */
 #user-rollover.id-37174830 .username,
 #chat [data-cid^="37174830-"] span.un.clickable {
-    animation: defaultmod 1s infinite !important;
+    animation: ageless 1s infinite !important;
 }
 
 #user-rollover.id-37174830 .info .role span:after {
@@ -433,7 +433,7 @@ div.message > div.msg > div.from > span.un {
 #user-rollover.id-37174830 .info .role span,
 #user-rollover.id-37174830 .meta .username,
 #user-lists .list.room .user.id-37174830 .name {
-    animation: defaultmod 1s infinite !important;
+    animation: ageless 1s infinite !important;
 }
 #chat .cm.message.id-37174830,
 #chat .cm.emote.id-37174830 {
@@ -447,13 +447,13 @@ div.message > div.msg > div.from > span.un {
     display: inline-block !important;
 }
 .emote.id-37174830 .text {
-    animation: defaultmod 1s infinite !important;
+    animation: ageless 1s infinite !important;
 }
 
 /* frynaut */
 #user-rollover.id-424349 .username,
 #chat [data-cid^="424349-"] span.un.clickable {
-    animation: bouncercolor 1s infinite !important;
+    animation: frynaut 1s infinite !important;
 }
 #user-rollover.id-424349 .info .role span:after {
     content: '';
@@ -474,7 +474,7 @@ div.message > div.msg > div.from > span.un {
 #user-rollover.id-424349 .info .role span,
 #user-rollover.id-424349 .meta .username,
 #user-lists .list.room .user.id-424349 .name {
-    animation: bouncercolor 1s infinite !important;
+    animation: frynaut 1s infinite !important;
 }
 #chat .cm.message.id-424349,
 #chat .cm.emote.id-424349 {
@@ -488,7 +488,48 @@ div.message > div.msg > div.from > span.un {
     display: inline-block !important;
 }
 .emote.id-424349 .text {
-    animation: bouncercolor 1s infinite !important;
+    animation: frynaut 1s infinite !important;
+}
+
+/* Haise */
+#user-rollover.id-38607903 .username,
+#chat [data-cid^="38607903-"] span.un.clickable {
+    animation: haise 1s infinite !important;
+}
+#user-rollover.id-38607903 .info .role span:after {
+    content: '';
+}
+.id-38607903 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="38607903"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-38607903 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-38607903 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+}
+#user-rollover.id-38607903 .meta .thumb {
+    border-color: #4B0082 !important;
+}
+.id-38607903 .msg .from.bouncer .un,
+.id-38607903 .from .un,
+#chat [data-cid^="38607903-"] span.un.clickable,
+#waitlist .list .user[data-uid="38607903"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-38607903 .info .role span,
+#user-rollover.id-38607903 .meta .username,
+#user-lists .list.room .user.id-38607903 .name {
+    animation: haise 1s infinite !important;
+}
+#chat .cm.message.id-38607903,
+#chat .cm.emote.id-38607903 {
+    border-left: #4B0082 3px dotted !important;
+    border-right: #4B0082 3px dotted !important;
+}
+#chat .cm.message.id-38607903:hover,
+#chat .cm.emote.id-38607903:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-38607903 .text {
+    animation: haise 1s infinite !important;
 }
 
 /* AnUglyTurtle */
@@ -1143,6 +1184,21 @@ div.message > div.msg > div.from > span.un {
 
 /* Name Colors - Custom */
 
+/* Ageless - ??? */
+@keyframes ageless {
+    0% { color: #d97aff; }
+    10% { color: #d97aff; }
+    20% { color: #d97aff; }
+    30% { color: #d97aff; }
+    40% { color: #d97aff; }
+    50% { color: #d97aff; }
+    60% { color: #d97aff; }
+    70% { color: #d97aff; }
+    80% { color: #d97aff; }
+    90% { color: #d97aff; }
+    100% { color: #d97aff; }
+}
+
 /* SlyVII - Static Red */
 @keyframes slyvii {
     0% { color: #FF0000; }
@@ -1156,6 +1212,36 @@ div.message > div.msg > div.from > span.un {
     80% { color: #FF0000; }
     90% { color: #FF0000; }
     100% { color: #FF0000; }
+}
+
+/* Haise - Dark Purple */
+@keyframes haise {
+    0% { color: #4B0082; }
+    10% { color: #4B0082; }
+    20% { color: #4B0082; }
+    30% { color: #4B0082; }
+    40% { color: #4B0082; }
+    50% { color: #4B0082; }
+    60% { color: #4B0082; }
+    70% { color: #4B0082; }
+    80% { color: #4B0082; }
+    90% { color: #4B0082; }
+    100% { color: #4B0082; }
+}
+
+/* Frynaut - ??? */
+@keyframes frynaut {
+    0% { color: #ff0d00; }
+    10% { color: #ff0d00; }
+    20% { color: #ff0d00; }
+    30% { color: #ff0d00; }
+    40% { color: #ff0d00; }
+    50% { color: #ff0d00; }
+    60% { color: #ff0d00; }
+    70% { color: #ff0d00; }
+    80% { color: #ff0d00; }
+    90% { color: #ff0d00; }
+    100% { color: #ff0d00; }
 }
 
 /* Harry_McKenzie - Static gold */
