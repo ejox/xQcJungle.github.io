@@ -288,8 +288,8 @@ div.message > div.msg > div.from > span.un {
     animation: rainbow 1s infinite !important;
 }
 
-#user-rollover.id-3941421 .info .role span:before {
-    content: 'Bouncer＋ / ';
+#user-rollover.id-3941421 .info .role span:after {
+    content: '+';
 }
 .id-3941421 .msg .from i.icon-chat-bouncer,
 #waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-bouncer,
