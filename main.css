@@ -288,6 +288,42 @@ div.message > div.msg > div.from > span.un {
     animation: rainbow 1s infinite;
 }
 
+#user-rollover.id-3941421 .info .role span:before {
+    content: 'Bouncer＋ / ';
+}
+.id-3941421 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-3941421 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-3941421 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/hbjhH4L.png") no-repeat !important;
+}
+#user-rollover.id-3941421 .meta .thumb {
+    border-color: #90b0cf !important;
+}
+.id-3941421 .msg .from.bouncer .un,
+.id-3941421 .from .un,
+#chat [data-cid^="3941421-"] span.un.clickable,
+#waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-3941421 .info .role span,
+#user-rollover.id-3941421 .meta .username,
+#user-lists .list.room .user.id-3941421 .name {
+    animation: rainbow 1s infinite !important;
+}
+#chat .cm.message.id-3941421,
+#chat .cm.emote.id-3941421 {
+    border-left: #90b0cf 3px dotted !important;
+    border-right: #90b0cf 3px dotted !important;
+}
+#chat .cm.message.id-3941421:hover,
+#chat .cm.emote.id-3941421:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-3941421 .text {
+    animation: rainbow 1s infinite !important;
+}
+
 /* SlyVII */
 #user-rollover.id-11556348 .username,
 #chat [data-cid^="11556348-"] span.un.clickable {
