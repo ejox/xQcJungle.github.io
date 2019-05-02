@@ -295,9 +295,9 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-3941421 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-3941421 .icon-chat-bouncer {
-    background: url("") no-repeat !important;
-    content: '＋';
-    animation: rainbow 1s infinite !important;
+    background: none !important;
+    content: '＋' !important;
+    animation: rainbow 1s infinite;
 }
 #user-rollover.id-3941421 .meta .thumb {
     border-color: #90b0cf !important;
