@@ -295,10 +295,46 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-3941421 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-3941421 .icon-chat-bouncer {
-    background: none !important;
-    content: '＋' !important;
-    animation: rainbow 1s infinite;
+    background: url("https://i.imgur.com/ksZwKG1.png") no-repeat !important;
 }
+
+/* Tooltip container */
+.id-3941421 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-3941421 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-3941421 .icon-chat-bouncer .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+/* Tooltip text */
+.id-3941421 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-3941421 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-3941421 .icon-chat-bouncer .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.id-3941421 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-3941421 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-3941421 .icon-chat-bouncer .tooltip:hover .tooltiptext {
+  visibility: visible;
+  content: hello;
+}
+
 #user-rollover.id-3941421 .meta .thumb {
     border-color: #90b0cf !important;
 }
@@ -339,7 +375,7 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="11556348"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-11556348 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-11556348 .icon-chat-bouncer {
-    background: url("https://i.imgur.com/iR1j7y1.png") no-repeat !important;
+    background: url("https://i.imgur.com/ksZwKG1.png") no-repeat !important;
 }
 #user-rollover.id-11556348 .meta .thumb {
     border-color: #90b0cf !important;
@@ -381,7 +417,7 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="42616838"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-42616838 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-42616838 .icon-chat-bouncer {
-    background: url("https://i.imgur.com/iR1j7y1.png") no-repeat !important;
+    background: url("https://i.imgur.com/ksZwKG1.png") no-repeat !important;
 }
 #user-rollover.id-42616838 .meta .thumb {
     border-color: #90b0cf !important;
@@ -423,7 +459,7 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="37174830"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-37174830 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-37174830 .icon-chat-bouncer {
-    background: url("https://i.imgur.com/iR1j7y1.png") no-repeat !important;
+    background: url("https://i.imgur.com/ksZwKG1.png") no-repeat !important;
 }
 #user-rollover.id-37174830 .meta .thumb {
     border-color: #90b0cf !important;
@@ -464,7 +500,7 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="424349"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-424349 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-424349 .icon-chat-bouncer {
-    background: url("https://i.imgur.com/iR1j7y1.png") no-repeat !important;
+    background: url("https://i.imgur.com/ksZwKG1.png") no-repeat !important;
 }
 #user-rollover.id-424349 .meta .thumb {
     border-color: #90b0cf !important;
@@ -506,7 +542,7 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="5049254"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-5049254 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-5049254 .icon-chat-bouncer {
-    background: url("https://i.imgur.com/iR1j7y1.png") no-repeat !important;
+    background: url("https://i.imgur.com/ksZwKG1.png") no-repeat !important;
 }
 #user-rollover.id-5049254 .meta .thumb {
     border-color: #90b0cf !important;
