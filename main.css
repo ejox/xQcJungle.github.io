@@ -297,6 +297,7 @@ div.message > div.msg > div.from > span.un {
 #user-lists .list.room .user.id-3941421 .icon-chat-bouncer {
     background: url("") no-repeat !important;
     content: '＋';
+    animation: rainbow 1s infinite !important;
 }
 #user-rollover.id-3941421 .meta .thumb {
     border-color: #90b0cf !important;
@@ -534,47 +535,6 @@ div.message > div.msg > div.from > span.un {
     animation: anuglyturtle 1s infinite !important;
 }
 
-/* DaveUK */
-#user-rollover.id-37147915 .username,
-#chat [data-cid^="37147915-"] span.un.clickable {
-    animation: bouncercolor 1s infinite !important;
-}
-
-#user-rollover.id-37147915 .info .role span:after {
-    content: '';
-}
-.id-37147915 .msg .from i.icon-chat-bouncer,
-#waitlist .list .user[data-uid="37147915"] .meta.is-staff .name .icon-chat-bouncer,
-#user-rollover.id-37147915 .info .role i.icon-chat-bouncer,
-#user-lists .list.room .user.id-37147915 .icon-chat-bouncer {
-    background: url("") no-repeat !important;
-}
-#user-rollover.id-37147915 .meta .thumb {
-    border-color: #90b0cf !important;
-}
-.id-37147915 .msg .from.bouncer .un,
-.id-37147915 .from .un,
-#chat [data-cid^="37147915-"] span.un.clickable,
-#waitlist .list .user[data-uid="37147915"] .meta.is-staff .name .icon-chat-bouncer + span,
-#user-rollover.id-37147915 .info .role span,
-#user-rollover.id-37147915 .meta .username,
-#user-lists .list.room .user.id-37147915 .name {
-    animation: bouncercolor 1s infinite !important;
-}
-#chat .cm.message.id-37147915,
-#chat .cm.emote.id-37147915 {
-    border-left: #90b0cf 3px dotted !important;
-    border-right: #90b0cf 3px dotted !important;
-}
-#chat .cm.message.id-37147915:hover,
-#chat .cm.emote.id-37147915:hover {
-    border-left-style: solid !important;
-    border-right-style: solid !important;
-    display: inline-block !important;
-}
-.emote.id-37147915 .text {
-    animation: bouncercolor 1s infinite !important;
-}
 /* #90b0cf
 #user-rollover.id-3941421 .info .role span:after {
     content: '';
@@ -696,6 +656,48 @@ div.message > div.msg > div.from > span.un {
 }
 .emote.id-37218461 .text {
     animation: harrymckenzie 1s infinite !important;
+}
+
+/* DaveUK */
+#user-rollover.id-37147915 .username,
+#chat [data-cid^="37147915-"] span.un.clickable {
+    animation: twitchmod 1s infinite !important;
+}
+
+#user-rollover.id-37147915 .info .role span:before {
+    content: 'Twitch Mod / ';
+}
+.id-37147915 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="37147915"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-37147915 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-37147915 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
+}
+#user-rollover.id-37147915 .meta .thumb {
+    border-color: #14b866 !important;
+}
+.id-37147915 .msg .from.bouncer .un,
+.id-37147915 .from .un,
+#chat [data-cid^="37147915-"] span.un.clickable,
+#waitlist .list .user[data-uid="37147915"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-37147915 .info .role span,
+#user-rollover.id-37147915 .meta .username,
+#user-lists .list.room .user.id-37147915 .name {
+    animation: twitchmod 1s infinite !important;
+}
+#chat .cm.message.id-37147915,
+#chat .cm.emote.id-37147915 {
+    border-left: #14b866 3px dotted !important;
+    border-right: #14b866 3px dotted !important;
+}
+#chat .cm.message.id-37147915:hover,
+#chat .cm.emote.id-37147915:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-37147915 .text {
+    animation: twitchmod 1s infinite !important;
 }
 
 /* MoistSalt */
