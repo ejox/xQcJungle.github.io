@@ -574,6 +574,48 @@ div.message > div.msg > div.from > span.un {
     animation: anuglyturtle 1s infinite !important;
 }
 
+/* Calculus */
+#user-rollover.id-37149260 .username,
+#chat [data-cid^="37149260-"] span.un.clickable {
+    animation: bouncercolor 1s infinite !important;
+}
+
+#user-rollover.id-37149260 .info .role span:after {
+    content: '';
+}
+.id-37149260 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="37149260"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-37149260 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-37149260 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+}
+#user-rollover.id-37149260 .meta .thumb {
+    border-color: #90b0cf !important;
+}
+.id-37149260 .msg .from.bouncer .un,
+.id-37149260 .from .un,
+#chat [data-cid^="37149260-"] span.un.clickable,
+#waitlist .list .user[data-uid="37149260"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-37149260 .info .role span,
+#user-rollover.id-37149260 .meta .username,
+#user-lists .list.room .user.id-37149260 .name {
+    animation: bouncercolor 1s infinite !important;
+}
+#chat .cm.message.id-37149260,
+#chat .cm.emote.id-37149260 {
+    border-left: #90b0cf 3px dotted !important;
+    border-right: #90b0cf 3px dotted !important;
+}
+#chat .cm.message.id-37149260:hover,
+#chat .cm.emote.id-37149260:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-37149260 .text {
+    animation: bouncercolor 1s infinite !important;
+}
+
 /* #90b0cf
 #user-rollover.id-3941421 .info .role span:after {
     content: '';
