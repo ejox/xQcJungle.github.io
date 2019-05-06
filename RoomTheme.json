@@ -4,7 +4,7 @@
         "icon": "https://i.imgur.com/tqUrb6g.gif",
         "css": "https://raw.githack.com/ejox/xQcJungle.github.io/master/main.css",
         "rules": {
-                "allowAutorespond": false,
+                "allowAutorespond": true,
                 "allowAutowoot": true,
                 "allowAutojoin": true,
                 "allowAutograb": true,
