@@ -476,7 +476,7 @@
 }
 /*User Background*/
 .cm.id-11556348::before {
-    background-image: url("https://i.imgur.com/01KItPo.gif");
+    background-image: url("https://i.imgur.com/f4qI9wp.gif");
     background-repeat: no-repeat;
     content: "";
     position: absolute;
@@ -484,7 +484,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.6;
+    opacity: 0.3;
     z-index: -1;
     transition: 0.4s;
 }
