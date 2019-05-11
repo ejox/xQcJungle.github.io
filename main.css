@@ -40,6 +40,10 @@ div.message > div.msg > div.from > span.un {
     background: rgba(0, 0, 0, 0.75) !important;
 }
 
+.community .room-controls--desktop__item .btn-like.clicked {
+    animation: rainbow 1s infinite;
+}
+
 /* Chat */
 
 #chat .welcome {
