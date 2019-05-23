@@ -159,7 +159,7 @@
     background-image: url("https://i.imgur.com/T9mflGN.png");
     background-repeat: no-repeat;
     content: "Bot Dev";
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
