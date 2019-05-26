@@ -11,14 +11,14 @@
 
 /* ejox */
 #chat-messages .id-3941421 .badge-box {
-    width: 0px;
-    height: 0px;
+    width: 30px;
+    height: 30px;
     transition: 0.5s;
 }
 
 #chat-messages .id-3941421 .badge-box:hover {
-    width: 0px;
-    height: 0px;
+    width: 65px;
+    height: 65px;
     transition: 0.5s;
 }
 
@@ -531,14 +531,14 @@
 
 /* NamelessHoboPony */
 #chat-messages .id-37503257 .badge-box {
-    width: 30px;
-    height: 30px;
+    width: 0px;
+    height: 0px;
     transition: 0.5s;
 }
 
 #chat-messages .id-37503257 .badge-box:hover {
-    width: 65px;
-    height: 65px;
+    width: 0px;
+    height: 0px;
     transition: 0.5s;
 }
 
