@@ -598,7 +598,6 @@
 .cm.id-42616838::before {
     background-image: url("https://i.imgur.com/jvqfsF0.png");
     background-repeat: no-repeat;
-    content: "MVP | May 2019";
     position: absolute;
     top: 0;
     left: 0;
@@ -608,7 +607,11 @@
     z-index: -1;
     transition: 0.4s;
 }
-
+.cm.id-42616838::before {
+    content: "MVP | May 2019";
+    left: 500;
+    top: 100;
+}
 /* Ageless */
 #chat-messages .id-37174830 .badge-box {
     width: 30px;
