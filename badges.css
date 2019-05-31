@@ -609,6 +609,7 @@
 }
 .cm.id-42616838::before {
     content: "MVP | May 2019";
+    position: relative;
     left: 500;
     top: 100;
 }
