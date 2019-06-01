@@ -609,10 +609,9 @@
 }
 .cm.id-42616838::before {
     content: "MVP | May 2019";
-    position: relative;
-    left: 500;
-    top: 100;
-}
+    border-left: 500;
+    border-top: 100;
+  }
 /* Ageless */
 #chat-messages .id-37174830 .badge-box {
     width: 30px;
