@@ -668,10 +668,10 @@ div.message > div.msg > div.from > span.un {
     content: 'Bot / ';
 }
 
-.id-40471126 .msg .from i.icon-chat-bouncer,
-#waitlist .list .user[data-uid="40471126"] .meta.is-staff .name .icon-chat-bouncer,
-#user-rollover.id-40471126 .info .role i.icon-chat-bouncer,
-#user-lists .list.room .user.id-40471126 .icon-chat-bouncer {
+.id-40471126 .msg .from i.icon-chat-manager,
+#waitlist .list .user[data-uid="40471126"] .meta.is-staff .name .icon-chat-manager,
+#user-rollover.id-40471126 .info .role i.icon-chat-manager,
+#user-lists .list.room .user.id-40471126 .icon-chat-manager {
     background: url("https://i.imgur.com/L8DFnWd.png") no-repeat !important;
 }
 
@@ -679,10 +679,10 @@ div.message > div.msg > div.from > span.un {
     border-color: #f6ff00 !important;
 }
 
-.id-40471126 .msg .from.bouncer .un,
+.id-40471126 .msg .from.manager .un,
 .id-40471126 .from .un,
 #chat [data-cid^="40471126"] span.un.clickable,
-#waitlist .list .user[data-uid="40471126"] .meta.is-staff .name .icon-chat-bouncer + span,
+#waitlist .list .user[data-uid="40471126"] .meta.is-staff .name .icon-chat-manager + span,
 #user-rollover.id-40471126 .info .role span,
 #user-rollover.id-40471126 .meta .username,
 #user-lists .list.room .user.id-40471126 .name {
@@ -714,15 +714,21 @@ div.message > div.msg > div.from > span.un {
 }
 
 #user-rollover.id-37218461 .info .role span:after {
-    content: 'Bot Developer';
+    content: 'Bot Developer / ';
+}
+.id-37218461 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="37218461"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-37218461 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-37218461 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
 }
 #user-rollover.id-37218461 .meta .thumb {
     border-color: #a17d2e !important;
 }
-.id-37218461 .msg .from.user .un,
+.id-37218461 .msg .from.bouncer .un,
 .id-37218461 .from .un,
 #chat [data-cid^="37218461-"] span.un.clickable,
-#waitlist .list .user[data-uid="37218461"] .name .icon-chat-user + span,
+#waitlist .list .user[data-uid="37218461"] .meta.is-staff .name .icon-chat-bouncer + span,
 #user-rollover.id-37218461 .info .role span,
 #user-rollover.id-37218461 .meta .username,
 #user-lists .list.room .user.id-37218461 .name {
