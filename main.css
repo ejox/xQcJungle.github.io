@@ -723,7 +723,7 @@ div.message > div.msg > div.from > span.un {
     background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
 }
 #user-rollover.id-37218461 .meta .thumb {
-    border-color: #a17d2e !important;
+    border-color: #02A1C5 !important;
 }
 .id-37218461 .msg .from.bouncer .un,
 .id-37218461 .from .un,
@@ -736,8 +736,8 @@ div.message > div.msg > div.from > span.un {
 }
 #chat .cm.message.id-37218461,
 #chat .cm.emote.id-37218461 {
-    border-left: #a17d2e 3px dotted !important;
-    border-right: #a17d2e 3px dotted !important;
+    border-left: #02A1C5 3px dotted !important;
+    border-right: #02A1C5 3px dotted !important;
 }
 #chat .cm.message.id-37218461:hover,
 #chat .cm.emote.id-37218461:hover {
@@ -1298,17 +1298,17 @@ div.message > div.msg > div.from > span.un {
 
 /* Harry_McKenzie - Static gold */
 @keyframes harrymckenzie {
-    0% { color: #a17d2e; }
-    10% { color: #a17d2e; }
-    20% { color: #a17d2e; }
-    30% { color: #a17d2e; }
-    40% { color: #a17d2e; }
-    50% { color: #a17d2e; }
-    60% { color: #a17d2e; }
-    70% { color: #a17d2e; }
-    80% { color: #a17d2e; }
-    90% { color: #a17d2e; }
-    100% { color: #a17d2e; }
+    0% { color: #02A1C5; }
+    10% { color: #02A1C5; }
+    20% { color: #02A1C5; }
+    30% { color: #02A1C5; }
+    40% { color: #02A1C5; }
+    50% { color: #02A1C5; }
+    60% { color: #02A1C5; }
+    70% { color: #02A1C5; }
+    80% { color: #02A1C5; }
+    90% { color: #02A1C5; }
+    100% { color: #02A1C5; }
 }
 
 /* Chicbreeze - Static Beige(?) */
