@@ -370,6 +370,48 @@ div.message > div.msg > div.from > span.un {
     animation: slyvii 1s infinite !important;
 }
 
+/* Mileena / Goth E-Girl */
+#user-rollover.id-42675536 .username,
+#chat [data-cid^="42675536-"] span.un.clickable {
+    animation: mileena 1s infinite !important;
+}
+
+#user-rollover.id-42675536 .info .role span:after {
+    content: '';
+}
+.id-42675536 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="42675536"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-42675536 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-42675536 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+}
+#user-rollover.id-42675536 .meta .thumb {
+    border-color: #3e3e3e !important;
+}
+.id-42675536 .msg .from.bouncer .un,
+.id-42675536 .from .un,
+#chat [data-cid^="42675536-"] span.un.clickable,
+#waitlist .list .user[data-uid="42675536"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-42675536 .info .role span,
+#user-rollover.id-42675536 .meta .username,
+#user-lists .list.room .user.id-42675536 .name {
+    animation: mileena 1s infinite !important;
+}
+#chat .cm.message.id-42675536,
+#chat .cm.emote.id-42675536 {
+    border-left: #3e3e3e 3px dotted !important;
+    border-right: #3e3e3e 3px dotted !important;
+}
+#chat .cm.message.id-42675536:hover,
+#chat .cm.emote.id-42675536:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-42675536 .text {
+    animation: mileena 1s infinite !important;
+}
+
 /* Chicbreeze */
 #user-rollover.id-42616838 .username,
 #chat [data-cid^="42616838-"] span.un.clickable {
@@ -1339,6 +1381,21 @@ div.message > div.msg > div.from > span.un {
     80% { color: #ff0feb; }
     90% { color: #ff0feb; }
     100% { color: #ff0feb; }
+}
+
+/* Mileena - Static Magenta */
+@keyframes mileena {
+    0% { color: #ff00ff; }
+    10% { color: #ff00ff; }
+    20% { color: #ff00ff; }
+    30% { color: #ff00ff; }
+    40% { color: #ff00ff; }
+    50% { color: #ff00ff; }
+    60% { color: #ff00ff; }
+    70% { color: #ff00ff; }
+    80% { color: #ff00ff; }
+    90% { color: #ff00ff; }
+    100% { color: #ff00ff; }
 }
 
 /* Poggy Woggy */
