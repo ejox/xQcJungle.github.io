@@ -370,7 +370,7 @@ div.message > div.msg > div.from > span.un {
     animation: slyvii 1s infinite !important;
 }
 
-/* Mileena / Goth E-Girl */
+/* Mileena */
 #user-rollover.id-42675536 .username,
 #chat [data-cid^="42675536-"] span.un.clickable {
     animation: mileena 1s infinite !important;
@@ -410,48 +410,6 @@ div.message > div.msg > div.from > span.un {
 }
 .emote.id-42675536 .text {
     animation: mileena 1s infinite !important;
-}
-
-/* Chicbreeze */
-#user-rollover.id-42616838 .username,
-#chat [data-cid^="42616838-"] span.un.clickable {
-    animation: chicbreeze 1s infinite !important;
-}
-
-#user-rollover.id-42616838 .info .role span:after {
-    content: '';
-}
-.id-42616838 .msg .from i.icon-chat-bouncer,
-#waitlist .list .user[data-uid="42616838"] .meta.is-staff .name .icon-chat-bouncer,
-#user-rollover.id-42616838 .info .role i.icon-chat-bouncer,
-#user-lists .list.room .user.id-42616838 .icon-chat-bouncer {
-    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
-}
-#user-rollover.id-42616838 .meta .thumb {
-    border-color: #3e3e3e !important;
-}
-.id-42616838 .msg .from.bouncer .un,
-.id-42616838 .from .un,
-#chat [data-cid^="42616838-"] span.un.clickable,
-#waitlist .list .user[data-uid="42616838"] .meta.is-staff .name .icon-chat-bouncer + span,
-#user-rollover.id-42616838 .info .role span,
-#user-rollover.id-42616838 .meta .username,
-#user-lists .list.room .user.id-42616838 .name {
-    animation: chicbreeze 1s infinite !important;
-}
-#chat .cm.message.id-42616838,
-#chat .cm.emote.id-42616838 {
-    border-left: #3e3e3e 3px dotted !important;
-    border-right: #3e3e3e 3px dotted !important;
-}
-#chat .cm.message.id-42616838:hover,
-#chat .cm.emote.id-42616838:hover {
-    border-left-style: solid !important;
-    border-right-style: solid !important;
-    display: inline-block !important;
-}
-.emote.id-42616838 .text {
-    animation: chicbreeze 1s infinite !important;
 }
 
 /* Ageless */
@@ -576,48 +534,6 @@ div.message > div.msg > div.from > span.un {
 }
 .emote.id-38607903 .text {
     animation: haise 1s infinite !important;
-}
-
-/* AnUglyTurtle */
-#user-rollover.id-5049254 .username,
-#chat [data-cid^="5049254-"] span.un.clickable {
-    animation: anuglyturtle 1s infinite !important;
-}
-
-#user-rollover.id-5049254 .info .role span:after {
-    content: '';
-}
-.id-5049254 .msg .from i.icon-chat-bouncer,
-#waitlist .list .user[data-uid="5049254"] .meta.is-staff .name .icon-chat-bouncer,
-#user-rollover.id-5049254 .info .role i.icon-chat-bouncer,
-#user-lists .list.room .user.id-5049254 .icon-chat-bouncer {
-    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
-}
-#user-rollover.id-5049254 .meta .thumb {
-    border-color: #3e3e3e !important;
-}
-.id-5049254 .msg .from.bouncer .un,
-.id-5049254 .from .un,
-#chat [data-cid^="5049254-"] span.un.clickable,
-#waitlist .list .user[data-uid="5049254"] .meta.is-staff .name .icon-chat-bouncer + span,
-#user-rollover.id-5049254 .info .role span,
-#user-rollover.id-5049254 .meta .username,
-#user-lists .list.room .user.id-5049254 .name {
-    animation: anuglyturtle 1s infinite !important;
-}
-#chat .cm.message.id-5049254,
-#chat .cm.emote.id-5049254 {
-    border-left: #3e3e3e 3px dotted !important;
-    border-right: #3e3e3e 3px dotted !important;
-}
-#chat .cm.message.id-5049254:hover,
-#chat .cm.emote.id-5049254:hover {
-    border-left-style: solid !important;
-    border-right-style: solid !important;
-    display: inline-block !important;
-}
-.emote.id-5049254 .text {
-    animation: anuglyturtle 1s infinite !important;
 }
 
 /* NamelessHoboPony */
