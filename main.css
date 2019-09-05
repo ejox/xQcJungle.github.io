@@ -412,6 +412,49 @@ div.message > div.msg > div.from > span.un {
     animation: mileena 1s infinite !important;
 }
 
+/* Jeebs */
+#user-rollover.id-4183714 .username,
+#chat [data-cid^="4183714-"] span.un.clickable {
+    animation: bouncerdark 1s infinite !important;
+}
+
+#user-rollover.id-4183714 .info .role span:after {
+    content: '';
+}
+.id-4183714 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="4183714"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-4183714 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-4183714 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+}
+#user-rollover.id-4183714 .meta .thumb {
+    border-color: #3e3e3e !important;
+}
+.id-4183714 .msg .from.bouncer .un,
+.id-4183714 .from .un,
+#chat [data-cid^="4183714-"] span.un.clickable,
+#waitlist .list .user[data-uid="4183714"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-4183714 .info .role span,
+#user-rollover.id-4183714 .meta .username,
+#user-lists .list.room .user.id-4183714 .name {
+    animation: slyvii 1s infinite !important;
+}
+#chat .cm.message.id-4183714,
+#chat .cm.emote.id-4183714 {
+    border-left: #3e3e3e 3px dotted !important;
+    border-right: #3e3e3e 3px dotted !important;
+}
+#chat .cm.message.id-4183714:hover,
+#chat .cm.emote.id-4183714:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-4183714 .text {
+    animation: bouncerdark 1s infinite !important;
+}
+
+
 /* Ageless */
 #user-rollover.id-37174830 .username,
 #chat [data-cid^="37174830-"] span.un.clickable {
@@ -1176,6 +1219,22 @@ div.message > div.msg > div.from > span.un {
     90% { color: #8000ff; }
     100% { color: #ff0080; }
 }
+
+/* Bouncer #3e3e3e */
+@keyframes bouncerdark {
+    0% { color: #3e3e3e; }
+    10% { color: #3e3e3e; }
+    20% { color: #3e3e3e; }
+    30% { color: #3e3e3e; }
+    40% { color: #3e3e3e; }
+    50% { color: #3e3e3e; }
+    60% { color: #3e3e3e; }
+    70% { color: #3e3e3e; }
+    80% { color: #3e3e3e; }
+    90% { color: #3e3e3e; }
+    100% { color: #3e3e3e; }
+}
+
 
 /* Bouncer #90b0cf */
 @keyframes bouncercolor {
