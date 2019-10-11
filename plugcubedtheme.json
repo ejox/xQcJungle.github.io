@@ -1,0 +1,43 @@
+{
+    "author": "",
+    "colors": {
+        "background": "",
+        "chat": {
+            "admin": "",
+            "ambassador": "",
+            "bouncer": "",
+            "cohost": "",
+            "residentdj": "",
+            "host": "",
+            "manager": ""
+        },
+        "footer": "",
+        "header": ""
+    },
+    "css": {
+        "font": [],
+        "import": [],
+        "rule": {}
+    },
+    "images": {
+        "background": "",
+        "booth": "",
+        "icons": {
+            "admin": "",
+            "ambassador": "",
+            "bouncer": "",
+            "cohost": "",
+            "residentdj": "",
+            "host": "",
+            "manager": ""
+        },
+        "playback": ""
+    },
+    "rules": {
+        "allowAutojoin": "true",
+        "allowAutorespond": "false",
+        "allowAutowoot": "false",
+        "allowEmotes": "true",
+        "allowShowingMehs": "true"
+    }
+}
