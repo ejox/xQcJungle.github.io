@@ -117,7 +117,7 @@
     top: 0px;
     left: 0px;
 }
-/*User Background*/
+/*User Background
 .cm.id-37218461::before {
     background-image: url("https://i.imgur.com/T9mflGN.png");
     background-repeat: no-repeat;
@@ -131,7 +131,7 @@
     z-index: -1;
     transition: 0.4s;
 }
-
+*/
 /* BounceBot - SCUFFED */
 #chat-messages .id-40471126 .badge-box {
     width: 30px;
