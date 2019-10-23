@@ -293,7 +293,7 @@ div.message > div.msg > div.from > span.un {
 }
 
 #user-rollover.id-3941421 .info .role span:after {
-    content: '+';
+    content: ' / CSS Clown';
 }
 .id-3941421 .msg .from i.icon-chat-bouncer,
 #waitlist .list .user[data-uid="3941421"] .meta.is-staff .name .icon-chat-bouncer,
