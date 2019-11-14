@@ -370,6 +370,48 @@ div.message > div.msg > div.from > span.un {
     animation: slyvii 1s infinite !important;
 }
 
+/* Discrested */
+#user-rollover.id-45541957 .username,
+#chat [data-cid^="45541957-"] span.un.clickable {
+    animation: discrested 1s infinite !important;
+}
+
+#user-rollover.id-45541957 .info .role span:after {
+    content: '';
+}
+.id-45541957 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="45541957"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-45541957 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-45541957 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+}
+#user-rollover.id-45541957 .meta .thumb {
+    border-color: #3e3e3e !important;
+}
+.id-45541957 .msg .from.bouncer .un,
+.id-45541957 .from .un,
+#chat [data-cid^="45541957-"] span.un.clickable,
+#waitlist .list .user[data-uid="45541957"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-45541957 .info .role span,
+#user-rollover.id-45541957 .meta .username,
+#user-lists .list.room .user.id-45541957 .name {
+    animation: discrested 1s infinite !important;
+}
+#chat .cm.message.id-45541957,
+#chat .cm.emote.id-45541957 {
+    border-left: #3e3e3e 3px dotted !important;
+    border-right: #3e3e3e 3px dotted !important;
+}
+#chat .cm.message.id-45541957:hover,
+#chat .cm.emote.id-45541957:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+.emote.id-45541957 .text {
+    animation: discrested 1s infinite !important;
+}
+
 /* Mileena */
 #user-rollover.id-42675536 .username,
 #chat [data-cid^="42675536-"] span.un.clickable {
@@ -1148,60 +1190,24 @@ div.message > div.msg > div.from > span.un {
 /* Broadcaster - RED */
 @keyframes broadcaster {
     0% { color: #FF0000; }
-    10% { color: #FF0000; }
-    20% { color: #FF0000; }
-    30% { color: #FF0000; }
-    40% { color: #FF0000; }
-    50% { color: #FF0000; }
-    60% { color: #FF0000; }
-    70% { color: #FF0000; }
-    80% { color: #FF0000; }
-    90% { color: #FF0000; }
     100% { color: #FF0000; }
 }
 
 /* Twitch Mod - Green */
 @keyframes twitchmod {
     0% { color: #14b866; }
-    10% { color: #14b866; }
-    20% { color: #14b866; }
-    30% { color: #14b866; }
-    40% { color: #14b866; }
-    50% { color: #14b866; }
-    60% { color: #14b866; }
-    70% { color: #14b866; }
-    80% { color: #14b866; }
-    90% { color: #14b866; }
     100% { color: #14b866; }
 }
 
 /* Default Mod - Purple */
 @keyframes defaultmod {
     0% { color: #ac76ff; }
-    10% { color: #ac76ff; }
-    20% { color: #ac76ff; }
-    30% { color: #ac76ff; }
-    40% { color: #ac76ff; }
-    50% { color: #ac76ff; }
-    60% { color: #ac76ff; }
-    70% { color: #ac76ff; }
-    80% { color: #ac76ff; }
-    90% { color: #ac76ff; }
     100% { color: #ac76ff; }
 }
 
 /* Bot - Yellow */
 @keyframes botcolor {
     0% { color: #f6ff54; }
-    10% { color: #f6ff54; }
-    20% { color: #f6ff54; }
-    30% { color: #f6ff54; }
-    40% { color: #f6ff54; }
-    50% { color: #f6ff54; }
-    60% { color: #f6ff54; }
-    70% { color: #f6ff54; }
-    80% { color: #f6ff54; }
-    90% { color: #f6ff54; }
     100% { color: #f6ff54; }
 }
 
@@ -1223,15 +1229,6 @@ div.message > div.msg > div.from > span.un {
 /* Bouncer #3e3e3e */
 @keyframes bouncerdark {
     0% { color: #3e3e3e; }
-    10% { color: #3e3e3e; }
-    20% { color: #3e3e3e; }
-    30% { color: #3e3e3e; }
-    40% { color: #3e3e3e; }
-    50% { color: #3e3e3e; }
-    60% { color: #3e3e3e; }
-    70% { color: #3e3e3e; }
-    80% { color: #3e3e3e; }
-    90% { color: #3e3e3e; }
     100% { color: #3e3e3e; }
 }
 
@@ -1239,15 +1236,6 @@ div.message > div.msg > div.from > span.un {
 /* Bouncer #90b0cf */
 @keyframes bouncercolor {
     0% { color: #90b0cf; }
-    10% { color: #90b0cf; }
-    20% { color: #90b0cf; }
-    30% { color: #90b0cf; }
-    40% { color: #90b0cf; }
-    50% { color: #90b0cf; }
-    60% { color: #90b0cf; }
-    70% { color: #90b0cf; }
-    80% { color: #90b0cf; }
-    90% { color: #90b0cf; }
     100% { color: #90b0cf; }
 }
 
@@ -1256,120 +1244,54 @@ div.message > div.msg > div.from > span.un {
 /* Ageless - ??? */
 @keyframes ageless {
     0% { color: #d97aff; }
-    10% { color: #d97aff; }
-    20% { color: #d97aff; }
-    30% { color: #d97aff; }
-    40% { color: #d97aff; }
-    50% { color: #d97aff; }
-    60% { color: #d97aff; }
-    70% { color: #d97aff; }
-    80% { color: #d97aff; }
-    90% { color: #d97aff; }
     100% { color: #d97aff; }
 }
 
 /* SlyVII - Static Red */
 @keyframes slyvii {
     0% { color: #FF0000; }
-    10% { color: #FF0000; }
-    20% { color: #FF0000; }
-    30% { color: #FF0000; }
-    40% { color: #FF0000; }
-    50% { color: #FF0000; }
-    60% { color: #FF0000; }
-    70% { color: #FF0000; }
-    80% { color: #FF0000; }
-    90% { color: #FF0000; }
     100% { color: #FF0000; }
 }
 
 /* Haise - Dark Purple */
 @keyframes haise {
     0% { color: #4B0082; }
-    10% { color: #4B0082; }
-    20% { color: #4B0082; }
-    30% { color: #4B0082; }
-    40% { color: #4B0082; }
-    50% { color: #4B0082; }
-    60% { color: #4B0082; }
-    70% { color: #4B0082; }
-    80% { color: #4B0082; }
-    90% { color: #4B0082; }
     100% { color: #4B0082; }
 }
 
 /* Frynaut - ??? */
 @keyframes frynaut {
     0% { color: #ff0d00; }
-    10% { color: #ff0d00; }
-    20% { color: #ff0d00; }
-    30% { color: #ff0d00; }
-    40% { color: #ff0d00; }
-    50% { color: #ff0d00; }
-    60% { color: #ff0d00; }
-    70% { color: #ff0d00; }
-    80% { color: #ff0d00; }
-    90% { color: #ff0d00; }
     100% { color: #ff0d00; }
 }
 
 /* Harry_McKenzie - Static gold */
 @keyframes harrymckenzie {
     0% { color: #02A1C5; }
-    10% { color: #02A1C5; }
-    20% { color: #02A1C5; }
-    30% { color: #02A1C5; }
-    40% { color: #02A1C5; }
-    50% { color: #02A1C5; }
-    60% { color: #02A1C5; }
-    70% { color: #02A1C5; }
-    80% { color: #02A1C5; }
-    90% { color: #02A1C5; }
     100% { color: #02A1C5; }
 }
 
 /* Chicbreeze - Static Beige(?) */
 @keyframes chicbreeze {
     0% { color: #fff6d6; }
-    10% { color: #fff6d6; }
-    20% { color: #fff6d6; }
-    30% { color: #fff6d6; }
-    40% { color: #fff6d6; }
-    50% { color: #fff6d6; }
-    60% { color: #fff6d6; }
-    70% { color: #fff6d6; }
-    80% { color: #fff6d6; }
-    90% { color: #fff6d6; }
     100% { color: #fff6d6; }
 }
 
 /* AnUglyTurtle - Static Purple */
 @keyframes anuglyturtle {
     0% { color: #ff0feb; }
-    10% { color: #ff0feb; }
-    20% { color: #ff0feb; }
-    30% { color: #ff0feb; }
-    40% { color: #ff0feb; }
-    50% { color: #ff0feb; }
-    60% { color: #ff0feb; }
-    70% { color: #ff0feb; }
-    80% { color: #ff0feb; }
-    90% { color: #ff0feb; }
     100% { color: #ff0feb; }
 }
 
 /* Mileena - Static Magenta */
 @keyframes mileena {
     0% { color: #ff00ff; }
-    10% { color: #ff00ff; }
-    20% { color: #ff00ff; }
-    30% { color: #ff00ff; }
-    40% { color: #ff00ff; }
-    50% { color: #ff00ff; }
-    60% { color: #ff00ff; }
-    70% { color: #ff00ff; }
-    80% { color: #ff00ff; }
-    90% { color: #ff00ff; }
+    100% { color: #ff00ff; }
+}
+
+/* Discrested - _ */
+@keyframes discrested {
+    0% { color: #ff00ff; }
     100% { color: #ff00ff; }
 }
 
