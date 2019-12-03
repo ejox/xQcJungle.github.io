@@ -38,7 +38,7 @@
                 "subscriber": null,
                 "other": null
 	},
-	"emotes": {
+	"emotes": "emotes": {
 		"clap": "https://i.imgur.com/EEH5pHc.gif",
 		"monkaeyes": "https://i.imgur.com/KGX6c6g.png",
 		"widejam": "https://i.imgur.com/9Gkg2gQ.gif",
@@ -169,5 +169,15 @@
     "feelsstrongman ":"https://i.imgur.com/94OYm2g.png",
     "hyperdansgame ":"https://i.imgur.com/RB3FdC4.png",
     "ayayac":"https://i.imgur.com/XVh0LaM.png",
+    "hyperschristmas":"https://i.imgur.com/QAiOKja.png",
+    "okaychampc":"https://i.imgur.com/J3KKVfJ.png",
+    "peepoglad ":"https://i.imgur.com/CaUijb0.png",
+    "pepehandsc":"https://i.imgur.com/xxqeOVY.png",
+    "pepelaughc":"https://i.imgur.com/HJbrxNS.png",
+    "pepegac":"https://i.imgur.com/8Ay6b2c.png",
+    "poguc":"https://i.imgur.com/ucKA17z.png",
+    "sillychamp ":"https://i.imgur.com/PcmoMOa.png",
+    "pepegaaim":"https://i.imgur.com/NdiUagq.gif",
+    "peepoclap":"https://i.imgur.com/JgLjcH7.gif"
 	}
 }
