@@ -25,6 +25,19 @@
                 "friend": "#90AD2F",
                 "user": null
 	},
+	"images": {
+                "background": null,
+		            "playback": "https://i.imgur.com/rSGAoGX.png",
+                "admin": "https://i.imgur.com/Gw5Wdpv.png",
+                "ambassador": "https://i.imgur.com/AMj8Jjf.png",
+                "host": "https://i.imgur.com/eAoDqVf.png",
+                "cohost": "https://i.imgur.com/eAoDqVf.png",
+                "manager": "https://i.imgur.com/MVvuHft.png",
+                "bouncer": "https://image.ibb.co/hsd509/BOUNCER_ICON.png",
+                "rdj": "https://i.imgur.com/pUmF7Ym.png",
+                "subscriber": null,
+                "other": null
+	},
 	"emotes": {
 		"clap": "https://i.imgur.com/EEH5pHc.gif",
 		"monkaeyes": "https://i.imgur.com/KGX6c6g.png",
