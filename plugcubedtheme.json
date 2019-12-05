@@ -36,7 +36,7 @@
     "rules": {
         "allowAutojoin": "true",
         "allowAutorespond": "false",
-        "allowAutowoot": "false",
+        "allowAutowoot": "true",
         "allowEmotes": "true",
         "allowShowingMehs": "true"
     }
