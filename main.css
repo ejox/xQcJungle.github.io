@@ -1291,8 +1291,8 @@ div.message > div.msg > div.from > span.un {
 
 /* Discrested - Black */
 @keyframes discrested {
-    0% { color: #FFB009; }
-    100% { color: #FFB009; }
+    0% { color: #FF9100; }
+    100% { color: #FF9100; }
 }
 
 /* Poggy Woggy */
