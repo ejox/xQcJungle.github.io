@@ -1292,12 +1292,20 @@ div.message > div.msg > div.from > span.un {
 /* Discrested - Black */
 @keyframes discrested {
     0% { color: #FFB009; }
-   20% { color: #FFB009; }
-   30% { color: #FFB009; }
-   40% { color: #FFB009; }
+    1% { color: #FFB009; }
+    2% { color: #FFB009; }
+    3% { color: #FFB009; }
+    4% { color: #FFB009; }
+    5% { color: #FFB009; }
+    6% { color: #FFB009; }
+    7% { color: #FFB009; }
+    8% { color: #FFB009; }
+    9% { color: #FFB009; }
+   10% { color: #FFB009; }
+   
    50% { color: #E50101; }
    60% { color: #E50101; }
-   70% { color: #E50101; }
+   70% { color: #FFB009; }
    80% { color: #FFB009; }
    90% { color: #FFB009; }
   100% { color: #FFB009; }
