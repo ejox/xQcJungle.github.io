@@ -386,7 +386,7 @@ div.message > div.msg > div.from > span.un {
     background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
 }
 #user-rollover.id-45541957 .meta .thumb {
-    border-color: #3e3e3e !important;
+    border-color: #90B0CF !important;
 }
 .id-45541957 .msg .from.bouncer .un,
 .id-45541957 .from .un,
@@ -399,8 +399,8 @@ div.message > div.msg > div.from > span.un {
 }
 #chat .cm.message.id-45541957,
 #chat .cm.emote.id-45541957 {
-    border-left: #3e3e3e 3px dotted !important;
-    border-right: #3e3e3e 3px dotted !important;
+    border-left: #90B0CF 3px dotted !important;
+    border-right: #90B0CF 3px dotted !important;
 }
 #chat .cm.message.id-45541957:hover,
 #chat .cm.emote.id-45541957:hover {
