@@ -395,7 +395,7 @@ div.message > div.msg > div.from > span.un {
 #user-rollover.id-45541957 .info .role span,
 #user-rollover.id-45541957 .meta .username,
 #user-lists .list.room .user.id-45541957 .name {
-    animation: discrested 10s infinite !important;
+    animation: discrested 8s infinite !important;
 }
 #chat .cm.message.id-45541957,
 #chat .cm.emote.id-45541957 {
