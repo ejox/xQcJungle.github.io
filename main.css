@@ -1297,9 +1297,11 @@ div.message > div.msg > div.from > span.un {
     
    45% { color: #FFB009; }
     
-   75% { color: #FFB009; }
+   70% { color: #FFB009; }
     
-   76% { color: #FF0000; }
+   71% { color: #FF0000; }
+    
+   80% { color: #FF0000; }
     
   100% { color: #90B0CF; }
 }
