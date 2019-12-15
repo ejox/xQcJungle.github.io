@@ -479,7 +479,7 @@ div.message > div.msg > div.from > span.un {
 #user-rollover.id-4183714 .info .role span,
 #user-rollover.id-4183714 .meta .username,
 #user-lists .list.room .user.id-4183714 .name {
-    animation: slyvii 1s infinite !important;
+    animation: jeebs 10s infinite !important;
 }
 #chat .cm.message.id-4183714,
 #chat .cm.emote.id-4183714 {
@@ -1247,6 +1247,14 @@ div.message > div.msg > div.from > span.un {
     100% { color: #d97aff; }
 }
 
+/* Jeebs - Colored */
+@keyframes jeebs {
+    0% { color: #87CEFA; }
+    25% { color: #8A2BE2; }
+    50% { color: #FF69B4; }
+    100% { color: #87CEFA; }
+}
+
 /* SlyVII - Static Red */
 @keyframes slyvii {
     0% { color: #FF0000; }
@@ -1289,7 +1297,7 @@ div.message > div.msg > div.from > span.un {
     100% { color: #ff00ff; }
 }
 
-/* Discrested - Black */
+/* Discrested - Colored */
 @keyframes discrested {
    0% { color: #90B0CF; }
    30% { color: #90B0CF; }
