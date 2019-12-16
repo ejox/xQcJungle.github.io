@@ -395,7 +395,7 @@ div.message > div.msg > div.from > span.un {
 #user-rollover.id-45541957 .info .role span,
 #user-rollover.id-45541957 .meta .username,
 #user-lists .list.room .user.id-45541957 .name {
-    animation: discrested 8s infinite !important;
+    animation: discrested 8.8s infinite !important;
 }
 #chat .cm.message.id-45541957,
 #chat .cm.emote.id-45541957 {
@@ -1299,14 +1299,20 @@ div.message > div.msg > div.from > span.un {
 
 /* Discrested - Colored */
 @keyframes discrested {
-   0% { color: #87CEFA; }
+    0% { color: #87CEFA; }
+   25% { color: #FF0000; }
+   50% { color: #FFB009; } 
+   50% { color: #FFB009; } 
+   75% { color: #FF0000; } 
+  100% { color: #87CEFA; }
+ /* 0% { color: #87CEFA; }
    30% { color: #87CEFA; }
    35% { color: #FFB009; } 
    70% { color: #FFB009; } 
    71% { color: #FF0000; }  
    84% { color: #FF0000; }   
    96% { color: #87CEFA; }
-  100% { color: #87CEFA; }
+  100% { color: #87CEFA; } */
 }
 }
 
