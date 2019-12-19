@@ -1269,8 +1269,9 @@ div.message > div.msg > div.from > span.un {
 
 /* Frynaut - ??? */
 @keyframes frynaut {
-    0% { color: #ff0d00; }
-    100% { color: #ff0d00; }
+    0% { color: #ff0000; }
+    50%{ color: #0011ff; }
+  100% { color: #ff0000; }
 }
 
 /* Harry_McKenzie - Static gold */
