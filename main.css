@@ -1300,12 +1300,23 @@ div.message > div.msg > div.from > span.un {
 
 /* Discrested - Colored */
 @keyframes discrested {
+    
     0% { color: #87CEFA; }
+   25% { color: #FFA000; }
+   50% { color: #87CEFA; } 
+   50% { color: #87CEFA; } 
+   75% { color: #FF3232; } 
+  100% { color: #87CEFA; }
+    
+    /* actual scheme */
+   /* 0% { color: #87CEFA; }
    25% { color: #FF0000; }
    50% { color: #FFB009; } 
    50% { color: #FFB009; } 
    75% { color: #FF0000; } 
-  100% { color: #87CEFA; }
+  100% { color: #87CEFA; }*/
+    
+    /* oldest scheme */
  /* 0% { color: #87CEFA; }
    30% { color: #87CEFA; }
    35% { color: #FFB009; } 
