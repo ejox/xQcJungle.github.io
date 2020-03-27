@@ -27,7 +27,7 @@
 	},
 	"images": {
                 "background": "https://i.imgur.com/pJQ0tqJ.jpg",
-		"playback": "https://i.imgur.com/rSGAoGX.png",
+		"playback": null,
                 "admin": "https://i.imgur.com/Gw5Wdpv.png",
                 "ambassador": "https://i.imgur.com/AMj8Jjf.png",
                 "host": "https://i.imgur.com/eAoDqVf.png",
