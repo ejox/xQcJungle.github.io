@@ -395,7 +395,7 @@ div.message > div.msg > div.from > span.un {
 #user-rollover.id-45541957 .info .role span,
 #user-rollover.id-45541957 .meta .username,
 #user-lists .list.room .user.id-45541957 .name {
-    animation: discrested /*6.6s*/20s infinite !important;
+    animation: discrested 1s infinite !important;
 }
 #chat .cm.message.id-45541957,
 #chat .cm.emote.id-45541957 {
@@ -406,6 +406,9 @@ div.message > div.msg > div.from > span.un {
     display: inline-block !important;
     
 }
+
+#chat .cm.message.id-45541957
+{ color: #66FFB2 ;}
 
 #chat .cm.message.id-45541957:hover,
 #chat .cm.emote.id-45541957:hover {
@@ -1306,34 +1309,8 @@ div.message > div.msg > div.from > span.un {
 /* Discrested - Colored */
 @keyframes discrested {
     
-    0% { color: #87CEFA; }
- 23.5% { color: #87CEFA; }
-   25% { color: #FFAF09; }
- 48.5% { color: #FFAF09; }
-   50% { color: #87CEFA; }
- 73.5% { color: #87CEFA; }
-   75% { color: #FF0000; } 
- 98.5% { color: #FF0000; }
-  100% { color: #87CEFA; }
-    
-    /* actual scheme */
-   /* 0% { color: #87CEFA; }
-   25% { color: #FFAF09; }
-   50% { color: #87CEFA; } 
-   50% { color: #87CEFA; } 
-   75% { color: #FF0000; } 
-  100% { color: #87CEFA; }*/
-    
-    /* oldest scheme */
- /* 0% { color: #87CEFA; }
-   30% { color: #87CEFA; }
-   35% { color: #FFB009; } 
-   70% { color: #FFB009; } 
-   71% { color: #FF0000; }  
-   84% { color: #FF0000; }   
-   96% { color: #87CEFA; }
-  100% { color: #87CEFA; } */
-}
+    0% { color: #69DDFF; }
+  100% { color: #69DDFF; )
 }
 
 /* Poggy Woggy */
