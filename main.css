@@ -386,12 +386,12 @@ div.message > div.msg > div.from > span.un {
     background: url("https://i.imgur.com/7mIgVj3.png") no-repeat !important;
 }
 #user-rollover.id-45541957 .meta .thumb {
-    border-color: #90B0CF !important;
+    border-color: #69DDFF !important;
 }
-.id-45541957 .msg .from.bouncer .un,
+.id-45541957 .msg .from.manager .un,
 .id-45541957 .from .un,
 #chat [data-cid^="45541957-"] span.un.clickable,
-#waitlist .list .user[data-uid="45541957"] .meta.is-staff .name .icon-chat-bouncer + span,
+#waitlist .list .user[data-uid="45541957"] .meta.is-staff .name .icon-chat-manager + span,
 #user-rollover.id-45541957 .info .role span,
 #user-rollover.id-45541957 .meta .username,
 #user-lists .list.room .user.id-45541957 .name {
@@ -399,9 +399,14 @@ div.message > div.msg > div.from > span.un {
 }
 #chat .cm.message.id-45541957,
 #chat .cm.emote.id-45541957 {
-    border-left: #90B0CF 3px dotted !important;
-    border-right: #90B0CF 3px dotted !important;
+    border-left: #69DDFF 3px dotted !important;
+    border-right: #69DDFF 3px dotted !important;
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+    
 }
+
 #chat .cm.message.id-45541957:hover,
 #chat .cm.emote.id-45541957:hover {
     border-left-style: solid !important;
@@ -467,7 +472,7 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="4183714"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-4183714 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-4183714 .icon-chat-bouncer {
-    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+    background: url("https://i.imgur.com/7mIgVj3.png") no-repeat !important;
 }
 #user-rollover.id-4183714 .meta .thumb {
     border-color: #3e3e3e !important;
