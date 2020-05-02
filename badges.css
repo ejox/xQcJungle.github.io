@@ -460,8 +460,7 @@
 }
 
 /* Discrested */
-/*
-#chat-messages .id-45541957 .badge-box {
+/*#chat-messages .id-45541957 .badge-box {
     width: 30px;
     height: 30px;
     transition: 0.5s;
@@ -471,9 +470,9 @@
     width: 65px;
     height: 65px;
     transition: 0.5s;
-}
+} */
 
-/*User Badge*/
+/*User Badge*/ /*
 #user-rollover.id-45541957 .badge-box i.bdg,
 #chat-messages .id-45541957 .badge-box i.bdg {
     background-image: url("https://i.imgur.com/9pKc1LK.gif");
@@ -485,8 +484,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-}
-/*User Background*/
+} */
+/*User Background*/ /*
 .cm.id-45541957::before {
     background-image: url("https://i.imgur.com/WciH0eG.gif");
     background-repeat: no-repeat;
@@ -499,8 +498,8 @@
     opacity: 0.3;
     z-index: -1;
     transition: 0.4s;
-}
-*/
+}*/
+
 /* Jeebs */
 #chat-messages .id-4183714 .badge-box {
     width: 30px;
