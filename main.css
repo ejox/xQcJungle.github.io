@@ -371,7 +371,7 @@ div.message > div.msg > div.from > span.un {
 }
 
 /* Discrested */
-#user-rollover.id-45541957 .username,
+/* #user-rollover.id-45541957 .username,
 #chat [data-cid^="45541957-"] span.un.clickable {
     animation: discrested 1s infinite !important;
 }
@@ -418,7 +418,7 @@ div.message > div.msg > div.from > span.un {
 }
 .emote.id-45541957 .text {
     animation: discrested 1s infinite !important;
-}
+} */
 
 /* Mileena */
 #user-rollover.id-42675536 .username,
