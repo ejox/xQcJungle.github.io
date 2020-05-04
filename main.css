@@ -398,7 +398,7 @@ div.message > div.msg > div.from > span.un {
 
   font-weight: bold;
   background-image: repeating-linear-gradient(90deg, #69DDFF, #00FF80);
-  background-image: conic-linear-gradient(90deg, #69DDFF, #00FF80); 
+  background-image: repeating-conic-linear-gradient(90deg, #69DDFF, #00FF80); 
   background-size: 1000%;
   background-repeat: repeat;
   background-color: #f3ec78;
@@ -1321,9 +1321,9 @@ div.message > div.msg > div.from > span.un {
 
 /* Discrested - Colored */
 @keyframes discrested {
-    
-    0% { color: #69DDFF; }
-  100% { color: #69DDFF; )
+   0% { background-position: 0 0; }
+  50% { background-position: 100%; }
+ 100% { background-position: 0 0; )
 }
 
 /* Poggy Woggy */
