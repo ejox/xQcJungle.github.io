@@ -371,7 +371,6 @@ div.message > div.msg > div.from > span.un {
 }
 
 /* Discrested */
- 
 #user-rollover.id-45541957 .username,
 #chat [data-cid^="45541957-"] span.un.clickable {
     animation: discrested 1s infinite !important;
