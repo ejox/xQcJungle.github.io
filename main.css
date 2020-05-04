@@ -371,7 +371,8 @@ div.message > div.msg > div.from > span.un {
 }
 
 /* Discrested */
-/* #user-rollover.id-45541957 .username,
+ 
+#user-rollover.id-45541957 .username,
 #chat [data-cid^="45541957-"] span.un.clickable {
     animation: discrested 1s infinite !important;
 }
@@ -395,20 +396,33 @@ div.message > div.msg > div.from > span.un {
 #user-rollover.id-45541957 .info .role span,
 #user-rollover.id-45541957 .meta .username,
 #user-lists .list.room .user.id-45541957 .name {
-    animation: discrested 1s infinite !important;
+
+  font-weight: bold;
+  background-image: repeating-linear-gradient(90deg, #69DDFF, #00FF80);
+  background-image: conic-linear-gradient(90deg, #69DDFF, #00FF80); 
+  background-size: 1000%;
+  background-repeat: repeat;
+  background-color: #f3ec78;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+ animation: discrested 10s ease-in-out infinite !important; 
 }
+
 #chat .cm.message.id-45541957,
 #chat .cm.emote.id-45541957 {
-    border-left: #69DDFF 3px dotted !important;
-    border-right: #69DDFF 3px dotted !important;
+    border-left: #FF0000 /*#FF1010*/ !important;
+    border-right: #FF0000 /*#FF1010*/ !important;
     border-left-style: solid !important;
     border-right-style: solid !important;
     display: inline-block !important;
-    
+    font-size: 13.2px;
+
 }
 
 #chat .cm.message.id-45541957
-{ color: #66FFB2 ;}
+{color: #4BFFA6 ;}
 
 #chat .cm.message.id-45541957:hover,
 #chat .cm.emote.id-45541957:hover {
@@ -418,7 +432,7 @@ div.message > div.msg > div.from > span.un {
 }
 .emote.id-45541957 .text {
     animation: discrested 1s infinite !important;
-} */
+} 
 
 /* Mileena */
 #user-rollover.id-42675536 .username,
