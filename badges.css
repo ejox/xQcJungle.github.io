@@ -475,7 +475,7 @@
 /*User Badge*/ 
 #user-rollover.id-45541957 .badge-box i.bdg,
 #chat-messages .id-45541957 .badge-box i.bdg {
-    background-image: url("https://i.imgur.com/9pKc1LK.gif");
+    background-image: url("https://i.imgur.com/BT3yVSh.gif");
     background-size: cover;
     border-radius: 7px;
     width: 100%;
@@ -487,10 +487,8 @@
 } 
 /*User Background*/ 
 .cm.id-45541957::before {
-    background-image: url("https://i.imgur.com/24yzXjw.png");
-    
-    /*https://i.imgur.com/WciH0eG.gif*/
-    
+    background-image: url("https://i.imgur.com/ZWApShJ.gif");
+    /*https://i.imgur.com/9pKc1LK.gif*/ 
     background-repeat: no-repeat;
     content: "";
     position: absolute;
