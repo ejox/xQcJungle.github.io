@@ -475,10 +475,94 @@ div.message > div.msg > div.from > span.un {
     animation: mileena 1s infinite !important;
 }
 
+/* 808ref */
+#user-rollover.id-42675536 .username,
+#chat [data-cid^="42675536-"] span.un.clickable {
+    animation: 808ref 1s infinite !important;
+}
+
+#user-rollover.id-42675536 .info .role span:after {
+    content: '';
+}
+.id-42675536 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="43911460"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-43911460 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-43911460 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+}
+#user-rollover.id-43911460 .meta .thumb {
+    border-color: #3e3e3e !important;
+}
+.id-43911460 .msg .from.bouncer .un,
+.id-43911460 .from .un,
+#chat [data-cid^="43911460-"] span.un.clickable,
+#waitlist .list .user[data-uid="43911460"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-43911460 .info .role span,
+#user-rollover.id-43911460 .meta .username,
+#user-lists .list.room .user.id-43911460 .name {
+    animation: 808ref 1s infinite !important;
+}
+#chat .cm.message.id-43911460,
+#chat .cm.emote.id-43911460 {
+    border-left: #3e3e3e 3px dotted !important;
+    border-right: #3e3e3e 3px dotted !important;
+}
+#chat .cm.message.id-43911460:hover,
+#chat .cm.emote.id-43911460:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+   .emote.id-42675536 .text {
+    animation: 808ref 1s infinite !important;
+} 
+
+/* MrDerf */
+#user-rollover.id-41485803 .username,
+#chat [data-cid^="41485803-"] span.un.clickable {
+    animation: mrderf 1s infinite !important;
+}
+
+#user-rollover.id-41485803 .info .role span:after {
+    content: '';
+}
+.id-41485803 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="41485803"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-41485803 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-41485803 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+}
+#user-rollover.id-41485803 .meta .thumb {
+    border-color: #3e3e3e !important;
+}
+.id-41485803 .msg .from.bouncer .un,
+.id-41485803 .from .un,
+#chat [data-cid^="41485803-"] span.un.clickable,
+#waitlist .list .user[data-uid="41485803"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-41485803 .info .role span,
+#user-rollover.id-41485803 .meta .username,
+#user-lists .list.room .user.id-43911460 .name {
+    animation: mrderf 1s infinite !important;
+}
+#chat .cm.message.id-41485803,
+#chat .cm.emote.id-41485803 {
+    border-left: #3e3e3e 3px dotted !important;
+    border-right: #3e3e3e 3px dotted !important;
+}
+#chat .cm.message.id-41485803:hover,
+#chat .cm.emote.id-41485803:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+   .emote.id-42675536 .text {
+    animation: mrderf 1s infinite !important;
+}
+
 /* Jeebs */
 #user-rollover.id-4183714 .username,
 #chat [data-cid^="4183714-"] span.un.clickable {
-    animation: bouncerdark 1s infinite !important;
+    animation: jeebs 1s infinite !important;
 }
 
 #user-rollover.id-4183714 .info .role span:after {
@@ -514,7 +598,7 @@ div.message > div.msg > div.from > span.un {
     display: inline-block !important;
 }
 .emote.id-4183714 .text {
-    animation: bouncerdark 1s infinite !important;
+    animation: jeebs 1s infinite !important;
 }
 
 
