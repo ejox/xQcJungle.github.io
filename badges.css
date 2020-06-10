@@ -337,6 +337,47 @@
     transition: 0.4s;
 }
 
+/* MrDerf */
+#chat-messages .id-41485803 .badge-box {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#chat-messages .id-41485803 .badge-box:hover {
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+/*User Badge*/
+#user-rollover.id-41485803 .badge-box i.bdg,
+#chat-messages .id-41485803 .badge-box i.bdg {
+    background-image: url("https://i.imgur.com/8r9a7Sj.gif");
+    background-size: cover;
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    background-position: initial;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*User Background*/
+.cm.id-41485803::before {
+    background-image: url("https://i.imgur.com/iWR8AxH.gif");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    transition: 0.4s;
+}
+
 /* NamelessHoboPony */
 #chat-messages .id-37503257 .badge-box {
     width: 0px;
@@ -558,7 +599,7 @@
 /*User Badge*/
 #user-rollover.id-4183714 .badge-box i.bdg,
 #chat-messages .id-4183714 .badge-box i.bdg {
-    background-image: url("https://i.imgur.com/toyCTdT.png");
+    background-image: url("https://i.imgur.com/WJVNNvZ.png");
     background-size: cover;
     border-radius: 7px;
     width: 100%;
