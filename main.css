@@ -1,39 +1,51 @@
 @import url("https://raw.githack.com/ejox/xQcJungle.github.io/master/badges.css");
+
 /* main */
 /* Icon fix :before */
 div.message > div.msg > div.from > span.un {
     vertical-align: top;
     horizontal-align: left;
 }
+
 /* Icon fix */
 #user-lists .list.room .user i.icon-chat-dj {
     top: 6px !important;
 }
+
 #chat-messages .from .icon,
 #chat-messages .from .icon.icon-chat-dj {
     top: unset !important;
 }
+
 #waitlist .list .user .name i,
 #waitlist .list .user .meta.is-staff .name i.icon-chat-dj {
     top: 2px !important;
 }
+
 #user-rollover .info .role i.icon-chat-dj {
     margin-top: unset !important;
 }
+
 #user-lists .list.room .user i {
     top: 6px !important;
 }
+
 /* RCS Vote Fix */
+
 .community .room-controls {
     z-index: 1 !important;
 }
+
 .votes-rs {
     background: rgba(0, 0, 0, 0.75) !important;
 }
+
 .community .room-controls--desktop__item .btn-like.clicked {
     animation: rainbow 1s infinite;
 }
+
 /* Chat */
+
 #chat .welcome {
     color: #ff0000;
     border-top: #ff0000 2px dotted;
@@ -41,9 +53,11 @@ div.message > div.msg > div.from > span.un {
     border-bottom: #ff0000 2px dotted;
     border-right: #ff0000 2px dotted;
 }
+
 #chat .log {
     background: rgba(20, 25, 34, 0.78) !important;
 }
+
 /* Fade */
 #chat .cm {
     -webkit-animation: fadein 1s;
@@ -52,6 +66,7 @@ div.message > div.msg > div.from > span.un {
     -o-animation: fadein 1s;
     animation: fadein 1s;
 }
+
 #chat .emote,
 #chat .mention,
 #chat .message,
@@ -67,65 +82,82 @@ div.message > div.msg > div.from > span.un {
     animation: fadein 1s;
     min-width: 100%;
 }
+
 /* Inline */
 #chat .emote {
     min-height: 0px !important;
     background: rgba(0, 0, 0, 0.0) !important;
 }
+
 .emote .msg .text {
     display: inline !important;
     padding-left: 2px !important;
 }
+
 .emote .from .un {
     font-style: oblique;
 }
+
 .emote.role-dj .text {
     color: #fe8d6a;
 }
+
 .emote.role-bouncer .text {
     color: #90b0cf;
 }
+
 .emote.role-manager .text {
     color: #69ddff;
 }
+
 .emote.role-cohost .text {
     color: #ac76ff;
 }
+
 .emote.role-host .text {
     color: #ac76ff;
 }
+
 .emote.role-ambassador .text {
     color: #ff1d82;
 }
+
 .emote.role-admin .text {
     color: #ff2d2d;
 }
+
 #chat .cm.emote .icon,
 #chat .cm.emote .badge-box,
 .emote .rs-chat-title,
 .emote .rcs-user-info {
     display: none !important;
 }
+
 #chat .emote .contents,
 .emote .msg .from,
 .emote .msg .text {
     display: inline !important;
 }
+
 .emote .msg {
     padding: 6px 6px 6px 16px !important;
 }
+
 .emote .delete-button {
     padding: 2px 7px 2px 7px !important;
 }
+
 /* Moderation Inline */
 #chat .moderation {
     min-height: 0px !important;
     background: rgba(0, 0, 0, 0.0) !important;
 }
+
 .moderation .msg .text {
     display: inline !important;
     padding-left: 5px !important;
 }
+
 #chat .cm.moderation .icon,
 #chat .cm.moderation .badge-box,
 .moderation .rs-chat-title,
@@ -133,14 +165,17 @@ div.message > div.msg > div.from > span.un {
 .moderation .timestamp {
     display: none !important;
 }
+
 #chat .moderation .contents,
 .moderation .msg .from,
 .moderation .msg .text {
     display: inline !important;
 }
+
 .moderation .msg {
     padding: 6px 6px 6px 16px !important;
 }
+
 /* Border */
 .message.role-dj,
 .emote.role-dj {
@@ -151,26 +186,31 @@ div.message > div.msg > div.from > span.un {
     border-left: #90b0cf 3px dotted !important;
     border-right: #90b0cf 3px dotted !important;
 }
+
 .message.role-manager,
 .emote.role-manager {
     border-left: #69ddff 3px solid !important;
     border-right: #69ddff 3px solid !important;
 }
+
 .message.role-cohost,
 .emote.role-cohost {
     border-left: #ac76ff 3px solid !important;
     border-right: #ac76ff 3px solid !important;
 }
+
 .message.role-host,
 .emote.role-host {
     border-left: #ac76ff 3px solid !important;
     border-right: #ac76ff 3px solid !important;
 }
+
 .message.role-ambassador,
 .emote.role-ambassador {
     border-left: #ff1d82 2px dotted !important;
     border-right: #ff1d82 2px dotted !important;
 }
+
 .message.role-admin,
 .emote.role-admin {
     border-top: #ff2d2d 2px dotted;
@@ -178,6 +218,7 @@ div.message > div.msg > div.from > span.un {
     border-bottom: #ff2d2d 2px dotted;
     border-right: #ff2d2d 2px dotted;
 }
+
 .message.role-dj:hover,
 .emote.role-dj:hover,
 .message.role-bouncer:hover,
@@ -200,48 +241,57 @@ div.message > div.msg > div.from > span.un {
     border-right-style: solid;
     display: inline-block !important;
 }
+
 .message.role-host .msg .text::selection,
 .emote.role-host .msg .text::selection,
 .message.role-host .msg .text::-moz-selection,
 .emote.role-host .msg .text::-moz-selection {
     color: #ac76ff;
 }
+
 .message.role-cohost .msg .text::selection,
 .emote.role-cohost .msg .text::selection,
 .message.role-cohost .msg .text::-moz-selection,
 .emote.role-cohost .msg .text::-moz-selection {
     color: #ac76ff;
 }
+
 .message.role-manager .msg .text::selection,
 .emote.role-manager .msg .text::selection,
 .message.role-manager .msg .text::-moz-selection,
 .emote.role-manager .msg .text::-moz-selection {
     color: #69ddff;
 }
+
 .message.role-bouncer .msg .text::selection,
 .emote.role-bouncer .msg .text::selection,
 .message.role-bouncer .msg .text::-moz-selection,
 .emote.role-bouncer .msg .text::-moz-selection {
     color: #90b0cf;
 }
+
 .message.role-dj .msg .text::selection,
 .emote.role-dj .msg .text::selection,
 .message.role-dj .msg .text::-moz-selection,
 .emote.role-dj .msg .text::-moz-selection {
     color: #fe8d6a;
 }
+
 .message.role-user .msg .text::selection,
 .emote.role-user .msg .text::selection,
 .message.role-user .msg .text::-moz-selection,
 .emote.role-user .msg .text::-moz-selection {
     color: #777f92;
 }
+
 /* Custom */
+
 /* ejox */
 #user-rollover.id-3941421 .username,
 #chat [data-cid^="3941421-"] span.un.clickable {
     animation: rainbow 1s infinite !important;
 }
+
 #user-rollover.id-3941421 .info .role span:after {
     content: ' / CSS Clown';
 }
@@ -277,11 +327,13 @@ div.message > div.msg > div.from > span.un {
 .emote.id-3941421 .text {
     animation: rainbow 1s infinite !important;
 }
+
 /* SlyVII */
 #user-rollover.id-11556348 .username,
 #chat [data-cid^="11556348-"] span.un.clickable {
     animation: slyvii 1s infinite !important;
 }
+
 #user-rollover.id-11556348 .info .role span:after {
     content: '';
 }
@@ -317,11 +369,13 @@ div.message > div.msg > div.from > span.un {
 .emote.id-11556348 .text {
     animation: slyvii 1s infinite !important;
 }
+
 /* Discrested */
 #user-rollover.id-45541957 .username,
 #chat [data-cid^="45541957-"] span.un.clickable {
     animation: discrested 1s infinite !important;
 }
+
 #user-rollover.id-45541957 .info .role span:after {
     content: '';
 }
@@ -329,25 +383,46 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="45541957"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-45541957 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-45541957 .icon-chat-bouncer {
-    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+    background: url("https://i.imgur.com/7mIgVj3.png") no-repeat !important;
 }
 #user-rollover.id-45541957 .meta .thumb {
-    border-color: #3e3e3e !important;
+    border-color: #69DDFF !important;
 }
-.id-45541957 .msg .from.bouncer .un,
+.id-45541957 .msg .from.manager .un,
 .id-45541957 .from .un,
 #chat [data-cid^="45541957-"] span.un.clickable,
-#waitlist .list .user[data-uid="45541957"] .meta.is-staff .name .icon-chat-bouncer + span,
+#waitlist .list .user[data-uid="45541957"] .meta.is-staff .name .icon-chat-manager + span,
 #user-rollover.id-45541957 .info .role span,
 #user-rollover.id-45541957 .meta .username,
 #user-lists .list.room .user.id-45541957 .name {
-    animation: discrested 1s infinite !important;
+
+  font-weight: bold;
+  background-image: repeating-linear-gradient(90deg, #69DDFF, #00FF80);
+  background-image: repeating-conic-linear-gradient(90deg, #69DDFF, #00FF80); 
+  background-size: 1000%;
+  background-repeat: repeat;
+  background-color: #f3ec78;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+ animation: discrested 10s ease-in-out infinite !important; 
 }
+
 #chat .cm.message.id-45541957,
 #chat .cm.emote.id-45541957 {
-    border-left: #3e3e3e 3px dotted !important;
-    border-right: #3e3e3e 3px dotted !important;
+    border-left: #FF0000 /*#FF1010*/ !important;
+    border-right: #FF0000 /*#FF1010*/ !important;
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+    font-size: 13.2px;
+
 }
+
+#chat .cm.message.id-45541957
+{color: #4BFFA6 ;}
+
 #chat .cm.message.id-45541957:hover,
 #chat .cm.emote.id-45541957:hover {
     border-left-style: solid !important;
@@ -356,12 +431,14 @@ div.message > div.msg > div.from > span.un {
 }
 .emote.id-45541957 .text {
     animation: discrested 1s infinite !important;
-}
+} 
+
 /* Mileena */
 #user-rollover.id-42675536 .username,
 #chat [data-cid^="42675536-"] span.un.clickable {
     animation: mileena 1s infinite !important;
 }
+
 #user-rollover.id-42675536 .info .role span:after {
     content: '';
 }
@@ -397,11 +474,97 @@ div.message > div.msg > div.from > span.un {
 .emote.id-42675536 .text {
     animation: mileena 1s infinite !important;
 }
+
+/* 808ref */
+#user-rollover.id-42675536 .username,
+#chat [data-cid^="42675536-"] span.un.clickable {
+    animation: 808ref 1s infinite !important;
+}
+
+#user-rollover.id-42675536 .info .role span:after {
+    content: '';
+}
+.id-42675536 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="43911460"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-43911460 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-43911460 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+}
+#user-rollover.id-43911460 .meta .thumb {
+    border-color: #3e3e3e !important;
+}
+.id-43911460 .msg .from.bouncer .un,
+.id-43911460 .from .un,
+#chat [data-cid^="43911460-"] span.un.clickable,
+#waitlist .list .user[data-uid="43911460"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-43911460 .info .role span,
+#user-rollover.id-43911460 .meta .username,
+#user-lists .list.room .user.id-43911460 .name {
+    animation: 808ref 1s infinite !important;
+}
+#chat .cm.message.id-43911460,
+#chat .cm.emote.id-43911460 {
+    border-left: #3e3e3e 3px dotted !important;
+    border-right: #3e3e3e 3px dotted !important;
+}
+#chat .cm.message.id-43911460:hover,
+#chat .cm.emote.id-43911460:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+   .emote.id-42675536 .text {
+    animation: 808ref 1s infinite !important;
+} 
+
+/* MrDerf */
+#user-rollover.id-41485803 .username,
+#chat [data-cid^="41485803-"] span.un.clickable {
+    animation: mrderf 1s infinite !important;
+}
+
+#user-rollover.id-41485803 .info .role span:after {
+    content: '';
+}
+.id-41485803 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="41485803"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-41485803 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-41485803 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+}
+#user-rollover.id-41485803 .meta .thumb {
+    border-color: #3e3e3e !important;
+}
+.id-41485803 .msg .from.bouncer .un,
+.id-41485803 .from .un,
+#chat [data-cid^="41485803-"] span.un.clickable,
+#waitlist .list .user[data-uid="41485803"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-41485803 .info .role span,
+#user-rollover.id-41485803 .meta .username,
+#user-lists .list.room .user.id-43911460 .name {
+    animation: mrderf 1s infinite !important;
+}
+#chat .cm.message.id-41485803,
+#chat .cm.emote.id-41485803 {
+    border-left: #3e3e3e 3px dotted !important;
+    border-right: #3e3e3e 3px dotted !important;
+}
+#chat .cm.message.id-41485803:hover,
+#chat .cm.emote.id-41485803:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+   .emote.id-42675536 .text {
+    animation: mrderf 1s infinite !important;
+}
+
 /* Jeebs */
 #user-rollover.id-4183714 .username,
 #chat [data-cid^="4183714-"] span.un.clickable {
-    animation: bouncerdark 1s infinite !important;
+    animation: jeebs 1s infinite !important;
 }
+
 #user-rollover.id-4183714 .info .role span:after {
     content: '';
 }
@@ -409,7 +572,7 @@ div.message > div.msg > div.from > span.un {
 #waitlist .list .user[data-uid="4183714"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-4183714 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-4183714 .icon-chat-bouncer {
-    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+    background: url("https://i.imgur.com/5q8Oob5.png") no-repeat !important;
 }
 #user-rollover.id-4183714 .meta .thumb {
     border-color: #3e3e3e !important;
@@ -421,7 +584,7 @@ div.message > div.msg > div.from > span.un {
 #user-rollover.id-4183714 .info .role span,
 #user-rollover.id-4183714 .meta .username,
 #user-lists .list.room .user.id-4183714 .name {
-    animation: slyvii 1s infinite !important;
+    animation: jeebs 10s infinite !important;
 }
 #chat .cm.message.id-4183714,
 #chat .cm.emote.id-4183714 {
@@ -435,13 +598,16 @@ div.message > div.msg > div.from > span.un {
     display: inline-block !important;
 }
 .emote.id-4183714 .text {
-    animation: bouncerdark 1s infinite !important;
+    animation: jeebs 1s infinite !important;
 }
+
+
 /* Ageless */
 #user-rollover.id-37174830 .username,
 #chat [data-cid^="37174830-"] span.un.clickable {
     animation: ageless 1s infinite !important;
 }
+
 #user-rollover.id-37174830 .info .role span:after {
     content: '';
 }
@@ -477,6 +643,7 @@ div.message > div.msg > div.from > span.un {
 .emote.id-37174830 .text {
     animation: ageless 1s infinite !important;
 }
+
 /* frynaut */
 #user-rollover.id-424349 .username,
 #chat [data-cid^="424349-"] span.un.clickable {
@@ -517,6 +684,7 @@ div.message > div.msg > div.from > span.un {
 .emote.id-424349 .text {
     animation: frynaut 1s infinite !important;
 }
+
 /* Haise */
 #user-rollover.id-38607903 .username,
 #chat [data-cid^="38607903-"] span.un.clickable {
@@ -557,11 +725,13 @@ div.message > div.msg > div.from > span.un {
 .emote.id-38607903 .text {
     animation: haise 1s infinite !important;
 }
+
 /* NamelessHoboPony */
 #user-rollover.id-37503257 .username,
 #chat [data-cid^="37503257-"] span.un.clickable {
     color: #3e3e3e !important;
 }
+
 #user-rollover.id-37503257 .info .role span:after {
     content: '';
 }
@@ -597,6 +767,7 @@ div.message > div.msg > div.from > span.un {
 .emote.id-37503257 .text {
     animation: color #3e3e3e !important;
 }
+
 /* #90b0cf
 #user-rollover.id-3941421 .info .role span:after {
     content: '';
@@ -634,23 +805,28 @@ div.message > div.msg > div.from > span.un {
     color: #90b0cf !important;
 }
 */
+
 /* BounceBot */
 #user-rollover.id-40471126 .username,
 #chat [data-cid^="40471126-"] span.un.clickable {
     animation: botcolor 1s infinite !important;
 }
+
 #user-rollover.id-40471126 .info .role span:before {
     content: 'Bot / ';
 }
+
 .id-40471126 .msg .from i.icon-chat-manager,
 #waitlist .list .user[data-uid="40471126"] .meta.is-staff .name .icon-chat-manager,
 #user-rollover.id-40471126 .info .role i.icon-chat-manager,
 #user-lists .list.room .user.id-40471126 .icon-chat-manager {
     background: url("https://i.imgur.com/L8DFnWd.png") no-repeat !important;
 }
+
 #user-rollover.id-40471126 .meta .thumb {
     border-color: #f6ff00 !important;
 }
+
 .id-40471126 .msg .from.manager .un,
 .id-40471126 .from .un,
 #chat [data-cid^="40471126"] span.un.clickable,
@@ -678,11 +854,13 @@ div.message > div.msg > div.from > span.un {
 .emote.id-40471126 .text {
     animation: botcolor 1s infinite !important;
 }
+
 /* Harry_McKenzie */
 #user-rollover.id-37218461 .username,
 #chat [data-cid^="37218461-"] span.un.clickable {
     animation: harrymckenzie 1s infinite !important;
 }
+
 #user-rollover.id-37218461 .info .role span:before {
     content: 'Bot Developer / ';
 }
@@ -718,11 +896,13 @@ div.message > div.msg > div.from > span.un {
 .emote.id-37218461 .text {
     animation: harrymckenzie 1s infinite !important;
 }
+
 /* DaveUK */
 #user-rollover.id-37147915 .username,
 #chat [data-cid^="37147915-"] span.un.clickable {
     animation: twitchmod 1s infinite !important;
 }
+
 #user-rollover.id-37147915 .info .role span:before {
     content: 'Twitch Mod / ';
 }
@@ -758,23 +938,28 @@ div.message > div.msg > div.from > span.un {
 .emote.id-37147915 .text {
     animation: twitchmod 1s infinite !important;
 }
+
 /* MoistSalt */
 #user-rollover.id-37224716 .username,
 #chat [data-cid^="37224716-"] span.un.clickable {
     animation: twitchmod 1s infinite !important;
 }
+
 #user-rollover.id-37224716 .info .role span:before {
     content: 'Twitch Mod / ';
 }
+
 .id-37224716 .msg .from i.icon-chat-manager,
 #waitlist .list .user[data-uid="37224716"] .meta.is-staff .name .icon-chat-manager,
 #user-rollover.id-37224716 .info .role i.icon-chat-manager,
 #user-lists .list.room .user.id-37224716 .icon-chat-manager {
     background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
 }
+
 #user-rollover.id-37224716 .meta .thumb {
     border-color: #14b866 !important;
 }
+
 .id-37224716 .msg .from.manager .un,
 .id-37224716 .from .un,
 #chat [data-cid^="37224716"] span.un.clickable,
@@ -784,6 +969,7 @@ div.message > div.msg > div.from > span.un {
 #user-lists .list.room .user.id-37224716 .name {
     animation: twitchmod 1s infinite !important;
 }
+
 #chat .cm.message.id-37224716,
 #chat .cm.emote.id-37224716 {
     border-left: #14b866 3px dotted !important;
@@ -798,23 +984,28 @@ div.message > div.msg > div.from > span.un {
 .emote.id-37224716 .text {
     animation: twitchmod 1s infinite !important;
 }
+
 /* Baddra93 */
 #user-rollover.id-38773628 .username,
 #chat [data-cid^="38773628-"] span.un.clickable {
     animation: twitchmod 1s infinite !important;
 }
+
 #user-rollover.id-38773628 .info .role span:before {
     content: 'Twitch Mod / ';
 }
+
 .id-38773628 .msg .from i.icon-chat-manager,
 #waitlist .list .user[data-uid="38773628"] .meta.is-staff .name .icon-chat-manager,
 #user-rollover.id-38773628 .info .role i.icon-chat-manager,
 #user-lists .list.room .user.id-38773628 .icon-chat-manager {
     background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
 }
+
 #user-rollover.id-38773628 .meta .thumb {
     border-color: #14b866 !important;
 }
+
 .id-38773628 .msg .from.manager .un,
 .id-38773628 .from .un,
 #chat [data-cid^="38773628"] span.un.clickable,
@@ -838,23 +1029,28 @@ div.message > div.msg > div.from > span.un {
 .emote.id-38773628 .text {
     animation: twitchmod 1s infinite !important;
 }
+
 /* HandsomeWalnut */
 #user-rollover.id-37633188 .username,
 #chat [data-cid^="37633188-"] span.un.clickable {
     animation: twitchmod 1s infinite !important;
 }
+
 #user-rollover.id-37633188 .info .role span:before {
     content: 'Twitch Mod / ';
 }
+
 .id-37633188 .msg .from i.icon-chat-manager,
 #waitlist .list .user[data-uid="37633188"] .meta.is-staff .name .icon-chat-manager,
 #user-rollover.id-37633188 .info .role i.icon-chat-manager,
 #user-lists .list.room .user.id-37633188 .icon-chat-manager {
     background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
 }
+
 #user-rollover.id-37633188 .meta .thumb {
     border-color: #14b866 !important;
 }
+
 .id-37633188 .msg .from.manager .un,
 .id-37633188 .from .un,
 #chat [data-cid^="37633188"] span.un.clickable,
@@ -878,23 +1074,28 @@ div.message > div.msg > div.from > span.un {
 .emote.id-37633188 .text {
     animation: twitchmod 1s infinite !important;
 }
+
 /* zostradamus */
 #user-rollover.id-37356990 .username,
 #chat [data-cid^="37356990-"] span.un.clickable {
     animation: twitchmod 1s infinite !important;
 }
+
 #user-rollover.id-37356990 .info .role span:before {
     content: 'Twitch Mod / ';
 }
+
 .id-37356990 .msg .from i.icon-chat-cohost,
 #waitlist .list .user[data-uid="37356990"] .meta.is-staff .name .icon-chat-cohost,
 #user-rollover.id-37356990 .info .role i.icon-chat-host,
 #user-lists .list.room .user.id-37356990 .icon-chat-cohost {
     background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
 }
+
 #user-rollover.id-37356990 .meta .thumb {
     border-color: #14b866 !important;
 }
+
 .id-37356990 .msg .from.cohost .un,
 .id-37356990 .from .un,
 #chat [data-cid^="37356990"] span.un.clickable,
@@ -918,23 +1119,28 @@ div.message > div.msg > div.from > span.un {
 .emote.id-37356990 .text {
     animation: twitchmod 1s infinite !important;
 }
+
 /* Hydration */
 #user-rollover.id-37149102 .username,
 #chat [data-cid^="37149102-"] span.un.clickable {
     animation: twitchmod 1s infinite !important;
 }
+
 #user-rollover.id-37149102 .info .role span:before {
     content: 'Twitch Mod / ';
 }
+
 .id-37149102 .msg .from i.icon-chat-cohost,
 #waitlist .list .user[data-uid="37149102"] .meta.is-staff .name .icon-chat-cohost,
 #user-rollover.id-37149102 .info .role i.icon-chat-host,
 #user-lists .list.room .user.id-37149102 .icon-chat-cohost {
     background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
 }
+
 #user-rollover.id-37149102 .meta .thumb {
     border-color: #14b866 !important;
 }
+
 .id-37149102 .msg .from.cohost .un,
 .id-37149102 .from .un,
 #chat [data-cid^="37149102"] span.un.clickable,
@@ -958,23 +1164,28 @@ div.message > div.msg > div.from > span.un {
 .emote.id-37149102 .text {
     animation: twitchmod 1s infinite !important;
 }
+
 /* kaanvict */
 #user-rollover.id-37149557 .username,
 #chat [data-cid^="37149557-"] span.un.clickable {
     animation: twitchmod 1s infinite !important;
 }
+
 #user-rollover.id-37149557 .info .role span:before {
     content: 'Twitch Mod / ';
 }
+
 .id-37149557 .msg .from i.icon-chat-host,
 #waitlist .list .user[data-uid="37149557"] .meta.is-staff .name .icon-chat-host,
 #user-rollover.id-37149557 .info .role i.icon-chat-host,
 #user-lists .list.room .user.id-37149557 .icon-chat-host {
     background: url("https://i.imgur.com/tAGatAc.png") no-repeat !important;
 }
+
 #user-rollover.id-37149557 .meta .thumb {
     border-color: #14b866 !important;
 }
+
 .id-37149557 .msg .from.host .un,
 .id-37149557 .from .un,
 #chat [data-cid^="37149557"] span.un.clickable,
@@ -998,23 +1209,28 @@ div.message > div.msg > div.from > span.un {
 .emote.id-37149557 .text {
     animation: twitchmod 1s infinite !important;
 }
+
 /* xQc */
 #user-rollover.id-37147238 .username,
 #chat [data-cid^="37147238-"] span.un.clickable {
     animation: broadcaster 1s infinite !important;
 }
+
 #user-rollover.id-37147238 .info .role span:before {
     content: 'Streamer / ';
 }
+
 .id-37147238 .msg .from i.icon-chat-cohost,
 #waitlist .list .user[data-uid="37147238"] .meta.is-staff .name .icon-chat-cohost,
 #user-rollover.id-37147238 .info .role i.icon-chat-host,
 #user-lists .list.room .user.id-37147238 .icon-chat-cohost {
     background: url("https://i.imgur.com/xyghfYC.png") no-repeat !important;
 }
+
 #user-rollover.id-37147238 .meta .thumb {
     border-color: #FF0000 !important;
 }
+
 .id-37147238 .msg .from.cohost .un,
 .id-37147238 .from .un,
 #chat [data-cid^="37147238"] span.un.clickable,
@@ -1042,53 +1258,64 @@ div.message > div.msg > div.from > span.un {
 .emote.id-37147238 .text {
     animation: broadcaster 1s infinite !important;
 }
+
 /* Chat Fade */
 @keyframes fadein
 {
     from { opacity: 0; };
     to { opacity: 1; };
 }
+
 @-moz-keyframes fadein
 {
     from { opacity: 0; };
     to { opacity: 1; };
 }
+
 @-webkit-keyframes fadein
 {
     from { opacity: 0; };
     to { opacity: 1; };
 }
+
 @-ms-keyframes fadein
 {
     from { opacity: 0; };
     to { opacity: 1; };
 }
+
 @-o-keyframes fadein
 {
     from { opacity: 0; };
     to { opacity: 1; };
 }
+
 /* Name Colors - Default */
+
 /* Broadcaster - RED */
 @keyframes broadcaster {
     0% { color: #FF0000; }
     100% { color: #FF0000; }
 }
+
 /* Twitch Mod - Green */
 @keyframes twitchmod {
     0% { color: #14b866; }
     100% { color: #14b866; }
 }
+
 /* Default Mod - Purple */
 @keyframes defaultmod {
     0% { color: #ac76ff; }
     100% { color: #ac76ff; }
 }
+
 /* Bot - Yellow */
 @keyframes botcolor {
     0% { color: #f6ff54; }
     100% { color: #f6ff54; }
 }
+
 /* Rainbow */
 @keyframes rainbow {
     0% { color: #ff0000; }
@@ -1103,65 +1330,84 @@ div.message > div.msg > div.from > span.un {
     90% { color: #8000ff; }
     100% { color: #ff0080; }
 }
+
 /* Bouncer #3e3e3e */
 @keyframes bouncerdark {
     0% { color: #3e3e3e; }
     100% { color: #3e3e3e; }
 }
+
+
 /* Bouncer #90b0cf */
 @keyframes bouncercolor {
     0% { color: #90b0cf; }
     100% { color: #90b0cf; }
 }
+
 /* Name Colors - Custom */
+
 /* Ageless - ??? */
 @keyframes ageless {
     0% { color: #d97aff; }
     100% { color: #d97aff; }
 }
+
+/* Jeebs - Colored */
+@keyframes jeebs {
+    0% { color: #87CEFA; }
+    25% { color: #8A2BE2; }
+    50% { color: #FF69B4; }
+    100% { color: #87CEFA; }
+}
+
 /* SlyVII - Static Red */
 @keyframes slyvii {
     0% { color: #FF0000; }
     100% { color: #FF0000; }
 }
+
 /* Haise - Dark Purple */
 @keyframes haise {
-    0% { color: #4B0082; }
-    100% { color: #4B0082; }
+    0% { color: #DE01FF; }
+    100% { color: #DE01FF; }
 }
+
 /* Frynaut - ??? */
 @keyframes frynaut {
-    0% { color: #ff0d00; }
-    100% { color: #ff0d00; }
+    0% { color: #ff0000; }
+    50%{ color: #0011ff; }
+  100% { color: #ff0000; }
 }
+
 /* Harry_McKenzie - Static gold */
 @keyframes harrymckenzie {
     0% { color: #02A1C5; }
     100% { color: #02A1C5; }
 }
+
 /* Chicbreeze - Static Beige(?) */
 @keyframes chicbreeze {
     0% { color: #fff6d6; }
     100% { color: #fff6d6; }
 }
+
 /* AnUglyTurtle - Static Purple */
 @keyframes anuglyturtle {
     0% { color: #ff0feb; }
     100% { color: #ff0feb; }
 }
+
 /* Mileena - Static Magenta */
 @keyframes mileena {
     0% { color: #ff00ff; }
     100% { color: #ff00ff; }
 }
 
-/* Discrested - _ */
-/* Discrested - Black */
+/* Discrested - Colored */
 @keyframes discrested {
-    0% { color: #ff00ff; }
-    100% { color: #ff00ff; }
-    0% { color: #000000; }
-    100% { color: #000000; }
+   0% { background-position: 0 0; }
+  50% { background-position: 100%; }
+ 100% { background-position: 0 0; )
 }
 
 /* Poggy Woggy */
