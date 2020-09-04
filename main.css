@@ -562,7 +562,7 @@ div.message > div.msg > div.from > span.un {
 /* Lennox */
 #user-rollover.id-41096019 .username,
 #chat [data-cid^="41096019-"] span.un.clickable {
-    animation: mrderf 1s infinite !important;
+    animation: lennox 1s infinite !important;
 }
 
 #user-rollover.id-41096019 .info .role span:after {
@@ -584,7 +584,7 @@ div.message > div.msg > div.from > span.un {
 #user-rollover.id-41096019 .info .role span,
 #user-rollover.id-41096019 .meta .username,
 #user-lists .list.room .user.id-41096019 .name {
-    animation: mrderf 1s infinite !important;
+    animation: lennox 1s infinite !important;
 }
 #chat .cm.message.id-41096019,
 #chat .cm.emote.id-41096019 {
@@ -598,7 +598,7 @@ div.message > div.msg > div.from > span.un {
     display: inline-block !important;
 }
    .emote.id-41096019 .text {
-    animation: mrderf 1s infinite !important;
+    animation: lennox 1s infinite !important;
 }
 
 /* Jeebs */
@@ -643,6 +643,47 @@ div.message > div.msg > div.from > span.un {
     animation: jeebs 1s infinite !important;
 }
 
+/* Lipton */
+#user-rollover.id-42112940 .username,
+#chat [data-cid^="42112940-"] span.un.clickable {
+    animation: liptongod 1s infinite !important;
+}
+
+#user-rollover.id-42112940 .info .role span:after {
+    content: '';
+}
+.id-42112940 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="42112940"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-42112940 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-42112940 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+}
+#user-rollover.id-42112940 .meta .thumb {
+    border-color: #3e3e3e !important;
+}
+.id-42112940 .msg .from.bouncer .un,
+.id-42112940 .from .un,
+#chat [data-cid^="42112940-"] span.un.clickable,
+#waitlist .list .user[data-uid="42112940"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-42112940 .info .role span,
+#user-rollover.id-42112940 .meta .username,
+#user-lists .list.room .user.id-42112940 .name {
+    animation: liptongod 1s infinite !important;
+}
+#chat .cm.message.id-42112940,
+#chat .cm.emote.id-42112940 {
+    border-left: #3e3e3e 3px dotted !important;
+    border-right: #3e3e3e 3px dotted !important;
+}
+#chat .cm.message.id-42112940:hover,
+#chat .cm.emote.id-42112940:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+   .emote.id-42112940 .text {
+    animation: liptongod 1s infinite !important;
+}
 
 /* Ageless */
 #user-rollover.id-37174830 .username,
