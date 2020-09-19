@@ -411,8 +411,8 @@ div.message > div.msg > div.from > span.un {
 
 #chat .cm.message.id-45541957,
 #chat .cm.emote.id-45541957 {
-    border-left: #FF0000 /*#FF1010*/ !important;
-    border-right: #FF0000 /*#FF1010*/ !important;
+    border-left: #00ff80 !important;
+    border-right: #00ff80 !important;
     border-left-style: solid !important;
     border-right-style: solid !important;
     display: inline-block !important;
