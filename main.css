@@ -355,11 +355,13 @@ div.message > div.msg > div.from > span.un {
 #user-lists .list.room .user.id-11556348 .name {
     animation: slyvii 1s infinite !important;
 }
+/*
 #chat .cm.message.id-11556348,
 #chat .cm.emote.id-11556348 {
     border-left: #3e3e3e 3px dotted !important;
     border-right: #3e3e3e 3px dotted !important;
 }
+*/
 #chat .cm.message.id-11556348:hover,
 #chat .cm.emote.id-11556348:hover {
     border-left-style: solid !important;
@@ -460,11 +462,14 @@ div.message > div.msg > div.from > span.un {
 #user-lists .list.room .user.id-42675536 .name {
     animation: mileena 1s infinite !important;
 }
+
+/*
 #chat .cm.message.id-42675536,
 #chat .cm.emote.id-42675536 {
     border-left: #3e3e3e 3px dotted !important;
     border-right: #3e3e3e 3px dotted !important;
 }
+*/
 #chat .cm.message.id-42675536:hover,
 #chat .cm.emote.id-42675536:hover {
     border-left-style: solid !important;
@@ -559,6 +564,48 @@ div.message > div.msg > div.from > span.un {
     animation: mrderf 1s infinite !important;
 }
 
+/* Risotto Nero */
+#user-rollover.id-50102609 .username,
+#chat [data-cid^="50102609-"] span.un.clickable {
+    animation: risotto 1s infinite !important;
+}
+
+#user-rollover.id-50102609 .info .role span:after {
+    content: '';
+}
+.id-50102609 .msg .from i.icon-chat-bouncer,
+#waitlist .list .user[data-uid="50102609"] .meta.is-staff .name .icon-chat-bouncer,
+#user-rollover.id-50102609 .info .role i.icon-chat-bouncer,
+#user-lists .list.room .user.id-50102609 .icon-chat-bouncer {
+    background: url("https://i.imgur.com/1ZXIvAf.png") no-repeat !important;
+}
+#user-rollover.id-50102609 .meta .thumb {
+    border-color: #3e3e3e !important;
+}
+.id-50102609 .msg .from.bouncer .un,
+.id-50102609 .from .un,
+#chat [data-cid^="50102609-"] span.un.clickable,
+#waitlist .list .user[data-uid="50102609"] .meta.is-staff .name .icon-chat-bouncer + span,
+#user-rollover.id-50102609 .info .role span,
+#user-rollover.id-50102609 .meta .username,
+#user-lists .list.room .user.id-41096019 .name {
+    animation: risotto 1s infinite !important;
+}
+#chat .cm.message.id-50102609,
+#chat .cm.emote.id-50102609 {
+    border-left: #3e3e3e 3px dotted !important;
+    border-right: #3e3e3e 3px dotted !important;
+}
+#chat .cm.message.id-50102609:hover,
+#chat .cm.emote.id-50102609:hover {
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    display: inline-block !important;
+}
+   .emote.id-50102609 .text {
+    animation: risotto 1s infinite !important;
+}
+
 /* Lennox */
 #user-rollover.id-41096019 .username,
 #chat [data-cid^="41096019-"] span.un.clickable {
@@ -628,11 +675,13 @@ div.message > div.msg > div.from > span.un {
 #user-lists .list.room .user.id-4183714 .name {
     animation: jeebs 10s infinite !important;
 }
+/*
 #chat .cm.message.id-4183714,
 #chat .cm.emote.id-4183714 {
     border-left: #3e3e3e 3px dotted !important;
     border-right: #3e3e3e 3px dotted !important;
 }
+*/
 #chat .cm.message.id-4183714:hover,
 #chat .cm.emote.id-4183714:hover {
     border-left-style: solid !important;
@@ -753,11 +802,13 @@ div.message > div.msg > div.from > span.un {
 #user-lists .list.room .user.id-424349 .name {
     animation: frynaut 1s infinite !important;
 }
+/* 
 #chat .cm.message.id-424349,
 #chat .cm.emote.id-424349 {
     border-left: #3e3e3e 3px dotted !important;
     border-right: #3e3e3e 3px dotted !important;
 }
+*/
 #chat .cm.message.id-424349:hover,
 #chat .cm.emote.id-424349:hover {
     border-left-style: solid !important;
@@ -794,11 +845,13 @@ div.message > div.msg > div.from > span.un {
 #user-lists .list.room .user.id-38607903 .name {
     animation: haise 1s infinite !important;
 }
+/* 
 #chat .cm.message.id-38607903,
 #chat .cm.emote.id-38607903 {
     border-left: #3e3e3e 3px dotted !important;
     border-right: #3e3e3e 3px dotted !important;
 }
+*/
 #chat .cm.message.id-38607903:hover,
 #chat .cm.emote.id-38607903:hover {
     border-left-style: solid !important;
@@ -836,11 +889,13 @@ div.message > div.msg > div.from > span.un {
 #user-lists .list.room .user.id-37503257 .name {
     color: #3e3e3e !important;
 }
+/*
 #chat .cm.message.id-37503257,
 #chat .cm.emote.id-37503257 {
     border-left: #3e3e3e 3px dotted !important;
     border-right: #3e3e3e 3px dotted !important;
 }
+*/
 #chat .cm.message.id-37503257:hover,
 #chat .cm.emote.id-37503257:hover {
     border-left-style: solid !important;
@@ -970,12 +1025,14 @@ div.message > div.msg > div.from > span.un {
     border-left: #02A1C5 3px dotted !important;
     border-right: #02A1C5 3px dotted !important;
 }
+/*
 #chat .cm.message.id-37218461:hover,
 #chat .cm.emote.id-37218461:hover {
     border-left-style: solid !important;
     border-right-style: solid !important;
     display: inline-block !important;
 }
+*/
 .emote.id-37218461 .text {
     animation: harrymckenzie 1s infinite !important;
 }
@@ -1052,12 +1109,13 @@ div.message > div.msg > div.from > span.un {
 #user-lists .list.room .user.id-37224716 .name {
     animation: twitchmod 1s infinite !important;
 }
-
+/*
 #chat .cm.message.id-37224716,
 #chat .cm.emote.id-37224716 {
     border-left: #14b866 3px dotted !important;
     border-right: #14b866 3px dotted !important;
 }
+*/
 #chat .cm.message.id-37224716:hover,
 #chat .cm.emote.id-37224716:hover {
     border-left-style: solid !important;
