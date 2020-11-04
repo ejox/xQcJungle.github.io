@@ -340,7 +340,8 @@
 } 
 /*User Background*/ 
 .cm.id-45541957::before {
-    background-image: url("https://i.imgur.com/agjUmbY.gif");
+    background-image: url("https://i.imgur.com/yJCjMjN.gif"); 
+    /* old bg:https://i.imgur.com/agjUmbY.gif */
     background-repeat: no-repeat;
     content: "";
     position: absolute;
