@@ -328,7 +328,8 @@
 /*User Badge*/ 
 #user-rollover.id-45541957 .badge-box i.bdg,
 #chat-messages .id-45541957 .badge-box i.bdg {
-    background-image: url("https://i.imgur.com/aBX5t2l.gif");
+    background-image: url("https://i.imgur.com/Vh0jbRm.gif");
+    /* old new badge https://i.imgur.com/aBX5t2l.gif */
     /* old badge:https://i.imgur.com/M1oMf8r.gif */
     background-size: cover;
     border-radius: 7px;
@@ -341,7 +342,7 @@
 } 
 /*User Background*/ 
 .cm.id-45541957::before {
-    background-image: url("https://i.imgur.com/yJCjMjN.gif"); 
+    background-image: url("https://i.imgur.com/WoFLTu0.gif"); 
     /* old bg:https://i.imgur.com/agjUmbY.gif */
     background-repeat: no-repeat;
     content: "";
@@ -350,7 +351,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.8;
+    opacity: 1.0;
     z-index: -1;
     transition: 0.4s;
 }
