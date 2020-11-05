@@ -1000,7 +1000,7 @@ div.message > div.msg > div.from > span.un {
 }
 
 #user-rollover.id-37218461 .info .role span:before {
-    content: 'Bot Developer / ';
+    content: 'Bot Developer/Maintainer';
 }
 .id-37218461 .msg .from i.icon-chat-bouncer,
 #waitlist .list .user[data-uid="37218461"] .meta.is-staff .name .icon-chat-bouncer,
