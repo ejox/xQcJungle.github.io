@@ -381,12 +381,12 @@ div.message > div.msg > div.from > span.un {
 #user-rollover.id-45541957 .info .role span:after {
     content: '';
 }
-.id-45541957 .msg .from i.icon-chat-bouncer,
+/*.id-45541957 .msg .from i.icon-chat-bouncer,
 #waitlist .list .user[data-uid="45541957"] .meta.is-staff .name .icon-chat-bouncer,
 #user-rollover.id-45541957 .info .role i.icon-chat-bouncer,
 #user-lists .list.room .user.id-45541957 .icon-chat-bouncer {
     background: url("https://i.imgur.com/7mIgVj3.png") no-repeat !important;
-}
+}*/
 #user-rollover.id-45541957 .meta .thumb {
     border-color: #69DDFF !important;
 }
