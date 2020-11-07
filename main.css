@@ -693,7 +693,7 @@ div.message > div.msg > div.from > span.un {
 }
 
 /* Lipton */
-#user-rollover.id-42112940 .username,
+/*#user-rollover.id-42112940 .username,
 #chat [data-cid^="42112940-"] span.un.clickable {
     animation: liptongod 1s infinite !important;
 }
@@ -732,7 +732,7 @@ div.message > div.msg > div.from > span.un {
 }
    .emote.id-42112940 .text {
     animation: liptongod 1s infinite !important;
-}
+}*/
 
 /* Ageless */
 #user-rollover.id-37174830 .username,
