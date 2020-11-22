@@ -34,6 +34,7 @@
         "playback": ""
     },
     "rules": {
+        "allowAutograb": "false",
         "allowAutojoin": "true",
         "allowAutorespond": "false",
         "allowAutowoot": "true",
