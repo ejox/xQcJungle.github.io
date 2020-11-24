@@ -373,7 +373,7 @@ div.message > div.msg > div.from > span.un {
 }
 
 /* Discrested */
-#user-rollover.id-45541957 .username,
+/*#user-rollover.id-45541957 .username,
 #chat [data-cid^="45541957-"] span.un.clickable {
     animation: discrested 1s infinite !important;
 }
@@ -387,7 +387,7 @@ div.message > div.msg > div.from > span.un {
 #user-lists .list.room .user.id-45541957 .icon-chat-bouncer {
     background: url("https://i.imgur.com/7mIgVj3.png") no-repeat !important;
 }*/
-#user-rollover.id-45541957 .meta .thumb {
+/*#user-rollover.id-45541957 .meta .thumb {
     border-color: #69DDFF !important;
 }
 .id-45541957 .msg .from.manager .un,
@@ -433,7 +433,7 @@ div.message > div.msg > div.from > span.un {
 }
 .emote.id-45541957 .text {
     animation: discrested 1s infinite !important;
-} 
+}*/
 
 /* Mileena */
 #user-rollover.id-42675536 .username,
