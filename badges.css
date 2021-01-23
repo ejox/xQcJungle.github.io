@@ -342,8 +342,8 @@
 } 
 /*User Background*/ 
 .cm.id-45541957::before {
-    background-image: url("https://i.imgur.com/89zEAKF.gif"); 
-    /* old bg:https://i.imgur.com/agjUmbY.gif */
+    background-image: url("https://i.imgur.com/VB7USk6.gif"); 
+    /* https://i.imgur.com/89zEAKF.gif <-warface*/
     background-repeat: no-repeat;
     content: "";
     position: absolute;
@@ -351,7 +351,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.47;
+    opacity: 0.37;
     z-index: -1;
     transition: 0.4s;
 }
